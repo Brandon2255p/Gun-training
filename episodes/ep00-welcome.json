@@ -1,0 +1,55 @@
+{
+  "id": "ep00",
+  "number": 0,
+  "title": "Welcome to the series",
+  "subtitle": "How these episodes work",
+  "sources": [],
+  "scenes": [
+    {
+      "type": "title",
+      "lines": [
+        "Welcome to Handgun Proficiency, a study series for your competency.",
+        "Every episode teaches one topic, straight from your two study books."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "What we'll cover",
+      "bullets": ["The parts of a handgun", "Handling it safely", "Loading, unloading and clearing", "The law that applies to you"],
+      "lines": [
+        "First, we'll learn the parts of a handgun, and what each one does.",
+        "Then, how to handle it safely, every single time.",
+        "After that, loading, unloading, and clearing.",
+        "And finally, the legal side, from the legal book."
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "Meet the pistol",
+      "lines": [
+        { "text": "This is the pistol we'll use in the animations.", "highlight": [] },
+        { "text": "On top is the slide.", "highlight": ["slide"] },
+        { "text": "Below it is the frame, with the grip you hold.", "highlight": ["frame", "grip"] },
+        { "text": "And the magazine slides into the grip.", "highlight": ["magazine"], "action": "magOut" },
+        { "text": "We'll go through every part properly in the next episode.", "highlight": [] }
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Where do the facts in this series come from?",
+      "options": ["The internet", "Your two study books", "Memory"],
+      "answer": 1,
+      "lines": [
+        "Each episode ends with a question like this one.",
+        "Where do the facts in this series come from?",
+        "Pause the video if you need a moment."
+      ],
+      "reveal": ["Your two study books. Every fact on screen shows the page it came from."]
+    },
+    {
+      "type": "recap",
+      "points": ["One topic per episode", "Facts come from your books", "A question at the end of each episode"],
+      "lines": ["So, one topic per episode.", "Facts from your books, with page numbers.", "And a question to finish. See you in episode one."]
+    }
+  ]
+}

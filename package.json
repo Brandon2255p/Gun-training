@@ -1,0 +1,29 @@
+{
+  "name": "gun-training-videos",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "./scripts/setup.sh",
+    "extract": "uv run --script scripts/extract.py",
+    "prepare-assets": "uv run --script scripts/prepare.py",
+    "check": "uv run --script scripts/check.py",
+    "render": "node scripts/render.mjs",
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@remotion/bundler": "^4.0.541",
+    "@remotion/cli": "^4.0.541",
+    "@remotion/fonts": "4.0.546",
+    "@remotion/renderer": "^4.0.541",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "^4.0.541"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

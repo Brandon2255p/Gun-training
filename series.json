@@ -1,0 +1,12 @@
+{
+  "title": "Handgun Proficiency",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "backend": "kokoro",
+  "openai": {
+    "baseUrl": "https://unsloth.dove-woodpecker.ts.net/v1",
+    "model": "audio-cpp/audio.cpp-gguf/Kokoro-82M-GGUF",
+    "voice": "bm_george",
+    "keyEnv": "UNSLOTH_API_KEY"
+  }
+}
