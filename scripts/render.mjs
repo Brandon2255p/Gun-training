@@ -37,6 +37,7 @@ for (const id of ids) {
     serveUrl,
     codec: "h264",
     outputLocation,
+    concurrency: Number(process.env.RENDER_CONCURRENCY) || (await import("node:os")).availableParallelism(),
     onProgress: ({ progress }) => process.stdout.write(`\r${id}: ${Math.round(progress * 100)}%`),
   });
   console.log(`\n${outputLocation} (${(composition.durationInFrames / composition.fps / 60).toFixed(1)} min)`);
