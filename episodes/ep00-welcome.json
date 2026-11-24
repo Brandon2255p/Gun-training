@@ -9,7 +9,7 @@
       "type": "title",
       "lines": [
         "Welcome to Handgun Proficiency, a study series for your competency.",
-        "Every episode teaches one topic, straight from your two study books."
+        "Every episode teaches one topic, straight from your study manual."
       ]
     },
     {
@@ -52,19 +52,19 @@
     {
       "type": "quiz",
       "question": "Where do the facts in this series come from?",
-      "options": ["The internet", "Your two study books", "Memory"],
+      "options": ["The internet", "Your study manual", "Memory"],
       "answer": 1,
       "lines": [
         "Each episode ends with a question like this one.",
         "Where do the facts in this series come from?",
         "Pause the video if you need a moment."
       ],
-      "reveal": ["Your two study books. Every fact on screen shows the page it came from."]
+      "reveal": ["Your study manual. Every fact on screen shows the page it came from."]
     },
     {
       "type": "recap",
-      "points": ["One topic per episode", "Facts come from your books", "A question at the end of each episode"],
-      "lines": ["So, one topic per episode.", "Facts from your books, with page numbers.", "And a question to finish. See you in episode one."]
+      "points": ["One topic per episode", "Facts come from your manual", "A question at the end of each episode"],
+      "lines": ["So, one topic per episode.", "Facts from your manual, with page numbers.", "And a question to finish. See you in episode one."]
     }
   ]
 }
