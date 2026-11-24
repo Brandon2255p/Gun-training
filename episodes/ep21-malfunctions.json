@@ -1,0 +1,182 @@
+{
+  "id": "ep21",
+  "number": 21,
+  "title": "Malfunctions",
+  "subtitle": "Misfire, hang fire, squib load, stove-pipe jam, failure to go into battery",
+  "sources": ["Handgun manual, pp. 55–56"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 55",
+      "lines": [
+        "In this episode: five malfunctions, what causes them, and the corrective action for each.",
+        "The aim is for you to safely and confidently operate firearms in different circumstances."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Five terms to explain",
+      "source": "Handgun manual, p. 55",
+      "bullets": ["Misfire", "Hang Fire", "Squib Load", "Stove-Pipe Jam", "Failure to go into Battery"],
+      "lines": [
+        "You must be able to explain five terms, starting with a misfire.",
+        "Then a hang fire.",
+        "A squib load.",
+        "A stove-pipe jam.",
+        "And a failure to go into battery."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Misfire",
+      "definition": "A failure of the cartridge to fire after the primer has been struck.",
+      "source": "Handgun manual, p. 56",
+      "lines": [
+        "A misfire is a failure of the cartridge to fire after the primer has been struck.",
+        "This is caused by a faulty or dead primer.",
+        "It can also be caused by a light strike, or soft strike, by the firing pin on the primer."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Misfire: corrective action",
+      "source": "Handgun manual, p. 56",
+      "bullets": [
+        "Semi-automatic pistol: Tap, Rack, Assess",
+        "Revolver: simply squeeze the trigger again"
+      ],
+      "lines": [
+        { "text": "For a semi-automatic pistol, the corrective action is the Immediate Action Drill: Tap, Rack, Assess.", "show": 0 },
+        { "text": "For a revolver, simply squeeze the trigger again.", "show": 1 },
+        "That will cause the cylinder to turn, and line up a new round with the barrel.",
+        "We'll practise Tap, Rack, Assess in the next episode."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Hang Fire",
+      "definition": "A perceptible delay in the ignition of the cartridge after the primer has been struck.",
+      "source": "Handgun manual, p. 56",
+      "lines": [
+        "A hang fire is a perceptible delay in the ignition of the cartridge after the primer has been struck.",
+        "A hang fire can take up to five seconds to ignite.",
+        "Hang fires are not very common in modern day ammunition."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "text": "Hang fire: wait five seconds before reloading." },
+      "source": "Handgun manual, p. 56",
+      "lines": [
+        "The corrective action is to wait five seconds before reloading.",
+        "However, if you are faced with a life threatening situation, you will treat a hang fire as a misfire.",
+        "The book puts the chances of you experiencing a hang fire in your lifetime at about ten million to one."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Squib Load",
+      "definition": "A cartridge that develops less than normal pressure when fired.",
+      "source": "Handgun manual, p. 56",
+      "lines": [
+        "A squib load can be defined as a cartridge that develops less than normal pressure when fired.",
+        "This is usually due to powder contamination, or not enough powder in the case.",
+        "It is unlikely that the bullet will exit the muzzle."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Recognising a squib load",
+      "source": "Handgun manual, p. 56",
+      "bullets": ["Almost no recoil", "Very little sound: a low, dull pop"],
+      "lines": [
+        { "text": "A squib load is easily identifiable, as it has almost no recoil.", "show": 0 },
+        { "text": "And there will be very little sound produced at the time of firing.", "show": 1 },
+        "Instead of a loud bang and the normal recoil, all you will hear is a low, dull pop, with very little recoil felt."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "text": "Squib load: take your firearm to a gunsmith." },
+      "source": "Handgun manual, p. 56",
+      "lines": [
+        "The corrective action: take your firearm to a gunsmith.",
+        "The bullet will have to be physically removed from the barrel by a qualified gunsmith before firing the next shot.",
+        "If this is not done, you can not only damage the firearm, but could also suffer severe injuries to yourself."
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "Stove-pipe jam",
+      "source": "Handgun manual, pp. 56, 58",
+      "lines": [
+        { "text": "The stove-pipe jam is caused when the empty case fails to eject completely from the firearm.", "highlight": ["ejectionPort"] },
+        { "text": "The corrective action: bring the firearm closer to your body, making sure your finger is off the trigger.", "highlight": ["trigger"] },
+        { "text": "Take your non-gun hand, and sweep it back towards you over the ejection port, sweeping the case out of the port.", "highlight": ["ejectionPort"] },
+        { "text": "Muzzle control is important during this malfunction drill.", "highlight": ["muzzle"] }
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "Failure to go into battery",
+      "source": "Handgun manual, p. 56",
+      "lines": [
+        { "text": "When the slide fails to go into battery, the slide has not moved all the way forward.", "highlight": ["slide"] },
+        { "text": "It has therefore not properly chambered the cartridge.", "highlight": ["chamber"] },
+        { "text": "The corrective action is Tap, Rack, Assess.", "highlight": [] }
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "What is a hang fire?",
+      "options": [
+        "A perceptible delay in ignition",
+        "A cartridge with less than normal pressure",
+        "An empty case stuck in the ejection port"
+      ],
+      "answer": 0,
+      "source": "Handgun manual, p. 56",
+      "lines": [
+        "What is a hang fire?",
+        "Pause the video if you need a moment."
+      ],
+      "reveal": [
+        "A perceptible delay in the ignition of the cartridge after the primer has been struck.",
+        "It can take up to five seconds to ignite, so wait five seconds before reloading."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "A shot gives a low, dull pop and very little recoil. What do you do?",
+      "options": ["Tap, Rack, Assess", "Fire again straight away", "Take the firearm to a gunsmith"],
+      "answer": 2,
+      "source": "Handgun manual, p. 56",
+      "lines": [
+        "You fire a shot, and hear only a low, dull pop, with very little recoil.",
+        "What do you do?"
+      ],
+      "reveal": [
+        "Take your firearm to a gunsmith.",
+        "It's a squib load, and the bullet must be removed from the barrel by a qualified gunsmith before the next shot."
+      ]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, p. 56",
+      "points": [
+        "Misfire: Tap, Rack, Assess; revolver: trigger again",
+        "Hang fire: wait five seconds",
+        "Squib load: take it to a gunsmith",
+        "Stove-pipe: sweep the case out of the port",
+        "Failure to go into battery: Tap, Rack, Assess"
+      ],
+      "lines": [
+        "So, for a misfire, Tap, Rack, Assess on a pistol, or squeeze the trigger again on a revolver.",
+        "For a hang fire, wait five seconds before reloading.",
+        "For a squib load, take your firearm to a gunsmith.",
+        "For a stove-pipe jam, sweep the case out of the ejection port.",
+        "And for a failure to go into battery, Tap, Rack, Assess."
+      ]
+    }
+  ]
+}

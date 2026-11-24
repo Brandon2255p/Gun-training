@@ -1,0 +1,234 @@
+{
+  "id": "ep13",
+  "number": 13,
+  "title": "Grip, cocking and lowering the hammer",
+  "subtitle": "Holding the handgun the same way, every time",
+  "sources": ["Handgun manual, pp. 32–36", "Handgun manual, p. 77 (formative exam)"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 33",
+      "lines": [
+        "This episode covers the grip, cocking the revolver, and lowering the hammer under control.",
+        "The book says it is important to grip the firearm the same way every time you shoot."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "The grip",
+      "source": "Handgun manual, p. 32",
+      "bullets": [
+        "Like a handshake: firm but comfortable",
+        "Barrel in line with the forearm",
+        "Pistol: web of the hand snugly under the tang",
+        "Three fingers around the grip",
+        "Trigger finger alongside the trigger guard",
+        "Thumb on the opposite side"
+      ],
+      "lines": [
+        "Many new shooters have a tendency to hold the gun too tightly.",
+        { "text": "The grip on the firearm should be similar to a handshake, firm but comfortable.", "show": 0 },
+        { "text": "When the firearm is held correctly, the barrel should be in line with the forearm.", "show": 1 },
+        { "text": "On a semi-automatic pistol, the web of the hand should fit snugly under the tang.", "show": 2 },
+        { "text": "You should have three fingers around the grip.", "show": 3 },
+        { "text": "One finger, your trigger finger, goes alongside the trigger guard.", "show": 4 },
+        { "text": "And your thumb goes on the opposite side of the firearm.", "show": 5 }
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "One handed grip: pistol",
+      "figure": { "page": "s034.jpg", "crop": [0.07, 0.2, 0.83, 0.34] },
+      "caption": "One handed grip, and a top view of it",
+      "source": "Handgun manual, p. 32",
+      "lines": [
+        "Here you see the correct grip, with the web of the hand fitting snugly under the tang.",
+        "On the right is a top view of the same one handed grip."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "One handed grip: revolver",
+      "figure": { "page": "s034.jpg", "crop": [0.07, 0.57, 0.83, 0.28] },
+      "caption": "One handed grip on a revolver",
+      "source": "Handgun manual, p. 32",
+      "lines": [
+        "And this is the one handed grip on a revolver.",
+        "Again, the trigger finger lies alongside the trigger guard."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "The support hand",
+      "source": "Handgun manual, p. 33",
+      "bullets": [
+        "Heel of the support hand onto the grip",
+        "Four fingers around the strong hand's fingers",
+        "Both thumbs on the same side",
+        "Do not place support thumb behind the slide"
+      ],
+      "lines": [
+        "Now, the support hand.",
+        { "text": "Place the heel of the support hand onto the grip, between the fingertips and the heel of the strong hand.", "show": 0 },
+        { "text": "Wrap the four fingers of your support hand around the strong hand's fingers.", "show": 1 },
+        { "text": "Keep both thumbs on the same side of the firearm.", "show": 2 },
+        { "text": "Do not place your support hand thumb behind the slide.", "show": 3 }
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "text": "Grip the firearm the same way every time you shoot." },
+      "source": "Handgun manual, p. 33",
+      "lines": [
+        "It is important to grip the firearm the same way every time you shoot.",
+        "You should not have to adjust your grip between shots."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Two handed grip: pistol",
+      "figure": { "page": "s035.jpg", "crop": [0.08, 0.26, 0.84, 0.29] },
+      "caption": "Steps 1 and 2 of the two handed grip",
+      "source": "Handgun manual, p. 33",
+      "lines": [
+        "The book shows four steps to the correct two handed grip on a semi-automatic pistol.",
+        "In step one, the strong hand grips the pistol, and the support hand is open beside it.",
+        "In step two, the heel of the support hand comes onto the grip."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Two handed grip: pistol",
+      "figure": { "page": "s035.jpg", "crop": [0.07, 0.57, 0.87, 0.29] },
+      "caption": "Steps 3 and 4 of the two handed grip",
+      "source": "Handgun manual, p. 33",
+      "lines": [
+        "In step three, the support hand fingers wrap around the strong hand's fingers, with both thumbs on the same side.",
+        "Step four shows the completed two handed grip from the other side."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Two handed grip: revolver",
+      "figure": { "page": "s036.jpg", "crop": [0.18, 0.16, 0.6, 0.71] },
+      "caption": "The three steps of the two handed grip on a revolver",
+      "source": "Handgun manual, p. 34",
+      "lines": [
+        "For the revolver, the book shows three steps.",
+        "One: the strong hand grips the revolver, and the open support hand comes in from below.",
+        "Two: the heel of the support hand is placed against the grip.",
+        "Three: the support hand fingers wrap around the strong hand's fingers, completing the grip."
+      ]
+    },
+    {
+      "type": "diagram",
+      "subject": "revolver",
+      "heading": "The hammer",
+      "source": "Handgun manual, p. 35",
+      "lines": [
+        { "text": "Now, cocking the revolver. This is the hammer.", "highlight": ["hammer"] },
+        { "text": "Cocking means pulling the hammer all the way back.", "action": "cock" }
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Cocking the revolver",
+      "figure": { "page": "s037.jpg", "crop": [0.2, 0.16, 0.61, 0.48] },
+      "caption": "Correct: the thumb of the support hand",
+      "source": "Handgun manual, p. 35",
+      "lines": [
+        "When cocking the revolver, use the thumb of the support hand to pull the hammer all the way back.",
+        "In the first photo, the support hand thumb reaches up to the hammer, and in the second, it pulls it back."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "The incorrect way",
+      "figure": { "page": "s037.jpg", "crop": [0.2, 0.64, 0.59, 0.24] },
+      "caption": "Incorrect: the thumb of the gun hand",
+      "source": "Handgun manual, p. 35",
+      "lines": [
+        "This is the incorrect way.",
+        "Never use the thumb of the gun hand to cock the revolver.",
+        "This will cause you to lose proper grip, and therefore lose control of the firearm."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Lowering the hammer under control",
+      "numbered": true,
+      "source": "Handgun manual, p. 36",
+      "bullets": [
+        "Apply pressure in front of the hammer",
+        "Slowly lower it, hand supported on top",
+        "Don't release until it's all the way forward"
+      ],
+      "lines": [
+        "The book's three steps will enable you to safely lower the hammer on the firearm.",
+        { "text": "One: when lowering the hammer, always apply pressure in front of the hammer.", "show": 0 },
+        { "text": "Two: slowly lower the hammer, using pressure from the front.", "show": 1 },
+        "Notice that the hand is supported by placing it on top of the firearm.",
+        { "text": "Three: do not release the hammer until it is all the way forward.", "show": 2 }
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Lowering the hammer",
+      "figure": { "page": "s040.jpg", "crop": [0.2, 0.15, 0.62, 0.73] },
+      "caption": "The three steps of lowering the hammer under control",
+      "source": "Handgun manual, p. 36",
+      "lines": [
+        "Here are those three steps in the book's photos.",
+        "Remember that if the hammer slips out of your fingers, the gun will fire."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "If you are right handed, which thumb should cock the revolver's hammer?",
+      "options": ["Right thumb, on the gun hand", "Left thumb, on the support hand", "Either thumb"],
+      "answer": 1,
+      "source": "Handgun manual, p. 35",
+      "lines": [
+        "Here's a question from your formative exam.",
+        "If you are right handed, which thumb should be used to cock the hammer on the revolver?"
+      ],
+      "reveal": [
+        "The thumb of the support hand, so for a right handed shooter, the left thumb.",
+        "Never use the thumb of the gun hand, as this will cause you to lose proper grip and control of the firearm."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "How should the grip on the firearm feel?",
+      "options": ["As tight as possible", "Like a handshake, firm but comfortable", "Loose, so the gun can move"],
+      "answer": 1,
+      "source": "Handgun manual, p. 32",
+      "lines": [
+        "One more.",
+        "How should the grip on the firearm feel?"
+      ],
+      "reveal": [
+        "Similar to a handshake, firm but comfortable.",
+        "Many new shooters have a tendency to hold the gun too tightly."
+      ]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 32–36",
+      "points": [
+        "A handshake: firm but comfortable",
+        "Barrel in line with the forearm",
+        "Both thumbs on the same side",
+        "Cock with the support hand thumb",
+        "Lower the hammer with pressure from the front"
+      ],
+      "lines": [
+        "So, grip like a handshake, firm but comfortable.",
+        "Held correctly, the barrel is in line with the forearm.",
+        "With two hands, both thumbs stay on the same side, and never behind the slide.",
+        "Cock the revolver with the thumb of the support hand.",
+        "And lower the hammer slowly, with pressure from the front, until it's all the way forward."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": "ep01",
+  "number": 1,
+  "title": "What \"using\" a firearm means, and the law",
+  "subtitle": "Module 1: Law",
+  "sources": ["Handgun manual, pp. 6–8", "Handgun manual, p. 71"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 6",
+      "lines": [
+        "In this episode, we start Module 1, the law.",
+        "Its aim is to help you understand when you may use a firearm for private or self defence."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Learning outcomes",
+      "numbered": true,
+      "source": "Handgun manual, p. 6",
+      "bullets": [
+        "Explain the term \"Use of a firearm\"",
+        "Make decisions on lethal force in given scenarios",
+        "Explain the requirements for lethal force in private or self defence"
+      ],
+      "lines": [
+        "This module covers parts of Section 49 of the Criminal Procedure Act, the Constitution, and Common Law.",
+        "When you finish it, you must be able to do three things.",
+        { "text": "One. Explain the term, use of a firearm.", "show": 0 },
+        { "text": "Two. Make decisions about the use of lethal force in given scenarios.", "show": 1 },
+        { "text": "Three. Explain the requirements when using lethal force for private or self defence.", "show": 2 }
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Use of a firearm",
+      "definition": "Pointing without firing, the actual firing, and handling it during loading, unloading and attending to malfunctions.",
+      "source": "Handgun manual, pp. 7, 71",
+      "lines": [
+        "To use a firearm does not necessarily mean to shoot the firearm.",
+        "Using a firearm includes pointing it without firing.",
+        "It includes the actual firing of the firearm.",
+        "And it includes handling the firearm during loading, unloading and attending to malfunctions.",
+        "Your formative exam asks you to explain this term, so learn all three parts."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "The law that applies",
+      "numbered": true,
+      "source": "Handgun manual, p. 7",
+      "bullets": [
+        "Section 49, Criminal Procedure Act 51 of 1977",
+        "The Constitution",
+        "The Common Law"
+      ],
+      "lines": [
+        "The book refers to three parts of the law, starting with Section 49 of the Criminal Procedure Act, 51 of 1977, on the use of force when effecting arrest.",
+        "Second, the Constitution.",
+        "And third, the Common Law."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Constitution, s39(2)",
+      "definition": "\"When interpreting any legislation and when developing the common law or customary law, every Court Tribunal or Forum must promote the spirit, purport and object of the Bill of Rights.\"",
+      "source": "Handgun manual, p. 7",
+      "lines": [
+        "Whenever we consider the meaning and effect of a written law, like Section 49, we must always bear in mind Section 39, subsection 2, of our Constitution.",
+        "It states that when interpreting any legislation, and when developing the common law or customary law, every court, tribunal or forum must promote the spirit, purport and object of the Bill of Rights.",
+        "This is particularly relevant to Section 49, the use of force in effecting arrest, and to the common law of private defence or self defence."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Civilians and arrests",
+      "source": "Handgun manual, p. 7",
+      "bullets": [
+        "Section 49 mainly assists law enforcement officers",
+        "Civilians have very limited powers to arrest",
+        "Exercise them cautiously",
+        "Arresting criminals is the police's responsibility",
+        "Arrest only after an attack is prevented, or detain until police arrive"
+      ],
+      "lines": [
+        { "text": "Section 49, the use of force in effecting an arrest, is designed primarily to assist law enforcement officers.", "show": 0 },
+        { "text": "Civilians have very limited rights and powers to arrest.", "show": 1 },
+        { "text": "Such powers, as limited as they are, must be exercised cautiously.", "show": 2 },
+        { "text": "Put simply, it is the responsibility of the police to arrest criminals.", "show": 3 },
+        "Civilians who effect arrests and use force, in circumstances other than self or private defence, will find it extremely difficult to comply with Section 49.",
+        { "text": "So, to remain within the law, the book suggests that civilians do not effect arrests, other than after an attack has been prevented.", "show": 4 },
+        "Or where you can detain the perpetrator of the attack until the police arrive and take the suspect into custody."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Search and seizure",
+      "definition": "The police, and persons authorised in writing by the police, have comprehensive powers to search and seize.",
+      "source": "Handgun manual, p. 7",
+      "lines": [
+        "Next, search and seizure.",
+        "The police, and persons authorised in writing by the police, have comprehensive powers to search and seize.",
+        "These cover businesses, homes, premises and property generally.",
+        "The powers are in the Criminal Procedure Act, and are incorporated into, and in certain circumstances expanded upon, in the Firearms Control Act.",
+        "The only circumstances where a search would be unlawful or unconstitutional would be where the police exceed the powers granted to them by law."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Example 1: the roadblock",
+      "source": "Handgun manual, p. 7",
+      "bullets": [
+        "Can you refuse? No.",
+        "Arrest for obstructing a police officer",
+        "Arrest on reasonable belief it is not licensed"
+      ],
+      "lines": [
+        "The book illustrates this with two examples.",
+        "In Example 1, you are stopped at a roadblock.",
+        "You are asked to produce your licensed firearm, so the police officer can check its details against the licence.",
+        "Can you refuse?",
+        { "text": "The answer is no.", "show": 0 },
+        "The police are empowered to verify that the firearm you are carrying is correctly licensed and legal.",
+        "Should you refuse to produce your firearm for inspection, the police could arrest you.",
+        { "text": "First, for obstructing a police officer in the fulfilling of his duties.", "show": 1 },
+        { "text": "Second, on the reasonable belief that the firearm you possess is not a licensed firearm.", "show": 2 }
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Example 2: abuse of powers",
+      "source": "Handgun manual, p. 8",
+      "bullets": [
+        "You may refuse him entry",
+        "He is not conducting an official duty",
+        "He is abusing his powers for personal gain",
+        "Any entry or search would be illegal"
+      ],
+      "lines": [
+        "In Example 2, a police officer arrives at your home, where you are giving shelter to his ex-girlfriend.",
+        "He demands to be let in to see her, but she tells you she does not want to see the police officer.",
+        "He then demands entry in terms of powers granted to him under the Criminal Procedure Act.",
+        { "text": "Under such circumstances, you would be entitled to refuse him entry.", "show": 0 },
+        { "text": "That is because he is not conducting an official duty.", "show": 1 },
+        { "text": "He is abusing the powers granted to him for personal gain or benefit.", "show": 2 },
+        { "text": "Any entry into your premises, or search, would therefore be illegal.", "show": 3 }
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "text": "\"An innocent person has nothing to hide.\"" },
+      "source": "Handgun manual, p. 8",
+      "lines": [
+        "When dealing with search and seizure, remember the simple principle that an innocent person has nothing to hide.",
+        "Co-operation with the police carrying out their legitimate duties is the obligation of every law abiding citizen."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "What does \"use\" of a firearm include?",
+      "options": ["Only firing it", "Pointing, firing, and handling it", "Only pointing it at someone"],
+      "answer": 1,
+      "source": "Handgun manual, pp. 7, 71",
+      "lines": [
+        "Time to test yourself.",
+        "This question is in your formative exam.",
+        "What does using a firearm include?"
+      ],
+      "reveal": [
+        "Pointing, firing, and handling it.",
+        "Use includes pointing without firing, the actual firing, and handling the firearm during loading, unloading and attending to malfunctions."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Police at a roadblock ask to check your firearm against its licence. Can you refuse?",
+      "options": ["Yes", "No"],
+      "answer": 1,
+      "source": "Handgun manual, p. 7",
+      "lines": [
+        "One more.",
+        "Police at a roadblock ask to check your firearm against its licence.",
+        "Can you refuse?"
+      ],
+      "reveal": [
+        "No. The police are empowered to verify that your firearm is correctly licensed and legal.",
+        "If you refuse, they could arrest you for obstructing a police officer, or on the reasonable belief that the firearm is not licensed."
+      ]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 7–8",
+      "points": [
+        "Use: pointing, firing, and handling",
+        "Section 39(2): promote the Bill of Rights",
+        "Section 49 mainly assists law enforcement",
+        "Civilians: very limited powers to arrest",
+        "Roadblock: you cannot refuse inspection",
+        "Abuse of powers: you may refuse entry"
+      ],
+      "lines": [
+        "So, using a firearm means pointing, firing, and handling it.",
+        "When interpreting legislation, every court, tribunal or forum must promote the spirit of the Bill of Rights.",
+        "Section 49 is designed primarily for law enforcement officers.",
+        "Civilians have very limited powers to arrest.",
+        "At a roadblock, you cannot refuse to produce your firearm.",
+        "But an officer abusing his powers for personal gain may be refused entry."
+      ]
+    }
+  ]
+}

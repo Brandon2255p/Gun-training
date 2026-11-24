@@ -1,0 +1,198 @@
+{
+  "id": "ep09",
+  "number": 9,
+  "title": "Protective equipment and safe carry conditions",
+  "subtitle": "Eye and ear protection, and how to carry your handgun",
+  "sources": ["Handgun manual, pp. 19–21"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, pp. 19–20",
+      "lines": [
+        "This episode covers protective equipment, and the safe carry conditions.",
+        "The condition in which you carry your firearm is of vital importance to your own safety and those around you."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "PPE",
+      "definition": "Personal Protection Equipment",
+      "source": "Handgun manual, p. 19",
+      "lines": [
+        "PPE stands for Personal Protection Equipment.",
+        "On a shooting range, you must always use both eye and ear protection."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Eye protection",
+      "bullets": ["A ricochet, muzzle-blast or ejected case", "Can permanently damage your eyesight", "Nicks and scratches on shooting glasses", "Proof that eye protection is necessary"],
+      "source": "Handgun manual, p. 19",
+      "lines": [
+        "A ricochet, muzzle-blast, or a case being ejected from a handgun can strike you in the eye.",
+        "That can cause permanent damage to your eyesight.",
+        "Look at the shooting glasses of an experienced shooter, and you will notice many nicks and scratches.",
+        "These nicks and scratches are proof that eye protection is necessary on the shooting range."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Ear protection",
+      "bullets": ["A gunshot can permanently damage hearing", "Occasional shooter, outdoor range: earplugs", "Regular shooters: earmuffs recommended", "Indoor range: earmuffs must be used", "Never practise without ear protection"],
+      "source": "Handgun manual, p. 19",
+      "lines": [
+        { "text": "The sound made by a firearm discharging is enough to cause permanent damage to your hearing.", "show": 0 },
+        { "text": "Earplugs of plastic, foam or sponge are good enough for the occasional shooter using an outdoor range.", "show": 1 },
+        { "text": "For regular shooters, it is recommended that earmuffs are used.", "show": 2 },
+        { "text": "Earplugs are not sufficient hearing protection on indoor shooting ranges.", "show": 3 },
+        "On an indoor range, earmuffs must be used to protect not only the eardrum, but also the bone behind the ear.",
+        { "text": "Under no circumstances should you practise without any form of ear protection.", "show": 4 }
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s021.jpg", "crop": [0.09, 0.38, 0.82, 0.28] },
+      "caption": "PPE: earmuffs and shooting glasses",
+      "source": "Handgun manual, p. 19",
+      "lines": [
+        "Eye and ear protection is essential at all times when on the shooting range.",
+        "Some people believe that firing without ear protection will help them get used to the sound of the gunshot.",
+        "This is not true!",
+        "If you find yourself getting used to the sound of the gunshot, you are going deaf!"
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "What a carry condition describes",
+      "showHammer": true,
+      "showSafety": true,
+      "names": { "safety": "Safety catch" },
+      "source": "Handgun manual, p. 20",
+      "lines": [
+        { "text": "Now, carry conditions for the semi-automatic pistol.", "highlight": [] },
+        { "text": "Each condition tells you about the magazine.", "highlight": ["magazine"] },
+        { "text": "It tells you whether there is a round in the chamber.", "highlight": ["chamber"] },
+        { "text": "It tells you whether the hammer is back or forward.", "highlight": ["hammer"] },
+        { "text": "And whether the safety catch is on or off.", "highlight": ["safety"] }
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Carry conditions: semi-automatic pistol",
+      "bullets": ["1: loaded mag, round in chamber, hammer back, safety on", "2: loaded mag, round in chamber, hammer forward, safety off", "3: loaded mag, empty chamber, hammer forward, safety off", "4: no live ammunition in the firearm at all"],
+      "source": "Handgun manual, p. 20",
+      "lines": [
+        "There are four basic carry conditions for a semi-automatic pistol.",
+        { "text": "Condition one. A loaded magazine, a round in the chamber, the hammer is back and the safety catch is on.", "show": 0 },
+        { "text": "Condition two. Loaded magazine, round in the chamber, hammer forward, safety catch off.", "show": 1 },
+        { "text": "Condition three. Loaded magazine, empty chamber, hammer forward, safety catch off.", "show": 2 },
+        { "text": "Condition four. No live ammunition in the firearm at all.", "show": 3 },
+        "Any live ammunition is carried separate from the firearm.",
+        "This is the recommended condition when transporting firearms in the boot of your car."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s023.jpg", "crop": [0.18, 0.14, 0.59, 0.485] },
+      "caption": "Condition 1 and Condition 2",
+      "source": "Handgun manual, p. 21",
+      "lines": [
+        "Here are conditions one and two in the book's photos.",
+        "In condition one, at the top, the hammer is back and the safety catch is on.",
+        "In condition two, below it, the hammer is forward and the safety catch is off."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Take note: Condition One",
+      "bullets": ["Carry it in a holster securely attached to your body", "The most ready, and the most dangerous", "Condition Two or Three is much safer"],
+      "source": "Handgun manual, p. 21",
+      "lines": [
+        { "text": "When carrying a firearm in Condition One, it should be carried in a holster securely attached to your body.", "show": 0 },
+        { "text": "Although this is the most ready condition of the firearm, it is also the most dangerous carry condition.", "show": 1 },
+        "One should think very carefully before deciding to carry in Condition One.",
+        { "text": "Condition Two or Three is much safer.", "show": 2 }
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Transporting any firearm",
+      "bullets": ["Transport it in a manner that is safe", "Transport it unloaded", "Not under your direct control: approved gun safe"],
+      "source": "Handgun manual, p. 20",
+      "lines": [
+        "When transporting any firearm, it should be transported in a manner that is safe.",
+        "The firearm should be transported in an unloaded condition.",
+        "At any time when the firearm is not under your direct control, it must be locked away in an approved gun safe."
+      ]
+    },
+    {
+      "type": "diagram",
+      "subject": "revolver",
+      "heading": "Carrying a revolver",
+      "source": "Handgun manual, p. 20",
+      "lines": [
+        { "text": "There is only one way that a revolver can be carried for self-defence.", "highlight": [] },
+        { "text": "It should be carried with a fully loaded cylinder.", "highlight": ["cylinder"] },
+        { "text": "The hammer should be forward.", "highlight": ["hammer"] },
+        { "text": "And it should be in a holster securely attached to your person.", "highlight": [] }
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Misconception: an empty chamber under the hammer",
+      "bullets": ["Myth: empty chamber under the hammer is safer", "1. A transfer bar between hammer and frame", "2. The cylinder turns when the trigger is squeezed", "Two empty chambers: only three shots"],
+      "source": "Handgun manual, p. 20",
+      "lines": [
+        { "text": "Some people believe it is safer to carry a revolver with an empty chamber under the hammer.", "show": 0 },
+        "This is not true, for two reasons.",
+        { "text": "One. There is a transfer bar between the hammer and the frame of the revolver.", "show": 1 },
+        "It ensures that if the revolver is dropped, the hammer cannot make contact with the firing-pin.",
+        { "text": "Two. When you squeeze the trigger on the revolver, the cylinder turns.", "show": 2 },
+        "So leaving the chamber under the hammer empty will not help prevent an accident if the trigger is squeezed.",
+        "It is the chamber next to the one under the hammer that will fire first.",
+        { "text": "It would be unwise to leave the first two chambers empty.", "show": 3 },
+        "That reduces the available ammunition to only three shots, which may not be enough in a life threatening situation."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "text": "When you are carrying a firearm in public it is a legal requirement that it must be concealed." },
+      "source": "Handgun manual, p. 20",
+      "lines": [
+        "And remember!",
+        "When you are carrying a firearm in public, it is a legal requirement that it must be concealed."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "What is carry condition three?",
+      "options": ["Loaded mag, round in chamber, hammer back, safety on", "Loaded mag, empty chamber, hammer forward, safety off", "No live ammunition in the firearm at all"],
+      "answer": 1,
+      "source": "Handgun manual, p. 20",
+      "lines": ["The exam asks about conditions one and three.", "So, what is carry condition three?"],
+      "reveal": ["Condition three: loaded magazine, empty chamber, hammer forward, safety catch off.", "Condition one has a round in the chamber, the hammer back and the safety catch on."]
+    },
+    {
+      "type": "quiz",
+      "question": "Why not only earplugs on an indoor range?",
+      "options": ["They don't protect the bone behind the ear", "They are too uncomfortable", "They block the Range Officer's commands"],
+      "answer": 0,
+      "source": "Handgun manual, pp. 18–19",
+      "lines": ["Why should you not only use earplugs on an indoor shooting range?"],
+      "reveal": ["On an indoor range, earmuffs must be used to protect not only the eardrum, but also the bone behind the ear."]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 19–21",
+      "points": ["PPE: eye and ear protection on a range", "Indoors: earmuffs, not only earplugs", "Four pistol carry conditions", "Condition One: most ready, most dangerous", "Revolver: fully loaded, hammer forward, holstered", "In public: it must be concealed"],
+      "lines": [
+        "So, always use both eye and ear protection on a shooting range.",
+        "On an indoor range, use earmuffs, not only earplugs.",
+        "Know the four carry conditions for the semi-automatic pistol.",
+        "Condition One is the most ready, and the most dangerous.",
+        "Carry a revolver fully loaded, hammer forward, in a secure holster.",
+        "And in public, it is a legal requirement that your firearm must be concealed."
+      ]
+    }
+  ]
+}

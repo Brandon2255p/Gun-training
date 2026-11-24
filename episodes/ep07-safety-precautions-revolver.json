@@ -1,0 +1,160 @@
+{
+  "id": "ep07",
+  "number": 7,
+  "title": "Safety precautions: the revolver",
+  "subtitle": "Making the revolver safe, the safety catch, and the magazine safety",
+  "sources": ["Handgun manual, pp. 14, 16–17"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, pp. 16–17",
+      "lines": [
+        "This episode covers making the revolver safe, the safety catch, and the magazine safety.",
+        "And we finish with how to be muzzle conscious."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s018.jpg", "crop": [0.17, 0.135, 0.665, 0.24] },
+      "caption": "Making the revolver safe: steps 1 and 2",
+      "source": "Handgun manual, p. 16",
+      "lines": [
+        "Making the revolver safe starts just like the pistol.",
+        "Step one. Identify a safe direction.",
+        "Step two. Point the firearm in a safe direction, with your finger off the trigger."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s018.jpg", "crop": [0.17, 0.426, 0.64, 0.23] },
+      "caption": "Steps 3 and 4: grip, then open the cylinder",
+      "source": "Handgun manual, p. 16",
+      "lines": [
+        "Step three. Place your left hand under the trigger guard, and your right thumb on the cylinder release catch.",
+        "Keep your trigger finger off the trigger.",
+        "Step four. Open the cylinder.",
+        "Make sure that your middle two fingers are on the cylinder and through the frame of the revolver.",
+        "Your middle two fingers and thumb now have control of the cylinder."
+      ]
+    },
+    {
+      "type": "diagram",
+      "subject": "revolver",
+      "heading": "Steps 3 to 5 on the revolver",
+      "names": { "cylinderRelease": "Cylinder release catch" },
+      "source": "Handgun manual, p. 16",
+      "lines": [
+        { "text": "Here are those parts on our revolver.", "highlight": [] },
+        { "text": "Your left hand goes under the trigger guard.", "highlight": ["triggerGuard"] },
+        { "text": "Your right thumb goes on the cylinder release catch.", "highlight": ["cylinderRelease"] },
+        { "text": "Then the cylinder opens.", "highlight": ["cylinder"], "action": "open" },
+        { "text": "Step five. Remove the ammunition from the cylinder by depressing the ejector rod.", "highlight": ["ejectorRod"], "action": "eject" }
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s018.jpg", "crop": [0.317, 0.70, 0.345, 0.186] },
+      "caption": "Step 5: depress the ejector rod",
+      "source": "Handgun manual, pp. 14, 16",
+      "lines": [
+        "In the book's photo, the ejector rod is depressed to push the ammunition out of the cylinder.",
+        "For the revolver, once the cylinder is open and the ammunition removed, no further steps are required.",
+        "And if you are handing over a revolver, the cylinder should be left open during the exchange."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Safety catch",
+      "bullets": ["Some lock the trigger only", "Others lock the slide, hammer and trigger", "Hammer-drop safety catches lower the hammer", "Engage: up on some, down or forwards on others", "Red dot: on for some, off for others"],
+      "source": "Handgun manual, p. 17",
+      "lines": [
+        "Next, the safety catch.",
+        "Safety catches work differently from one firearm to the next.",
+        { "text": "Some safety catches will lock the trigger only.", "show": 0 },
+        { "text": "Others will lock the slide, the hammer and the trigger.", "show": 1 },
+        { "text": "Some will lower the hammer for you.", "show": 2 },
+        "These are known as hammer-drop safety catches.",
+        { "text": "On some firearms you press the safety catch up to engage it, and on others down or forwards.", "show": 3 },
+        { "text": "Some expose a red dot when the safety catch is on, while others may expose a red dot when it is off.", "show": 4 },
+        "These differences are because firearms come from different countries, with designs influenced by different cultures and languages."
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "Know your safety catch",
+      "showSafety": true,
+      "names": { "safety": "Safety catch" },
+      "source": "Handgun manual, p. 17",
+      "lines": [
+        { "text": "Make sure that you are familiar with how the safety catch works on your particular firearm.", "highlight": ["safety"] },
+        "Always remember, the safety catch is a mechanical device that can fail.",
+        "It is simply an additional safety precaution, and it must never replace your safety rules."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Magazine safety",
+      "definition": "Prevents the gun from being fired once the magazine has been removed.",
+      "source": "Handgun manual, p. 17",
+      "lines": [
+        "Some firearms are equipped with a magazine safety.",
+        "The magazine safety prevents the gun from being fired once the magazine has been removed.",
+        "Its purpose is to prevent an accidental discharge if someone removes the magazine and forgets to remove the round from the chamber.",
+        "Examples of firearms manufactured with a magazine safety are the Browning High Power and the Star Model B series."
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "Why a magazine safety helps",
+      "source": "Handgun manual, p. 17",
+      "lines": [
+        { "text": "Picture someone removing the magazine.", "highlight": ["magazine"], "action": "magOut" },
+        { "text": "But they forget to remove the round from the chamber.", "highlight": ["chamber"] },
+        { "text": "With a magazine safety, the gun cannot be fired once the magazine has been removed.", "highlight": [] }
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s019.jpg", "crop": [0.09, 0.40, 0.82, 0.44] },
+      "caption": "Be Muzzle Conscious",
+      "source": "Handgun manual, p. 17",
+      "lines": [
+        "Finally, be muzzle conscious.",
+        "Notice the person holding the firearm is not aware that his firearm is pointing at innocent bystanders.",
+        "A competent firearm handler knows where his firearm is pointing at all times.",
+        "That is to say, you should at all times be aware of where the muzzle of your firearm is pointing."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "What is a magazine safety?",
+      "options": ["It locks the slide open", "It prevents firing once the magazine is removed", "It lowers the hammer for you"],
+      "answer": 1,
+      "source": "Handgun manual, p. 17",
+      "lines": ["The exam asks this one.", "What is a magazine safety?"],
+      "reveal": ["The magazine safety prevents the gun from being fired once the magazine has been removed.", "Lowering the hammer is what a hammer-drop safety catch does."]
+    },
+    {
+      "type": "quiz",
+      "question": "How do you remove the ammunition from the revolver?",
+      "options": ["Squeeze the trigger", "Pull back the hammer", "Open the cylinder and depress the ejector rod"],
+      "answer": 2,
+      "source": "Handgun manual, p. 16",
+      "lines": ["How do you remove the ammunition when making a revolver safe?"],
+      "reveal": ["Open the cylinder, then remove the ammunition from the cylinder by depressing the ejector rod."]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 16–17",
+      "points": ["Safe direction, finger off the trigger", "Thumb on the cylinder release catch, open it", "Depress the ejector rod", "A safety catch can fail", "Magazine safety: no firing with magazine out", "Be muzzle conscious"],
+      "lines": [
+        "So, identify a safe direction and point the revolver there, finger off the trigger.",
+        "Thumb on the cylinder release catch, and open the cylinder.",
+        "Remove the ammunition by depressing the ejector rod.",
+        "The safety catch can fail, and it never replaces your safety rules.",
+        "A magazine safety prevents firing once the magazine is removed.",
+        "And always be aware of where your muzzle is pointing."
+      ]
+    }
+  ]
+}

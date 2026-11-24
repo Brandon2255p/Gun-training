@@ -1,0 +1,125 @@
+{
+  "id": "ep11",
+  "number": 11,
+  "title": "Parts of the revolver",
+  "subtitle": "The revolver: main parts and what they do",
+  "sources": ["Handgun manual, pp. 22–23, 25", "Handgun manual, formative exam, p. 75"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 22",
+      "lines": [
+        "In this episode, we learn the main parts of the revolver, and what each one does.",
+        "Just as with the pistol, you must be able to label the revolver's diagram and explain its main parts."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "The Frame",
+      "definition": "The body of the firearm to which all the other parts are attached.",
+      "source": "Handgun manual, p. 23",
+      "lines": [
+        "On the revolver, the frame is again the body of the firearm to which all the other parts are attached.",
+        "The book compares it to the chassis of a motor vehicle."
+      ]
+    },
+    {
+      "type": "diagram",
+      "subject": "revolver",
+      "heading": "Frame and barrel",
+      "source": "Handgun manual, p. 23",
+      "lines": [
+        { "text": "Here is the frame on our revolver.", "highlight": ["frame"] },
+        { "text": "And here is the barrel, a metal tube down which the bullet will travel.", "highlight": ["barrel", "muzzle"] },
+        { "text": "Inside the barrel there are spiraling lands and grooves, known as rifling.", "highlight": ["barrel"] },
+        { "text": "The rifling causes the bullet to spin.", "highlight": ["barrel"] },
+        { "text": "This spinning stabilises the bullet in flight.", "highlight": ["barrel", "muzzle"] }
+      ]
+    },
+    {
+      "type": "diagram",
+      "subject": "revolver",
+      "heading": "The cylinder",
+      "source": "Handgun manual, pp. 22–23",
+      "lines": [
+        { "text": "In the list of main parts, the revolver has a cylinder where the pistol has a slide.", "highlight": ["cylinder"] },
+        { "text": "The cylinder rotates to bring the new loaded chamber in line with the barrel and firing pin.", "highlight": ["cylinder", "barrel"] },
+        { "text": "The ejector rod and the extractor star are fitted to the cylinder.", "highlight": ["cylinder", "ejectorRod"] },
+        { "text": "When loading and unloading, the cylinder swings out on the crane.", "highlight": ["cylinder", "crane"], "action": "open" },
+        { "text": "The cylinder contains multiple chambers, usually five or six.", "highlight": ["chambers"] }
+      ]
+    },
+    {
+      "type": "diagram",
+      "subject": "revolver",
+      "heading": "The action",
+      "source": "Handgun manual, p. 23",
+      "lines": [
+        { "text": "The action refers to the moving parts of the firearm.", "highlight": [], "action": "close" },
+        { "text": "For example, the trigger.", "highlight": ["trigger"] },
+        { "text": "The hammer.", "highlight": ["trigger", "hammer"] },
+        { "text": "And the parts that rotate the cylinder.", "highlight": ["trigger", "hammer", "cylinder"] },
+        { "text": "So on the pistol, the book's example includes the slide, and on the revolver, the parts that rotate the cylinder.", "highlight": ["trigger", "hammer", "cylinder"] }
+      ]
+    },
+    {
+      "type": "diagram",
+      "subject": "revolver",
+      "heading": "Parts of the revolver",
+      "source": "Handgun manual, p. 25",
+      "lines": [
+        { "text": "Page twenty five labels the parts of the revolver.", "highlight": [] },
+        { "text": "At the front, the muzzle, the front sight and the barrel.", "highlight": ["muzzle", "frontSight", "barrel"] },
+        { "text": "Under the barrel, the ejector rod.", "highlight": ["ejectorRod"] },
+        { "text": "Then the cylinder, and the crane.", "highlight": ["cylinder", "crane"] },
+        { "text": "At the back, the hammer and the cylinder release.", "highlight": ["hammer", "cylinderRelease"] },
+        { "text": "Below, the frame, the trigger guard and the trigger.", "highlight": ["frame", "triggerGuard", "trigger"] },
+        { "text": "And the grip.", "highlight": ["grip"] }
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "The book's labelled revolver",
+      "figure": { "page": "s026.jpg", "crop": [0.07, 0.475, 0.82, 0.42], "rotate": 180 },
+      "caption": "The revolver, p. 25",
+      "source": "Handgun manual, pp. 25, 75",
+      "lines": [
+        "Here is the book's photo, with fourteen labels.",
+        "Two of them aren't on our drawing.",
+        "The top strap, above the cylinder.",
+        "And the hammer spur, on the hammer.",
+        "Learn all fourteen names: the formative exam's revolver diagram is worth fourteen marks."
+      ]
+    },
+    {
+      "type": "quiz",
+      "source": "Handgun manual, p. 23; formative exam, p. 75",
+      "question": "What causes the bullet to spin?",
+      "options": ["The cylinder", "The rifling in the barrel", "The crane"],
+      "answer": 1,
+      "lines": ["The exam asks you to explain the barrel.", "What causes the bullet to spin?"],
+      "reveal": ["The rifling: spiraling lands and grooves inside the barrel.", "This spinning stabilises the bullet in flight."]
+    },
+    {
+      "type": "quiz",
+      "source": "Handgun manual, p. 23",
+      "question": "When loading and unloading, the cylinder swings out on the…",
+      "options": ["Crane", "Ejector rod", "Top strap"],
+      "answer": 0,
+      "lines": ["One more.", "When loading and unloading, what does the cylinder swing out on?"],
+      "reveal": ["The crane. When loading and unloading, the cylinder swings out on the crane."]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 23, 25",
+      "points": ["Frame: the body all parts attach to", "Barrel: rifling spins the bullet", "Cylinder: lines up the next loaded chamber", "Cylinder swings out on the crane", "Action: trigger, hammer, cylinder parts"],
+      "lines": [
+        "The frame is the body, and all the other parts are attached to it.",
+        "The barrel's rifling spins the bullet, which stabilises it in flight.",
+        "The cylinder rotates to bring the new loaded chamber in line with the barrel and firing pin.",
+        "For loading and unloading, it swings out on the crane.",
+        "And the action is the moving parts: the trigger, the hammer and the parts that rotate the cylinder."
+      ]
+    }
+  ]
+}

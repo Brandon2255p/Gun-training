@@ -1,0 +1,268 @@
+{
+  "id": "ep12",
+  "number": 12,
+  "title": "Stance and shooting positions",
+  "subtitle": "Isosceles, Weaver, kneeling and prone",
+  "sources": ["Handgun manual, pp. 26–31", "Handgun manual, p. 76 (formative exam)"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 27",
+      "lines": [
+        "This episode is about stance, and the body positions you can shoot from.",
+        "The book says the manner in which you stand is an important fundamental of shooting a firearm."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "The seven fundamentals",
+      "source": "Handgun manual, pp. 26–27",
+      "bullets": ["Stance", "Grip", "Trigger Squeeze", "Breathing", "Sight Alignment", "Sight Picture", "Follow Through"],
+      "lines": [
+        "The aim of Module 4 is to enable you to master the fundamentals of shooting.",
+        "Shooting is a skill, and each individual part of that skill must be mastered first.",
+        { "text": "The fundamentals are stance, grip, trigger squeeze and breathing.", "show": 3 },
+        { "text": "Then sight alignment, sight picture and follow through.", "show": 6 },
+        "Stance is the first fundamental, so that's where we start."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Three body positions",
+      "source": "Handgun manual, p. 27",
+      "bullets": ["Standing", "Kneeling", "Prone"],
+      "lines": [
+        "Three body positions can be adopted when shooting a firearm.",
+        { "text": "The first is standing.", "show": 0 },
+        { "text": "The second is kneeling.", "show": 1 },
+        { "text": "And the third is prone.", "show": 2 },
+        "The situation you are faced with, and your environment, will dictate which body position you use."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Stance",
+      "definition": "The body position used when firing the gun.",
+      "source": "Handgun manual, p. 27",
+      "lines": [
+        "The term stance refers to the body position used when firing the gun.",
+        "In other words, your stance will provide a secure platform from which the gun will be fired."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "The Isosceles Stance",
+      "figure": { "page": "s029.jpg", "crop": [0.08, 0.58, 0.83, 0.32] },
+      "caption": "Front, side and top view of the Isosceles Stance",
+      "source": "Handgun manual, p. 27",
+      "lines": [
+        "The standing position is the fastest and most commonly used shooting position.",
+        "The recommended stance is called the Isosceles Stance.",
+        "It's called that because your legs and arms form two isosceles triangles.",
+        "You can see the triangles drawn along the legs in the front view, and along the arms in the top view."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "How to stand",
+      "source": "Handgun manual, p. 27",
+      "bullets": [
+        "Feet about shoulder width apart",
+        "Both arms straight out towards the target",
+        "A slight bend in your knees",
+        "Upper body bent very slightly forward"
+      ],
+      "lines": [
+        { "text": "Stand with your feet about shoulder width apart.", "show": 0 },
+        { "text": "Thrust both arms straight out in front of you, towards the target.", "show": 1 },
+        "This stance allows you to develop a natural point of aim.",
+        "That means the gun will already be pointed at the target before you look at the sights.",
+        { "text": "Now put a slight bend in your knees, to help with balance and to compensate for the recoil.", "show": 2 },
+        { "text": "The top part of your body should be bent very slightly forward.", "show": 3 }
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Facing head-on",
+      "figure": { "page": "s030.jpg", "crop": [0.12, 0.09, 0.76, 0.32] },
+      "caption": "Two shooters in the Isosceles Stance",
+      "source": "Handgun manual, p. 28",
+      "lines": [
+        "In the Isosceles Stance, you face your opponent head-on.",
+        "The book lists four advantages of this stance."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Advantages of the Isosceles Stance",
+      "numbered": true,
+      "source": "Handgun manual, p. 28",
+      "bullets": [
+        "Head-on: full peripheral vision, both eyes",
+        "Feeds off gross physical strength",
+        "Well-balanced, fast movement any direction",
+        "Bullet proof vest: no turning sideways"
+      ],
+      "lines": [
+        { "text": "One: you face your opponent head-on, so you have full use of your peripheral vision from both eyes.", "show": 0 },
+        "That gives you a wider field of vision, to see additional attackers or identify objects that can be used for cover.",
+        { "text": "Two: this stance feeds off gross physical strength.", "show": 1 },
+        "So you will not be too badly affected by the adrenalin rush that comes with using a firearm in a life threatening situation.",
+        { "text": "Three: it provides a well-balanced platform, and allows fast movement in any direction.", "show": 2 },
+        { "text": "Four: if you are wearing a bullet proof vest, this stance will prevent you from turning sideways.", "show": 3 },
+        "Turning sideways could get you shot in an area that the bullet proof vest does not protect."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Weaver Stance",
+      "figure": { "page": "s031.jpg", "crop": [0.25, 0.15, 0.5, 0.34] },
+      "caption": "Weaver Stance behind a barricade",
+      "source": "Handgun manual, p. 29",
+      "lines": [
+        "Next, the Weaver Stance.",
+        "Shooting sideways towards the target is the recommended stance to use when shooting from behind cover.",
+        "Notice how little of the shooter's body is visible to his opponent.",
+        "This stance allows you to remain hidden behind cover."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "The disadvantage",
+      "figure": { "page": "s031.jpg", "crop": [0.08, 0.55, 0.84, 0.35] },
+      "caption": "Standing position: the bullet travels at shoulder height",
+      "source": "Handgun manual, p. 29",
+      "lines": [
+        "The disadvantage of this position is that if you miss your target, the bullet will be travelling at shoulder height.",
+        "That could endanger innocent bystanders.",
+        "If the shot misses, or passes straight through the attacker, bystanders in the background might be hit."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Kneeling Position",
+      "figure": { "page": "s032.jpg", "crop": [0.07, 0.14, 0.83, 0.31] },
+      "caption": "High kneeling and low kneeling positions",
+      "source": "Handgun manual, p. 30",
+      "lines": [
+        "The kneeling position is often used when you want to make yourself a smaller target to your opponent.",
+        "Or so you can stay hidden behind cover.",
+        "The high kneeling position is used for firing over objects being used as cover.",
+        "In the low kneeling position, the shooter is crouched low, to make himself a smaller target."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Kneeling at close quarters",
+      "figure": { "page": "s032.jpg", "crop": [0.07, 0.53, 0.83, 0.35] },
+      "caption": "Kneeling position: firing up, over the bystanders",
+      "source": "Handgun manual, p. 30",
+      "lines": [
+        "At close quarters, if you are firing up at your target, the bullet will travel over the heads of innocent bystanders.",
+        "If the attacker is missed, or the bullet passes through, the bystanders might not be harmed.",
+        "This can be a very safe and effective position when firing in crowded buildings."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "text": "The prone position is used only as a last resort, because once you use it, you will not be able to move easily." },
+      "source": "Handgun manual, p. 31",
+      "lines": [
+        "Now, the prone position.",
+        "The prone position is used only as a last resort.",
+        "Because once you use the prone position, you will not be able to move easily."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Standard Prone Position",
+      "figure": { "page": "s033.jpg", "crop": [0.24, 0.21, 0.56, 0.24] },
+      "caption": "Standard prone position",
+      "source": "Handgun manual, p. 31",
+      "lines": [
+        "Here is the standard prone position.",
+        "It does have two advantages."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Advantages of the prone position",
+      "source": "Handgun manual, p. 31",
+      "bullets": ["Stable platform: accuracy over a long distance", "A smaller target to your opponent"],
+      "lines": [
+        "It provides a stable platform, which will increase accuracy over a long distance.",
+        "And it makes you a smaller target to your opponent."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Sideways Prone Position",
+      "figure": { "page": "s033.jpg", "crop": [0.24, 0.47, 0.57, 0.22] },
+      "caption": "Sideways prone position",
+      "source": "Handgun manual, p. 31",
+      "lines": [
+        "The book also shows the sideways prone position.",
+        "This position can be used when lying behind cover."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Supine Position",
+      "figure": { "page": "s033.jpg", "crop": [0.24, 0.68, 0.53, 0.25] },
+      "caption": "Supine position",
+      "source": "Handgun manual, p. 31",
+      "lines": [
+        "And finally, the supine position.",
+        "It is most commonly used when the shooter has to fall backwards and fire from the supine position."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Which stance is recommended when shooting from behind cover?",
+      "options": ["Isosceles Stance", "Weaver Stance", "Supine position"],
+      "answer": 1,
+      "source": "Handgun manual, p. 29",
+      "lines": [
+        "Here's a question from your formative exam.",
+        "Which stance is recommended when shooting from behind cover?"
+      ],
+      "reveal": [
+        "The Weaver Stance.",
+        "Shooting sideways towards the target is the recommended stance to use when shooting from behind cover."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "In the Isosceles Stance, how far apart should your feet be?",
+      "options": ["Together", "About shoulder width apart", "As wide as possible"],
+      "answer": 1,
+      "source": "Handgun manual, p. 27",
+      "lines": [
+        "One more from the exam.",
+        "In the Isosceles Stance, how far apart should your feet be?"
+      ],
+      "reveal": [
+        "About shoulder width apart.",
+        "Then thrust both arms straight out in front of you, towards the target."
+      ]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 26–31",
+      "points": [
+        "Seven fundamentals: stance is first",
+        "Isosceles: feet shoulder width, arms straight out",
+        "Weaver: sideways, from behind cover",
+        "Kneeling: a smaller target, fire over bystanders",
+        "Prone: a last resort, you can't move easily"
+      ],
+      "lines": [
+        "So, there are seven fundamentals, and stance is the first.",
+        "The Isosceles Stance is the recommended stance, with feet shoulder width apart and both arms straight out.",
+        "The Weaver Stance is for shooting sideways from behind cover.",
+        "Kneeling makes you a smaller target, and firing up can send the bullet over bystanders' heads.",
+        "And prone is a last resort, because you will not be able to move easily."
+      ]
+    }
+  ]
+}

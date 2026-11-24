@@ -1,0 +1,149 @@
+{
+  "id": "ep20",
+  "number": 20,
+  "title": "Headstamps, calibres and bullet types",
+  "subtitle": "Identifying the right ammunition",
+  "sources": ["Handgun manual, pp. 51, 54"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 51",
+      "lines": [
+        "In this episode, we learn to read a cartridge, and to identify its calibre.",
+        "The aim is for you to be able to identify the correct ammunition for your firearm."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Headstamp",
+      "definition": "The writing on the bottom of a cartridge, at the opposite end of the bullet. It shows the calibre of that cartridge.",
+      "source": "Handgun manual, p. 54",
+      "lines": [
+        "When you look at the bottom of a cartridge, the opposite end of the bullet, you will notice writing.",
+        "This is known as a headstamp.",
+        "On the headstamp, you will see the calibre printed for that particular cartridge."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s062.jpg", "crop": [0.08, 0.05, 0.83, 0.25] },
+      "caption": "Cartridge identification: two headstamps",
+      "source": "Handgun manual, p. 54",
+      "lines": [
+        "Here are the two headstamps from the book.",
+        { "text": "The top one shows the calibre, 38 SPL, and that it was manufactured by Federal.", "say": "The top one shows the calibre, thirty-eight S P L, and that it was manufactured by Federal." },
+        "Its plus P marking indicates more than normal pressure.",
+        { "text": "The bottom one shows the manufacturer's name, WIN, and the calibre, 9 millimetre Luger.", "say": "The bottom one shows the manufacturer's name, win, and the calibre, nine millimetre Luger." }
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Calibre",
+      "definition": "The diameter of the bullet, or the inside diameter of the barrel in which the bullet must travel.",
+      "source": "Handgun manual, p. 54",
+      "lines": [
+        "The term calibre means the diameter of the bullet.",
+        "Or the inside diameter of the barrel in which the bullet must travel."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Matching ammunition to your firearm",
+      "source": "Handgun manual, p. 54",
+      "bullets": [
+        "Read the calibre on the headstamp",
+        "Check the calibre on your firearm license",
+        "Check the calibre on the slide or barrel"
+      ],
+      "lines": [
+        "First, determine the calibre of the ammunition from its headstamp.",
+        "Then look on your firearm license, which will also list the calibre for which you are licensed to carry.",
+        "Then look on the slide or barrel of the firearm, which will also show the calibre."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s062.jpg", "crop": [0.07, 0.44, 0.84, 0.18] },
+      "caption": "Common handgun calibres",
+      "source": "Handgun manual, pp. 54, 66",
+      "lines": [
+        "The book shows thirteen common handgun calibres.",
+        { "text": "From the left: 22 Short, 22 Long, 22 Magnum, 6.35 millimetre and 7.65 millimetre.", "say": "From the left: twenty-two Short, twenty-two Long, twenty-two Magnum, six point three five millimetre, and seven point six five millimetre." },
+        { "text": "Then 9 millimetre Short, 9 millimetre Parabellum, 38 Special and 357 Magnum.", "say": "Then nine millimetre Short, nine millimetre Parabellum, thirty-eight Special, and three fifty-seven Magnum." },
+        { "text": "And 40 S and W, 10 millimetre Auto, 44 Magnum and 45 ACP.", "say": "And forty S and W, ten millimetre Auto, forty-four Magnum, and forty-five A C P." },
+        "In your practical assessment, you will be required to identify the calibre of two different cartridges.",
+        "And to identify the correct ammunition for your own firearm."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s062.jpg", "crop": [0.08, 0.63, 0.53, 0.29] },
+      "caption": "Hollow point bullets, and bullets before and after impact",
+      "source": "Handgun manual, p. 54",
+      "lines": [
+        "Here we see different types of hollow point bullets.",
+        "Hollow point bullets are also known as dum-dums.",
+        "Along the bottom are hollow point bullets before and after impact."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Hollow point bullets",
+      "definition": "Expand on impact. They cause a larger wound, but most importantly they are less likely to over-penetrate.",
+      "source": "Handgun manual, p. 54",
+      "lines": [
+        "Hollow point bullets expand on impact.",
+        "This will cause a larger wound.",
+        "But most importantly, they are less likely to over-penetrate.",
+        "The book says hollow point bullets are highly recommended for self defence."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Where do you find the calibre printed on a cartridge?",
+      "options": ["On the tip of the bullet", "On the headstamp", "On the side of the case"],
+      "answer": 1,
+      "source": "Handgun manual, p. 54",
+      "lines": [
+        "Where do you find the calibre printed on a cartridge?",
+        "Pause the video if you need a moment."
+      ],
+      "reveal": [
+        "On the headstamp.",
+        "That's the writing on the bottom of the cartridge, at the opposite end of the bullet."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "What is a hollow point bullet designed to do upon impact with the target?",
+      "options": ["Expand", "Pass straight through", "Break into powder"],
+      "answer": 0,
+      "source": "Handgun manual, p. 54",
+      "lines": [
+        "What is a hollow point bullet designed to do upon impact with the target?"
+      ],
+      "reveal": [
+        "Expand.",
+        "Hollow point bullets expand on impact, and are less likely to over-penetrate."
+      ]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, p. 54",
+      "points": [
+        "Headstamp: writing on the bottom of the cartridge",
+        "It shows the calibre",
+        "Calibre: bullet diameter, or inside barrel diameter",
+        "Match it to your license and the firearm",
+        "Hollow points expand on impact"
+      ],
+      "lines": [
+        "So, the headstamp is the writing on the bottom of the cartridge.",
+        "It shows the calibre.",
+        "Calibre is the diameter of the bullet, or the inside diameter of the barrel.",
+        "Check it against your firearm license, and the slide or barrel of your firearm.",
+        "And hollow point bullets expand on impact."
+      ]
+    }
+  ]
+}

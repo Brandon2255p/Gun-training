@@ -1,0 +1,176 @@
+{
+  "id": "ep19",
+  "number": 19,
+  "title": "The cartridge and how it fires",
+  "subtitle": "Bullet, case, powder and primer",
+  "sources": ["Handgun manual, pp. 51–53"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 51",
+      "lines": [
+        "In this episode, we look inside the cartridge, and at how it fires.",
+        "The aim is for you to understand how a cartridge works, and to identify the correct ammunition for your firearm."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Not just bullets",
+      "source": "Handgun manual, p. 52",
+      "bullets": [
+        "Ammunition is often wrongly called \"bullets\"",
+        "The bullet is only one component",
+        "Four components: bullet, case, powder, primer",
+        "Cartridge: civilian term. Round: military term"
+      ],
+      "lines": [
+        { "text": "Ammunition is often incorrectly referred to as bullets.", "show": 0 },
+        { "text": "But the bullet is only one component of a complete cartridge.", "show": 1 },
+        { "text": "The complete cartridge has four basic components: the bullet, the case, the powder, or propellant, and the primer.", "show": 2 },
+        { "text": "This complete assembly is known as a cartridge, the civilian term, or a round, the military term.", "show": 3 },
+        "Either term is correct."
+      ]
+    },
+    {
+      "type": "diagram",
+      "subject": "cartridge",
+      "heading": "The four components",
+      "source": "Handgun manual, p. 52",
+      "inBarrel": false,
+      "lines": [
+        { "text": "Here is a cartridge in cross section.", "highlight": [], "stage": 0 },
+        { "text": "At the front is the bullet.", "highlight": ["bullet"] },
+        { "text": "Next, the case.", "highlight": ["case"] },
+        { "text": "Inside the case is the powder.", "highlight": ["powder"] },
+        { "text": "And at the base is the primer.", "highlight": ["primer"] },
+        { "text": "The book's cross section of a case also names the primer pocket and the flash hole.", "highlight": ["primerPocket", "flashHole"] }
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Primer",
+      "definition": "A small metal cup containing an explosive compound. Both heat sensitive and pressure sensitive.",
+      "source": "Handgun manual, p. 53",
+      "lines": [
+        "The primer is a small metal cup containing an explosive compound.",
+        "The primer is both heat sensitive and pressure sensitive.",
+        "When the primer is struck by the firing pin, a small explosion occurs to ignite the powder.",
+        "This explosion is referred to as a flash, as it is this flash that will ignite the powder."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Powder",
+      "definition": "Burns, creating expanding gasses. Modern ammunition uses Nitro Cellulose powder, a smokeless powder.",
+      "source": "Handgun manual, p. 53",
+      "lines": [
+        "The powder burns, creating expanding gasses.",
+        "These expanding gasses create a pressure build-up, which will push the bullet down the barrel and out towards the target.",
+        "In modern day ammunition, Nitro Cellulose powder is used.",
+        "It is a smokeless powder."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Case",
+      "definition": "A brass, steel or copper cylinder closed at one end. It holds all the other components together.",
+      "source": "Handgun manual, p. 53",
+      "lines": [
+        "The case is a brass, steel or copper cylinder, closed at one end.",
+        "Its function is to hold all the other components together.",
+        "It is the only component that can be re-used, or reloaded."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Bullet",
+      "definition": "Usually lead covered with a copper jacket. The only component that leaves the barrel and strikes the target.",
+      "source": "Handgun manual, p. 53",
+      "lines": [
+        "The bullet is usually made of lead, covered with a copper jacket.",
+        "The bullet is the only component that leaves the barrel and strikes the target."
+      ]
+    },
+    {
+      "type": "diagram",
+      "subject": "cartridge",
+      "heading": "Cartridge firing sequence",
+      "source": "Handgun manual, p. 53",
+      "inBarrel": true,
+      "lines": [
+        { "text": "Now let's follow the cartridge firing sequence, inside the firearm.", "highlight": [], "stage": 0 },
+        { "text": "Squeezing the trigger on the firearm will cause the firing pin to strike the primer.", "highlight": ["firingPin", "primer"], "stage": 1 },
+        { "text": "The primer explodes, sending a flash, or flame, into the case.", "highlight": ["primer"], "stage": 2 },
+        { "text": "This flame ignites the powder.", "highlight": ["powder"], "stage": 3 },
+        { "text": "The powder burns, creating a pressure build-up behind the bullet.", "highlight": ["powder", "bullet"] },
+        { "text": "This pressure build-up will push the bullet down the barrel and out towards the target.", "highlight": ["bullet", "barrel"], "stage": 4 }
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "The firing sequence",
+      "source": "Handgun manual, p. 53",
+      "bullets": [
+        "Firing pin strikes the primer",
+        "Primer explodes: a flash into the case",
+        "The flame ignites the powder",
+        "Powder burns: pressure behind the bullet",
+        "Bullet pushed down the barrel, towards the target"
+      ],
+      "lines": [
+        "Once more, in order: the trigger is squeezed, and the firing pin strikes the primer.",
+        "The primer explodes, and sends a flash into the case.",
+        "The flame ignites the powder.",
+        "The powder burns, and pressure builds up behind the bullet.",
+        "And that pressure pushes the bullet down the barrel and out towards the target."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Which is the only component of the cartridge that strikes the target?",
+      "options": ["The primer", "The bullet", "The case"],
+      "answer": 1,
+      "source": "Handgun manual, p. 53",
+      "lines": [
+        "Which is the only component of the cartridge that strikes the target?",
+        "Pause the video if you need a moment."
+      ],
+      "reveal": [
+        "The bullet.",
+        "The book says the bullet is the only component that leaves the barrel and strikes the target."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Which component is the only one that can be re-used?",
+      "options": ["The case", "The bullet", "The primer"],
+      "answer": 0,
+      "source": "Handgun manual, p. 53",
+      "lines": [
+        "And which component is the only one that can be re-used?"
+      ],
+      "reveal": [
+        "The case.",
+        "It is the only component that can be re-used, or reloaded."
+      ]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 52–53",
+      "points": [
+        "Four components: bullet, case, powder, primer",
+        "Primer: heat and pressure sensitive",
+        "Powder burns; gas pressure pushes the bullet",
+        "The case holds it together, and can be reloaded",
+        "Only the bullet strikes the target"
+      ],
+      "lines": [
+        "So, a cartridge has four components: bullet, case, powder and primer.",
+        "The primer is heat and pressure sensitive, and its flash ignites the powder.",
+        "The powder burns, and the pressure pushes the bullet down the barrel.",
+        "The case holds everything together, and can be reloaded.",
+        "And only the bullet strikes the target."
+      ]
+    }
+  ]
+}

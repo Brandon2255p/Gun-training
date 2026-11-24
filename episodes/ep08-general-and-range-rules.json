@@ -1,0 +1,180 @@
+{
+  "id": "ep08",
+  "number": 8,
+  "title": "General safety rules and range rules",
+  "subtitle": "Twenty general rules and ten range rules",
+  "sources": ["Handgun manual, p. 18"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, pp. 18, 73",
+      "lines": [
+        "This episode covers all twenty general safety rules, and all ten range rules.",
+        "The exam asks you to list ten general safety rules and six range rules, so learn them well."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "General safety: rules 1 to 5",
+      "bullets": ["1. Be muzzle conscious", "2. Firearm properly secured in the holster", "3. No climbing fences or walls, loaded gun in hand", "4. Unloaded in storage or when not in use", "5. Don't handle the firearm unnecessarily"],
+      "source": "Handgun manual, p. 18",
+      "lines": [
+        { "text": "Rule one. Be muzzle conscious.", "show": 0 },
+        "The muzzle should never point at another person, even if it is unloaded, unless you intend to use the firearm against that person.",
+        { "text": "Two. Always make sure that your firearm is properly secured in the holster.", "show": 1 },
+        { "text": "Three. Never climb fences or walls with a loaded firearm in your hand.", "show": 2 },
+        { "text": "Four. Always keep the firearm unloaded while it is in storage or not in use.", "show": 3 },
+        { "text": "Five. Do not handle the firearm unnecessarily.", "show": 4 },
+        "The firearm is not a toy, and playing with it will only lead to accidents."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "General safety: rules 6 to 8",
+      "bullets": ["6. Never modify your firearm", "7. Be sure before you shoot", "8. Alcohol and gunpowder do not mix"],
+      "source": "Handgun manual, p. 18",
+      "lines": [
+        { "text": "Six. Never attempt to modify your firearm in any way.", "show": 0 },
+        "Any repairs or modifications to the firearm may only be carried out by a qualified gunsmith.",
+        { "text": "Seven. Be sure before you shoot.", "show": 1 },
+        "Remember that once you have squeezed the trigger, you cannot recall that speeding bullet.",
+        { "text": "Eight. Alcohol and gunpowder do not mix.", "show": 2 },
+        "Never handle firearms while you are under the influence of alcohol or drugs."
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "9. Always know the condition of your firearm",
+      "showSafety": true,
+      "names": { "safety": "Safety catch" },
+      "source": "Handgun manual, p. 18",
+      "lines": [
+        { "text": "Nine. Always know the condition of your firearm.", "highlight": [] },
+        { "text": "You must know if the safety catch is on or off.", "highlight": ["safety"] },
+        { "text": "And you must know if there is a round in the chamber or not.", "highlight": ["chamber"] }
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "General safety: rules 10 to 14",
+      "bullets": ["10. Locked in a safe when not carrying it", "11. Never fire into the air", "12. Warning shot: know where the bullet stops", "13. Use only the correct ammunition", "14. Barrel free of obstruction or excess oil"],
+      "source": "Handgun manual, p. 18",
+      "lines": [
+        { "text": "Ten. Always remember to keep your firearm locked up in a safe when you are not carrying it.", "show": 0 },
+        { "text": "Eleven. Never fire into the air.", "show": 1 },
+        "A bullet fired into the air will come down with enough speed to kill or injure the person that it hits.",
+        { "text": "Twelve. If you fire a warning shot, make sure that you know where the bullet is going to stop.", "show": 2 },
+        { "text": "Thirteen. Use only the correct ammunition in your firearm.", "show": 3 },
+        "In South Africa, you may only be in possession of ammunition that is of the same calibre as the firearm you are licensed to carry.",
+        { "text": "Fourteen. If you have not used your firearm in a long time, make sure the barrel is free of obstruction or excessive oil before using it.", "show": 4 },
+        "Firing a shot with oil in the barrel will damage the firearm."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "number": 15, "text": "Always use eye protection and ear protection on a shooting range." },
+      "source": "Handgun manual, p. 18",
+      "lines": [
+        "Fifteen. Always use eye protection and ear protection on a shooting range.",
+        "When shooting on an indoor range, remember to use earmuffs and not only earplugs.",
+        "An earplug does not protect the delicate bone behind the ear.",
+        "Shooting without proper earmuffs on an indoor shooting range can cause permanent damage to your hearing."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "General safety: rules 16 to 18",
+      "bullets": ["16. Keep your firearm clean", "17. Out of the reach of children at all times", "18. Whenever possible, issue a verbal warning"],
+      "source": "Handgun manual, p. 18",
+      "lines": [
+        { "text": "Sixteen. Keep your firearm clean.", "show": 0 },
+        "Your firearm should be cleaned each time after it has been fired.",
+        { "text": "Seventeen. Keep firearms out of the reach of children at all times.", "show": 1 },
+        "Children should be taught to never touch firearms without adult supervision.",
+        { "text": "Eighteen. Whenever possible, issue a verbal warning before you shoot.", "show": 2 }
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "19. Remember the round in the chamber",
+      "source": "Handgun manual, pp. 17–18",
+      "lines": [
+        { "text": "Nineteen. When unloading a semi-automatic pistol, always remember the round in the chamber.", "highlight": ["chamber"] },
+        { "text": "Removing the magazine does not remove the round from the chamber.", "highlight": ["magazine", "chamber"], "action": "magOut" }
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "number": 20, "text": "Make sure that the firearm you are carrying is always in good working order." },
+      "source": "Handgun manual, p. 18",
+      "lines": [
+        "Twenty. Make sure that the firearm you are carrying is always in good working order, as your life may depend on it."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Range rules 1 to 5",
+      "bullets": ["1. Arrive with it in a bag, box or holster", "2. Don't handle it behind anybody else", "3. Never load it behind anybody else", "4. Point downrange at the backstop wall", "5. Fire only from the designated firing line"],
+      "source": "Handgun manual, p. 18",
+      "lines": [
+        "Now the ten range rules.",
+        { "text": "One. When you arrive at the range, your firearm must either be in a bag, box or holster.", "show": 0 },
+        "Do not arrive at the range with the firearm in your hand.",
+        "Do not remove it from the holster, bag or box until the designated Range Officer instructs you to do so.",
+        { "text": "Two. Do not handle your firearm whilst standing behind anybody else.", "show": 1 },
+        { "text": "Three. Never load your firearm whilst standing behind anybody else.", "show": 2 },
+        { "text": "Four. Whenever handling or loading your firearm on the range, always make sure it is pointing downrange at the backstop wall.", "show": 3 },
+        "The backstop wall is the area behind the targets.",
+        { "text": "Five. You may only fire from the designated firing line.", "show": 4 },
+        "The firing line will normally be five, ten, fifteen, twenty or twenty-five metres from your target."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Range rules 6 to 10",
+      "bullets": ["6. Never fire if someone is in front of you", "7. Fire only on the Range Officer's command", "8. Never turn around on the firing line", "9. Dropped something? Make safe, holster first", "10. Jam you can't fix: raise your non gun hand"],
+      "source": "Handgun manual, p. 18",
+      "lines": [
+        { "text": "Six. Under no circumstances may you fire if one of the other people on the firing line is in front of you.", "show": 0 },
+        "If another shooter is in front of the firing line, you may not fire, even if they are not directly in your line of fire.",
+        "The mere fact that they are in front of your muzzle prohibits you from firing at your target.",
+        { "text": "Seven. You may only begin to fire on the Range Officer's command.", "show": 1 },
+        { "text": "Eight. Never turn around when you are on the firing line.", "show": 2 },
+        "Always face forward, even if the firearm is still in the holster, and do not step backwards.",
+        { "text": "Nine. If you drop something on the firing line, you may not pick it up until the firearm has been made safe and is securely in the holster.", "show": 3 },
+        { "text": "Ten. If you have a jam or malfunction that you are unable to rectify yourself, raise your non gun hand above your head.", "show": 4 },
+        "That is your weak hand.",
+        "When the Range Officer sees this, he will come to your aid."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "You have a jam on the firing line that you can't fix. What do you do?",
+      "options": ["Turn around and call for help", "Raise your non gun hand above your head", "Step back off the firing line"],
+      "answer": 1,
+      "source": "Handgun manual, p. 18",
+      "lines": ["You have a jam on the firing line that you are unable to fix. What do you do?"],
+      "reveal": ["Raise your non gun hand above your head, and the Range Officer will come to your aid.", "Never turn around on the firing line, and do not step backwards."]
+    },
+    {
+      "type": "quiz",
+      "question": "In South Africa, which ammunition may you possess?",
+      "options": ["Any calibre you like", "The same calibre as the firearm you are licensed to carry", "Only ammunition bought at a range"],
+      "answer": 1,
+      "source": "Handgun manual, p. 18",
+      "lines": ["In South Africa, which ammunition may you be in possession of?"],
+      "reveal": ["Only ammunition that is of the same calibre as the firearm you are licensed to carry."]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 18, 73",
+      "points": ["Twenty general safety rules, in order", "Know your firearm's condition", "Remember the round in the chamber", "Ten range rules: follow the Range Officer"],
+      "lines": [
+        "So, there are twenty general safety rules, and the exam asks for ten of them.",
+        "Always know the condition of your firearm: safety catch, and round in the chamber.",
+        "When unloading a pistol, remember the round in the chamber.",
+        "And on the range, follow the ten range rules and the Range Officer's commands."
+      ]
+    }
+  ]
+}

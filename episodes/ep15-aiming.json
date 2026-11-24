@@ -1,0 +1,264 @@
+{
+  "id": "ep15",
+  "number": 15,
+  "title": "Dominant eye, sight alignment and sight picture",
+  "subtitle": "Aiming the handgun",
+  "sources": ["Handgun manual, pp. 38–41", "Handgun manual, pp. 77–78 (formative exam)"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 38",
+      "lines": [
+        "This episode covers aiming: your dominant eye, sight alignment, and sight picture.",
+        "Each person has a dominant eye, and it is important to know which eye should be looking through the sights."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "How your eyes work",
+      "source": "Handgun manual, p. 38",
+      "bullets": [
+        "Dominant eye: the direct line of sight",
+        "Non-dominant eye: cross references",
+        "Distance and speed of an object"
+      ],
+      "lines": [
+        { "text": "The dominant eye is the eye that looks at the direct line of sight.", "show": 0 },
+        { "text": "The non-dominant eye is the eye that cross references.", "show": 1 },
+        { "text": "It does this to determine the distance of an object from you, or the speed that an object is travelling.", "show": 2 },
+        "So the dominant eye looks directly at the object.",
+        "And the non-dominant eye is responsible for your depth perception, telling your brain the distance of the object."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "How your eyes work",
+      "figure": { "page": "s044.jpg", "crop": [0.33, 0.45, 0.67, 0.45] },
+      "caption": "How Your Eyes Work, left half of the book's diagram",
+      "source": "Handgun manual, p. 38",
+      "lines": [
+        "In the book's diagram, the solid line is the dominant eye, looking directly at the object.",
+        "The dashed lines show the non-dominant eye cross-referencing, which tells your brain the distance of the object."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Finding your dominant eye: step 1",
+      "figure": { "page": "s042.jpg", "crop": [0.1, 0.25, 0.8, 0.27] },
+      "caption": "Step 1: hands about 30 centimetres apart",
+      "source": "Handgun manual, p. 39",
+      "lines": [
+        "Here's how the book has you determine your dominant eye.",
+        "Step one: extend your arms, with your hands about 30 centimetres apart.",
+        "Look at an object about 10 feet away, with both eyes open."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Finding your dominant eye: step 2",
+      "figure": { "page": "s043.jpg", "crop": [0.03, 0.24, 0.79, 0.27] },
+      "caption": "Step 2: bring your hands closer together",
+      "source": "Handgun manual, p. 39",
+      "lines": [
+        "Step two: slowly bring your hands closer together, without losing sight of the object you are looking at."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Finding your dominant eye: step 3",
+      "figure": { "page": "s042.jpg", "crop": [0.1, 0.53, 0.8, 0.28] },
+      "caption": "Step 3: a small aperture, about the size of your eye socket",
+      "source": "Handgun manual, p. 39",
+      "lines": [
+        "Step three: close your hands together, leaving a small aperture about the size of your eye socket.",
+        "Look through the aperture, with both eyes open, while maintaining sight of the object."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Finding your dominant eye: step 4",
+      "figure": { "page": "s043.jpg", "crop": [0.0, 0.53, 0.8, 0.28] },
+      "caption": "Step 4: draw your hands back towards your face",
+      "source": "Handgun manual, p. 39",
+      "lines": [
+        "Step four: draw your hands back towards your face, without losing sight of the object.",
+        "You will automatically draw your hands towards your dominant eye.",
+        "It may be necessary to repeat this exercise 3 or 4 times to be sure."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Sight alignment",
+      "definition": "Correctly aligning the sights without any reference to the target.",
+      "source": "Handgun manual, p. 40",
+      "lines": [
+        "Now, sight alignment.",
+        "Sight alignment refers to correctly aligning the sights without any reference to the target."
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "The sights",
+      "source": "Handgun manual, p. 40",
+      "lines": [
+        { "text": "On the pistol, this is the front sight.", "highlight": ["frontSight"] },
+        { "text": "And this is the rear sight.", "highlight": ["rearSight"] }
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Equal height, equal spacing",
+      "figure": { "page": "s046.jpg", "crop": [0.08, 0.15, 0.83, 0.13] },
+      "caption": "Front sight and rear sight, correctly aligned on the right",
+      "source": "Handgun manual, p. 40",
+      "lines": [
+        "The top of the front sight must be level with the top of the rear sight.",
+        "And there should be equal amounts of light on either side of the front sight.",
+        "The book's drawing labels these equal height and equal spacing."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Focus on the front sight",
+      "source": "Handgun manual, p. 40",
+      "bullets": [
+        "The sights are at different distances from the eye",
+        "Your eye can focus on one sight at a time",
+        "Look through the rear sight",
+        "Focus on the front sight"
+      ],
+      "lines": [
+        { "text": "Bear in mind that the sights are at different distances from the eye.", "show": 0 },
+        { "text": "And your eye can only focus on one sight at a time.", "show": 1 },
+        "If you look through a window at an object outside, you are aware of the window frame, even though you are not focusing on it.",
+        "The same is applicable with the sights on a firearm.",
+        { "text": "You will look through the rear sight.", "show": 2 },
+        { "text": "And focus on the front sight.", "show": 3 }
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Aligning the sights",
+      "figure": { "page": "s046.jpg", "crop": [0.08, 0.35, 0.83, 0.27] },
+      "caption": "Steps 1 to 3 of aligning the sights",
+      "source": "Handgun manual, p. 40",
+      "lines": [
+        "One: here we can see the top of the slide, showing the front sight and rear sight.",
+        "Two: here we begin to align the sights.",
+        "Three: correct sight alignment is now achieved."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "text": "Equal height, equal light and a consistent squeeze of the trigger while maintaining your sight picture." },
+      "source": "Handgun manual, p. 40",
+      "lines": [
+        "The book sums it up in one line.",
+        "Equal height, equal light, and a consistent squeeze of the trigger while maintaining your sight picture."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Sight picture",
+      "figure": { "page": "s046.jpg", "crop": [0.08, 0.72, 0.83, 0.15] },
+      "caption": "Sight picture, side view: eye, sights and target in one line",
+      "source": "Handgun manual, p. 40",
+      "lines": [
+        "Next, sight picture.",
+        "Now that you have aligned the sights, place the aligned sights on the centre of the target.",
+        "If this is done correctly, your eye, the rear sight, the front sight and the target will be in one line."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Where to focus",
+      "figure": { "page": "s047.jpg", "crop": [0.09, 0.08, 0.82, 0.21] },
+      "caption": "Sight picture, rear view: sharp focus on the front sight",
+      "source": "Handgun manual, p. 41",
+      "lines": [
+        "The target and the sights are at different distances from your eye.",
+        "So it is impossible to focus on all three of these objects at the same time.",
+        "Focus on the front sight, leaving your target and your rear sight slightly blurred."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Arc of movement",
+      "definition": "The slight moving or shaking you notice, because nobody can hold the sights perfectly still on the target.",
+      "source": "Handgun manual, p. 41",
+      "lines": [
+        "Nobody is able to hold the sights perfectly still on the target.",
+        "You will notice a slight amount of moving or shaking.",
+        "This is known as the arc of movement."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "The Perfect Shot",
+      "figure": { "page": "s047.jpg", "crop": [0.16, 0.4, 0.68, 0.46] },
+      "caption": "Sight pictures, from high left to low right",
+      "source": "Handgun manual, p. 41",
+      "lines": [
+        "In the centre of this chart is the perfect shot, with the sights correctly aligned.",
+        "Around it, the sights are out of alignment, and the dot shows where each shot would strike, from high left to low right."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "text": "Focus on the front sight and squeeze the trigger slowly and consistently." },
+      "source": "Handgun manual, p. 41",
+      "lines": [
+        "The book gives a golden rule of aiming.",
+        "Focus on the front sight, and squeeze the trigger slowly and consistently."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "What is correct sight alignment?",
+      "options": ["Front sight higher than the rear sight", "Tops level, equal light either side", "Front sight on the target, rear sight ignored"],
+      "answer": 1,
+      "source": "Handgun manual, p. 40",
+      "lines": [
+        "Your formative exam asks you to draw correct sight alignment.",
+        "So, what is correct sight alignment?"
+      ],
+      "reveal": [
+        "The top of the front sight is level with the top of the rear sight.",
+        "And there are equal amounts of light on either side of the front sight."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "In the sight picture, what should be in sharp focus?",
+      "options": ["The target", "The rear sight", "The front sight"],
+      "answer": 2,
+      "source": "Handgun manual, p. 41",
+      "lines": [
+        "One more.",
+        "In the sight picture, what should be in sharp focus?"
+      ],
+      "reveal": [
+        "The front sight.",
+        "You should focus on the front sight, leaving your target and your rear sight slightly blurred."
+      ]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 38–41",
+      "points": [
+        "Know your dominant eye",
+        "Equal height, equal light",
+        "Eye, rear sight, front sight, target in one line",
+        "Focus on the front sight",
+        "Nobody holds still: the arc of movement"
+      ],
+      "lines": [
+        "So, determine your dominant eye, so you know which eye should be looking through the sights.",
+        "Align the sights with equal height and equal light.",
+        "Put the aligned sights on the centre of the target, so everything is in one line.",
+        "Focus on the front sight, and squeeze the trigger slowly and consistently.",
+        "And remember, the slight shaking you see is the arc of movement."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "ep10",
+  "number": 10,
+  "title": "Parts of the pistol",
+  "subtitle": "The semi-automatic pistol: main parts and what they do",
+  "sources": ["Handgun manual, pp. 22–25", "Handgun manual, formative exam, pp. 74–75"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 23",
+      "lines": [
+        "In this episode, we learn the main parts of the semi-automatic pistol, and what each one does.",
+        "To properly understand how a handgun works, you must first be familiar with its parts and their functions."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "What you must be able to do",
+      "source": "Handgun manual, p. 22",
+      "bullets": ["Label the diagram of a pistol or a revolver", "Explain: Frame", "Explain: Barrel", "Explain: Slide or Cylinder", "Explain: Action"],
+      "lines": [
+        "By the end of this module, you must be able to label the diagram of either a semi-automatic pistol or a revolver.",
+        "You must also be able to explain four terms, starting with the frame.",
+        "Then the barrel.",
+        "Then the slide, or on a revolver, the cylinder.",
+        "And finally, the action."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "The Frame",
+      "definition": "The body of the firearm to which all the other parts are attached.",
+      "source": "Handgun manual, p. 23",
+      "lines": [
+        "The frame is the body of the firearm to which all the other parts are attached.",
+        "The book compares it to the chassis of a motor vehicle."
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "Frame and barrel",
+      "source": "Handgun manual, p. 23",
+      "lines": [
+        { "text": "On our pistol, this is the frame.", "highlight": ["frame"] },
+        { "text": "All the other parts are attached to it.", "highlight": ["frame"] },
+        { "text": "And this is the barrel.", "highlight": ["barrel"] },
+        { "text": "The barrel is a metal tube down which the bullet will travel.", "highlight": ["barrel", "muzzle"] }
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Rifling",
+      "definition": "Spiraling lands and grooves inside the barrel that cause the bullet to spin.",
+      "source": "Handgun manual, p. 23",
+      "lines": [
+        "Inside the barrel there are spiraling lands and grooves, known as rifling.",
+        "The rifling causes the bullet to spin.",
+        "This spinning stabilises the bullet in flight."
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "The slide",
+      "source": "Handgun manual, p. 23",
+      "showHammer": true,
+      "lines": [
+        { "text": "Now the slide.", "highlight": ["slide"] },
+        { "text": "The slide usually works on a blowback principle.", "highlight": ["slide"] },
+        { "text": "It relies on the pressure created by the cartridge firing sequence.", "highlight": ["slide"] },
+        { "text": "This pressure, after pushing the bullet forward, will push the slide to the rear.", "highlight": ["slide"], "action": "slideBack" },
+        { "text": "During the slide's rearward movement, it will eject the fired case and cock the hammer.", "highlight": ["slide", "hammer"] },
+        { "text": "On its forward movement, the slide will pick up a new cartridge from the magazine and push it into the chamber.", "highlight": ["slide", "magazine", "chamber"], "action": "slideForward" }
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "The action",
+      "source": "Handgun manual, p. 23",
+      "showHammer": true,
+      "lines": [
+        { "text": "The action refers to the moving parts of the firearm.", "highlight": [] },
+        { "text": "For example, the trigger.", "highlight": ["trigger"] },
+        { "text": "The hammer.", "highlight": ["trigger", "hammer"] },
+        { "text": "And the slide.", "highlight": ["trigger", "hammer", "slide"], "action": "rack" }
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "Parts of the semi-automatic pistol",
+      "source": "Handgun manual, p. 24",
+      "showHammer": true,
+      "showSafety": true,
+      "names": { "slideStop": "Slide lock", "safety": "Safety catch" },
+      "lines": [
+        { "text": "Page twenty four labels the parts of the semi-automatic pistol.", "highlight": [] },
+        { "text": "At the front are the muzzle and the front sight.", "highlight": ["muzzle", "frontSight"] },
+        { "text": "On top, the slide, the slide lock, and the rear sight.", "highlight": ["slide", "slideStop", "rearSight"] },
+        { "text": "Inside, the barrel and the chamber.", "highlight": ["barrel", "chamber"] },
+        { "text": "At the back, the hammer and the safety catch.", "highlight": ["hammer", "safety"] },
+        { "text": "Below, the frame, the trigger guard and the trigger.", "highlight": ["frame", "triggerGuard", "trigger"] },
+        { "text": "Then the grip, and the magazine release.", "highlight": ["grip", "magRelease"] },
+        { "text": "And the magazine.", "highlight": ["magazine"], "action": "magOut" }
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "The book's labelled pistol",
+      "figure": { "page": "s027.jpg", "crop": [0.07, 0.06, 0.82, 0.385], "rotate": 180 },
+      "caption": "Parts of the semi-automatic pistol, p. 24",
+      "source": "Handgun manual, pp. 24, 74",
+      "lines": [
+        "Here is the book's photo, with fourteen labels.",
+        "Two of these parts aren't on our drawing.",
+        "The hammer spur, on the hammer.",
+        "And the tang, above the grip.",
+        "Learn all fourteen names: the formative exam asks you to label the diagram, for fourteen marks."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "A disassembled semi-automatic pistol",
+      "figure": { "page": "s027.jpg", "crop": [0.06, 0.47, 0.87, 0.445], "rotate": 180 },
+      "caption": "A disassembled semi-automatic pistol, p. 24",
+      "source": "Handgun manual, p. 24",
+      "lines": [
+        "This photo shows the pistol taken apart.",
+        "At the top is the slide, with the rear sight and the front sight.",
+        "Below it, the barrel, with the chamber at one end and the muzzle at the other.",
+        "Then the recoil guide and spring.",
+        "The frame, with the slide lock shown on its own.",
+        "And the magazine, and the magazine well."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Glock semi-automatic pistol",
+      "figure": { "page": "s026.jpg", "crop": [0.07, 0.065, 0.77, 0.38], "rotate": 180 },
+      "caption": "Glock semi-automatic pistol, p. 25",
+      "source": "Handgun manual, p. 25",
+      "lines": [
+        "Page twenty five shows a Glock semi-automatic pistol, with its magazine out.",
+        "Most of its labels you already know.",
+        "One is new: the trigger safety, on the trigger."
+      ]
+    },
+    {
+      "type": "quiz",
+      "source": "Handgun manual, p. 23; formative exam, p. 75",
+      "question": "What is the frame?",
+      "options": ["The metal tube the bullet travels down", "The body to which all other parts are attached", "The moving parts of the firearm"],
+      "answer": 1,
+      "lines": ["The exam asks you to explain the frame.", "Which of these is the frame?"],
+      "reveal": ["The frame is the body of the firearm to which all the other parts are attached."]
+    },
+    {
+      "type": "quiz",
+      "source": "Handgun manual, p. 23; formative exam, p. 75",
+      "question": "What does the action refer to?",
+      "options": ["The moving parts of the firearm", "The body of the firearm", "The rifling in the barrel"],
+      "answer": 0,
+      "lines": ["The exam also asks about the action.", "What does the action refer to?"],
+      "reveal": ["The action refers to the moving parts of the firearm, for example the trigger, the hammer and the slide."]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 23–24",
+      "points": ["Frame: the body all parts attach to", "Barrel: rifling spins the bullet", "Slide: blowback, ejects and chambers", "Action: the moving parts", "Learn the labels on page 24"],
+      "lines": [
+        "The frame is the body, and all the other parts are attached to it.",
+        "The barrel's rifling makes the bullet spin, which stabilises it in flight.",
+        "The slide is pushed to the rear, ejecting the fired case, and on its way forward it pushes a new cartridge into the chamber.",
+        "The action is the moving parts: trigger, hammer and slide.",
+        "And learn the labels on page twenty four. Next, the revolver."
+      ]
+    }
+  ]
+}

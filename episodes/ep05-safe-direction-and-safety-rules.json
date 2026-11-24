@@ -1,0 +1,150 @@
+{
+  "id": "ep05",
+  "number": 5,
+  "title": "Safe direction and the safety rules",
+  "subtitle": "Where to point, and the four rules that always apply",
+  "sources": ["Handgun manual, pp. 12–13"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 12",
+      "lines": [
+        "Welcome to Module two, safety: the safe direction, and the four safety rules.",
+        "The aim is for you to handle a firearm safely and confidently."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Rules only work when applied",
+      "bullets": ["Rules alone can never prevent an accident", "Accidents are prevented when rules are applied", "Every safety rule begins with ALWAYS", "Apply them and they become automatic"],
+      "source": "Handgun manual, p. 13",
+      "lines": [
+        { "text": "Safety rules in themselves can never prevent an accident.", "show": 0 },
+        { "text": "Accidents are only prevented when the safety rules are applied.", "show": 1 },
+        { "text": "You will notice that every safety rule begins with the word always.", "show": 2 },
+        "That is because you must always apply the safety rules when handling a firearm.",
+        { "text": "If you consistently apply your safety rules, the actions will eventually become automatic.", "show": 3 },
+        "If you do not, your bad habits will become automatic, and that will lead to accidents."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Safe direction",
+      "definition": "Ensures that in the event of an accidental discharge, no person shall be injured or killed.",
+      "source": "Handgun manual, p. 13",
+      "lines": [
+        "First, the term safe direction.",
+        "The purpose of a safe direction is to ensure that in the event of an accidental discharge, no person shall be injured or killed."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Choosing a safe direction",
+      "bullets": ["The floor, the thickest wall, or both", "45 degrees, where wall and floor meet", "It must be able to stop the bullet", "Beware of ricochets!"],
+      "source": "Handgun manual, p. 13",
+      "lines": [
+        "When choosing a safe direction, use the floor or the thickest wall in the room, or both.",
+        "That means pointing the firearm at a 45 degree angle, at the point where the wall and floor meet.",
+        "That is to say, your safe direction must be able to stop the bullet.",
+        "And beware of ricochets!"
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s013.jpg", "crop": [0.09, 0.37, 0.82, 0.205] },
+      "caption": "Beware of Ricochets",
+      "source": "Handgun manual, p. 13",
+      "lines": [
+        "In the event of an accidental discharge, the point of impact should be where the wall and the floor meet.",
+        "If the bullet strikes the floor first, it will then ricochet onto the wall.",
+        "If the bullet strikes the wall first, it will then ricochet onto the floor.",
+        "If the bullet strikes two surfaces, most of the energy of that speeding bullet will be removed.",
+        "There might still be enough energy for the bullet to come back at you.",
+        "But it is highly unlikely to have enough energy to cause serious harm or a fatal injury."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "number": 1, "text": "ALWAYS keep the firearm pointed in a safe direction, away from people." },
+      "source": "Handgun manual, p. 13",
+      "lines": [
+        "Now the four safety rules, in order.",
+        "Rule one. Always keep the firearm pointed in a safe direction, away from people.",
+        "Be muzzle conscious: always know where the muzzle of the firearm is pointing.",
+        "Never allow your firearm to point at people, even when it is unloaded."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "number": 2, "text": "ALWAYS keep your finger off the trigger until ready to fire." },
+      "source": "Handgun manual, p. 13",
+      "lines": [
+        "Rule two. Always keep your finger off the trigger until ready to fire.",
+        "Because the firearm is designed to fit a human hand, your finger will instinctively go to the trigger.",
+        "This is how most accidental discharges occur."
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "Finger off the trigger",
+      "source": "Handgun manual, p. 13",
+      "lines": [
+        { "text": "You must make a conscious effort to keep your finger off the trigger.", "highlight": ["trigger"] },
+        { "text": "Keep it outside the trigger guard.", "highlight": ["triggerGuard"] },
+        { "text": "And keep it alongside the frame.", "highlight": ["frame"] }
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "number": 3, "text": "ALWAYS treat a firearm as if it were loaded." },
+      "source": "Handgun manual, p. 13",
+      "lines": [
+        "Rule three. Always treat a firearm as if it were loaded.",
+        "If you always treat a firearm as if it is loaded, safe handling will become automatic.",
+        "And you will be demonstrating a positive attitude to those around you."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "number": 4, "text": "ALWAYS know your target and what is beyond it." },
+      "source": "Handgun manual, p. 13",
+      "lines": [
+        "Rule four. Always know your target and what is beyond it.",
+        "A handgun is capable of projecting a bullet for distances up to 2 kilometres.",
+        "And you are liable for where that bullet stops.",
+        "So before firing the shot, know not only what your target is, but also where that bullet will come to rest."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Which is safety rule number two?",
+      "options": ["Treat a firearm as if it were loaded", "Finger off the trigger until ready to fire", "Know your target and what is beyond it"],
+      "answer": 1,
+      "source": "Handgun manual, p. 13",
+      "lines": ["The exam asks for the four safety rules in order.", "So, which is safety rule number two?"],
+      "reveal": ["Rule two: always keep your finger off the trigger until ready to fire.", "Rule three is treat it as loaded, and rule four is know your target and what is beyond it."]
+    },
+    {
+      "type": "quiz",
+      "question": "Where should the point of impact be in an accidental discharge?",
+      "options": ["The middle of the wall", "Where the wall and the floor meet", "Anywhere on the floor"],
+      "answer": 1,
+      "source": "Handgun manual, p. 13",
+      "lines": ["In an accidental discharge, where should the point of impact be?"],
+      "reveal": ["Where the wall and the floor meet.", "A bullet that strikes two surfaces has most of its energy removed."]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, p. 13",
+      "points": ["Safe direction: no person injured or killed", "Floor, thickest wall, or both: it stops the bullet", "1. Safe direction, away from people", "2. Finger off the trigger until ready to fire", "3. Treat a firearm as if it were loaded", "4. Know your target and what is beyond it"],
+      "lines": [
+        "So, a safe direction means no person is injured or killed in an accidental discharge.",
+        "Use the floor, the thickest wall, or both, so it can stop the bullet.",
+        "Rule one, keep it pointed in a safe direction, away from people.",
+        "Rule two, finger off the trigger until ready to fire.",
+        "Rule three, treat a firearm as if it were loaded.",
+        "And rule four, know your target and what is beyond it."
+      ]
+    }
+  ]
+}

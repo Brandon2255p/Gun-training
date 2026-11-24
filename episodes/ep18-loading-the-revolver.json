@@ -1,0 +1,223 @@
+{
+  "id": "ep18",
+  "number": 18,
+  "title": "Loading the revolver",
+  "subtitle": "Loading and unloading the revolver, right and left handed",
+  "sources": ["Handgun manual, pp. 43, 46–50"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 43",
+      "lines": [
+        "This episode teaches the correct method of loading and unloading the revolver.",
+        "We'll go step by step, first right-handed, then for a left-handed shooter."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Loading the revolver",
+      "numbered": true,
+      "source": "Handgun manual, p. 46",
+      "bullets": [
+        "Identify a safe direction",
+        "Safe direction, finger off the trigger",
+        "Release the catch and open the cylinder",
+        "Moved to the right, cylinder controlled",
+        "Load the chambers, rotate with the thumb",
+        "Replace the grip with the gun hand",
+        "Make sure the cylinder is locked in place",
+        "The revolver is now ready to be fired"
+      ],
+      "lines": [
+        "Page forty six gives the steps for loading the revolver.",
+        { "text": "Step one: identify a safe direction.", "show": 0 },
+        { "text": "Step two: point the firearm in a safe direction with your finger off the trigger.", "show": 1 },
+        { "text": "Step three: placing your support hand under the trigger guard and your right thumb on the cylinder, release the catch and open the cylinder.", "show": 2 },
+        { "text": "Step four: notice how the firearm has been moved to the right and the cylinder is controlled.", "show": 3 },
+        { "text": "Step five: load the ammunition into the chambers of the cylinder.", "show": 4 },
+        "The cylinder can be rotated with the thumb while loading.",
+        { "text": "Step six: replace the grip with the gun hand.", "show": 5 },
+        { "text": "Step seven: make sure the cylinder is locked in place.", "show": 6 },
+        { "text": "Step eight: the revolver is now ready to be fired.", "show": 7 }
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Step three",
+      "figure": { "page": "s053.jpg", "crop": [0.235, 0.175, 0.51, 0.23] },
+      "caption": "Loading, step 3: release the catch and open the cylinder, p. 46",
+      "source": "Handgun manual, p. 46",
+      "lines": [
+        "Here's step three in the book's photo: support hand under the trigger guard, thumb on the cylinder."
+      ]
+    },
+    {
+      "type": "diagram",
+      "subject": "revolver",
+      "heading": "Loading on the drawing",
+      "source": "Handgun manual, pp. 23, 46",
+      "names": { "cylinderRelease": "Cylinder release catch" },
+      "lines": [
+        { "text": "On the drawing, release the catch.", "highlight": ["cylinderRelease"], "action": "eject" },
+        { "text": "The cylinder swings out on the crane, and you keep it controlled.", "highlight": ["cylinder", "crane"], "action": "open" },
+        { "text": "Load the ammunition into the chambers.", "highlight": ["chambers"], "action": "load" },
+        { "text": "Then make sure the cylinder is locked in place.", "highlight": ["cylinder"], "action": "close" }
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Unloading the revolver",
+      "numbered": true,
+      "source": "Handgun manual, p. 47",
+      "bullets": [
+        "Identify a safe direction",
+        "Safe direction, finger off the trigger",
+        "Left hand under guard, thumb on release catch",
+        "Open the cylinder, two fingers through frame",
+        "Remove ammunition: depress the ejector rod"
+      ],
+      "lines": [
+        "Page forty seven gives the steps for unloading.",
+        { "text": "Step one: identify a safe direction.", "show": 0 },
+        { "text": "Step two: point the firearm in a safe direction with your finger off the trigger.", "show": 1 },
+        { "text": "Step three: place your left hand under the trigger guard and your right thumb on the cylinder release catch, with your trigger finger off the trigger.", "show": 2 },
+        { "text": "Step four: open the cylinder, ensuring that your middle two fingers are on the cylinder and through the frame of the revolver.", "show": 3 },
+        "Your middle two fingers and thumb now have control of the cylinder.",
+        { "text": "Step five: remove the ammunition from the cylinder by depressing the ejector rod.", "show": 4 }
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Step four",
+      "figure": { "page": "s055.jpg", "crop": [0.02, 0.435, 0.62, 0.245] },
+      "caption": "Unloading, step 4: control the cylinder, p. 47",
+      "source": "Handgun manual, p. 47",
+      "lines": [
+        "In this photo, the middle two fingers and thumb control the open cylinder."
+      ]
+    },
+    {
+      "type": "diagram",
+      "subject": "revolver",
+      "heading": "Unloading on the drawing",
+      "source": "Handgun manual, p. 47",
+      "names": { "cylinderRelease": "Cylinder release catch" },
+      "lines": [
+        { "text": "Your right thumb goes on the cylinder release catch.", "highlight": ["cylinderRelease"] },
+        { "text": "Open the cylinder.", "highlight": ["cylinder"], "action": "open" },
+        { "text": "And depress the ejector rod to remove the ammunition.", "highlight": ["ejectorRod"], "action": "eject" }
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Left-handed loading",
+      "figure": { "page": "s056.jpg", "crop": [0.12, 0.155, 0.75, 0.76] },
+      "caption": "Loading the revolver for a left handed person, steps 1 to 5, p. 48",
+      "source": "Handgun manual, pp. 48–49",
+      "lines": [
+        "Although the revolver is designed for right-handed people, the book gives a technique to help left-handed shooters load it correctly.",
+        "Pages forty eight and forty nine show it in eleven steps."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Loading: left handed",
+      "numbered": true,
+      "source": "Handgun manual, pp. 48–49",
+      "bullets": [
+        "Safe direction, finger off the trigger",
+        "Right thumb on cylinder release catch",
+        "Right index finger pushes cylinder out",
+        "Push your thumb through the frame",
+        "Grasp extractor rod like a cigarette",
+        "Close right hand around the cylinder",
+        "Load the cylinder",
+        "Left hand grips, right hand closes cylinder",
+        "Make sure the cylinder is locked in place",
+        "Complete the two handed grip",
+        "The revolver is now ready to be fired"
+      ],
+      "lines": [
+        { "text": "Step one: keep the revolver pointed in a safe direction with your finger off the trigger.", "show": 0 },
+        { "text": "Step two: place the right thumb on the cylinder release catch.", "show": 1 },
+        { "text": "Step three: push the cylinder out using the index finger of the right hand.", "show": 2 },
+        "Leave the trigger finger of the left hand in place to stop the cylinder from falling open.",
+        "It is opened by controlling it with the trigger finger of the left hand.",
+        { "text": "Step four: push your thumb through the frame.", "show": 3 },
+        { "text": "Step five: grasp the extractor rod in a similar manner to holding a cigarette.", "show": 4 },
+        { "text": "Step six: close the right hand around the cylinder.", "show": 5 },
+        { "text": "Step seven: load the cylinder.", "show": 6 },
+        { "text": "Step eight: replace the grip with the gun hand, your left hand, while closing the cylinder with the right hand.", "show": 7 },
+        { "text": "Step nine: make sure the cylinder is locked in place.", "show": 8 },
+        { "text": "Step ten: complete the two handed grip.", "show": 9 },
+        { "text": "Step eleven: the revolver is now ready to be fired.", "show": 10 }
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Left-handed loading, continued",
+      "figure": { "page": "s057.jpg", "crop": [0.12, 0.135, 0.75, 0.735] },
+      "caption": "Loading the revolver for a left handed person, steps 6 to 11, p. 49",
+      "source": "Handgun manual, p. 49",
+      "lines": [
+        "Here are steps six to eleven in the book's photos."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Left-handed unloading",
+      "figure": { "page": "s058.jpg", "crop": [0.21, 0.125, 0.56, 0.74] },
+      "caption": "Unloading the revolver for a left handed person, p. 50",
+      "source": "Handgun manual, p. 50",
+      "lines": [
+        "Page fifty shows unloading for a left-handed person, in three steps."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Unloading: left handed",
+      "numbered": true,
+      "source": "Handgun manual, p. 50",
+      "bullets": [
+        "Safe direction, open the cylinder",
+        "Thumb through frame, fingers on ejector rod",
+        "Right hand pushes the ejector rod"
+      ],
+      "lines": [
+        "Step one: with the firearm pointed in a safe direction, open the cylinder.",
+        "Step two: insert your thumb through the frame, placing the fingers onto the ejector rod.",
+        "Step three: with the right hand, push the ejector rod to eject the ammunition from the cylinder."
+      ]
+    },
+    {
+      "type": "quiz",
+      "source": "Handgun manual, p. 46",
+      "question": "While loading, the cylinder can be rotated with the…",
+      "options": ["Thumb", "Trigger finger", "Ejector rod"],
+      "answer": 0,
+      "lines": ["You're loading ammunition into the chambers.", "What can the cylinder be rotated with?"],
+      "reveal": ["The thumb. The cylinder can be rotated with the thumb while loading."]
+    },
+    {
+      "type": "quiz",
+      "source": "Handgun manual, p. 47",
+      "question": "How do you remove the ammunition when unloading?",
+      "options": ["Tip the revolver", "Depress the ejector rod", "Rotate the cylinder"],
+      "answer": 1,
+      "lines": ["The cylinder is open.", "How do you remove the ammunition?"],
+      "reveal": ["Remove the ammunition from the cylinder by depressing the ejector rod."]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 46–50",
+      "points": ["Start in a safe direction", "Load the chambers, rotate with the thumb", "Make sure the cylinder is locked in place", "Unload: depress the ejector rod", "Left handed: right hand opens, closes, ejects"],
+      "lines": [
+        "Every procedure starts with the firearm pointed in a safe direction.",
+        "Load the chambers, rotating the cylinder with your thumb.",
+        "Make sure the cylinder is locked in place.",
+        "To unload, open the cylinder and depress the ejector rod.",
+        "And left-handed, the right hand pushes the cylinder out, closes it, and pushes the ejector rod."
+      ]
+    }
+  ]
+}

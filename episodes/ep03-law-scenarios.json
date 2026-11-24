@@ -1,0 +1,229 @@
+{
+  "id": "ep03",
+  "number": 3,
+  "title": "The law in practice: scenarios",
+  "subtitle": "Module 1: Law",
+  "sources": ["Handgun manual, pp. 9–11", "Handgun manual, pp. 71–72"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, pp. 6, 71–72",
+      "lines": [
+        "In this episode, we put the law into practice with the book's scenarios.",
+        "You must be able to make decisions about lethal force in scenarios like these, and your formative exam uses them."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Scenario 1",
+      "source": "Handgun manual, p. 9",
+      "bullets": [
+        "Use of force in effecting an arrest",
+        "Govender vs The Minister of Safety and Security",
+        "Supreme Court of Appeal, Case No. 342/99"
+      ],
+      "lines": [
+        "Scenario 1 is about the use of force in effecting an arrest.",
+        "It is a real life example: Govender versus The Minister of Safety and Security.",
+        "It was heard in the Supreme Court of Appeal, case number 342 of 99."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Are the actions of the policemen justifiable?",
+      "options": ["Yes", "No"],
+      "answer": 1,
+      "source": "Handgun manual, p. 9",
+      "lines": [
+        "Two policemen chase a motor vehicle reported as stolen.",
+        "The vehicle crashes, and a number of suspects get out and run from it.",
+        "It is apparent that the suspects are youths, and they are not carrying any form of weapon.",
+        "The policemen chase one of the suspects, and issue a verbal warning that they are the police, followed by a warning shot.",
+        "The suspect does not stop, and is then shot and paralysed by one of the police officers.",
+        "Are the actions of the policemen justifiable?"
+      ],
+      "reveal": [
+        "No. The actions of the policemen were unreasonable and therefore unlawful.",
+        "A court did not afford the policeman the protection of Section 49, because he was clearly not acting in self defence.",
+        "The offence was not so serious as to warrant shooting the suspect.",
+        "It was an offence involving stolen property, and not violence against another human being."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Bear in mind",
+      "source": "Handgun manual, p. 9",
+      "bullets": [
+        "16.1 The presumption of innocence",
+        "16.2 Everybody has the right to life",
+        "16.3 Property is secondary to life",
+        "16.4 The offence: theft of a motor vehicle"
+      ],
+      "lines": [
+        "The book asks you to bear four things in mind.",
+        { "text": "One. The presumption of innocence: you must be found guilty of an offence in a court of law, and not by a policeman trying to arrest you.", "show": 0 },
+        { "text": "Two. Everybody has the right to life, including a suspect or criminal.", "show": 1 },
+        { "text": "Three. The right to property is secondary to that of the right to life.", "show": 2 },
+        { "text": "Four. The offence in this example is theft of a motor vehicle, which is property.", "show": 3 }
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Have they committed an offence that justifies the use of any force against them?",
+      "options": ["Yes", "No"],
+      "answer": 1,
+      "source": "Handgun manual, p. 9",
+      "lines": [
+        "Scenario 2 is about self defence.",
+        "You are at home alone, in an isolated area, far from police or security services.",
+        "You look out of your window, and see two strange men jump over your wall and make their way towards your house.",
+        "You do not know these men, and you are not expecting any visitors, because it is very late at night.",
+        "Have they committed an offence that justifies the use of any force against them?"
+      ],
+      "reveal": [
+        "No. They are merely trespassing, which is regarded as a minor property offence."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Can you discharge a firearm at this point?",
+      "options": ["Yes", "No"],
+      "answer": 1,
+      "source": "Handgun manual, p. 10",
+      "lines": [
+        "The men come to your house, break off the burglar bars of one of your windows, and enter your house through the window.",
+        "They go to your lounge, and start to remove your extremely expensive flat screen TV.",
+        "Can you discharge a firearm at this point?"
+      ],
+      "reveal": [
+        "No. There is no attack against you.",
+        "Your use of force in such circumstances is not proportional to the offence being committed.",
+        "And you cannot take someone's life to protect property."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Life before property",
+      "source": "Handgun manual, p. 10",
+      "bullets": [
+        "No definitive legal decision on killing to protect property",
+        "Consensus: the right to life takes precedence",
+        "Killing to protect property would be unlawful"
+      ],
+      "lines": [
+        "Note that there is no definitive legal decision on whether you can kill somebody to protect your property.",
+        "But the general consensus of legal experts is that the right to life takes precedence over the right to property.",
+        "And therefore, to kill somebody to protect property would be unlawful."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "text": "You can only use force to protect your life or that of another person, and not to protect property." },
+      "source": "Handgun manual, p. 10",
+      "lines": [
+        "So the principle is this.",
+        "You can only use force to protect your life or that of another person, and not to protect property."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Can you discharge a firearm at them because you fear for your life?",
+      "options": ["Yes", "No"],
+      "answer": 1,
+      "source": "Handgun manual, p. 10",
+      "lines": [
+        "Scenario 3.",
+        "The burglars stealing your flat screen TV become aware of your presence.",
+        "They turn, and order you to go away or they will kill you.",
+        "You are behind a security gate, ten metres away.",
+        "Can you discharge a firearm at them because you fear for your life?"
+      ],
+      "reveal": [
+        "No. You cannot use force, because the burglars cannot directly attack you, because you are separated by a security gate."
+      ]
+    },
+    {
+      "type": "figure",
+      "heading": "Scenario 4",
+      "figure": { "page": "s010.jpg", "crop": [0.24, 0.495, 0.5, 0.34] },
+      "caption": "Both burglars are armed",
+      "source": "Handgun manual, p. 10",
+      "lines": [
+        "Scenario 4.",
+        "This time, there is no security gate between you and the burglars.",
+        "They turn around, and both are armed, one with a knife and the other with a firearm in their hands."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Can you discharge a firearm at them because you fear for your life?",
+      "options": ["Yes", "No"],
+      "answer": 0,
+      "source": "Handgun manual, p. 10",
+      "lines": [
+        "And they advance towards you.",
+        "Can you discharge a firearm at them because you fear for your life?"
+      ],
+      "reveal": [
+        "Yes. In such circumstances, it is reasonable to believe that they intend on killing you.",
+        "You are quite entitled to use proportional force to stop the attack, which is now imminent.",
+        "And this would include the use of lethal force."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Not only a firearm",
+      "source": "Handgun manual, p. 11",
+      "bullets": [
+        "Self defence is not limited to a firearm",
+        "You can use any means at your disposal"
+      ],
+      "lines": [
+        "It is important to note that the right to self defence is not limited to the use of a firearm.",
+        "You can use any means at your disposal to defend yourself.",
+        "The book illustrates this with one more example."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Is this legally justifiable?",
+      "options": ["Yes", "No"],
+      "answer": 0,
+      "source": "Handgun manual, p. 11",
+      "lines": [
+        "You and your wife are stationary at a busy intersection, facing a red traffic light and waiting for it to change to green.",
+        "Your wife screams that a man is advancing towards the vehicle from the front left hand side, with a firearm in his hand.",
+        "As you look towards the would-be hijacker, he discharges two shots into your vehicle.",
+        "You drive straight towards the attacker and run him over, to prevent him from firing more shots.",
+        "In the process, you kill him.",
+        "Is this legally justifiable?"
+      ],
+      "reveal": [
+        "Yes. There was an unlawful attack against you.",
+        "The attack had commenced, and the means you used to stop the attack was absolutely necessary.",
+        "You directed your defence against the attacker, and there was no other way to prevent him from firing more shots.",
+        "The use of force, in the circumstances, was reasonable, and your actions therefore were legally justifiable."
+      ]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 9–11",
+      "points": [
+        "Govender: shooting over stolen property was unlawful",
+        "Trespassing is a minor property offence",
+        "You cannot take a life to protect property",
+        "Separated by a security gate: no force",
+        "Armed and advancing: proportional, even lethal, force",
+        "Any means of defence, not only a firearm"
+      ],
+      "lines": [
+        "So, in the Govender case, shooting a suspect over stolen property was unreasonable and therefore unlawful.",
+        "Strangers crossing your wall are merely trespassing, a minor property offence.",
+        "You cannot take someone's life to protect property.",
+        "Behind a security gate, the burglars cannot directly attack you, so you cannot use force.",
+        "Armed burglars advancing on you may be stopped with proportional force, including lethal force.",
+        "And self defence is not limited to a firearm: you can use any means at your disposal."
+      ]
+    }
+  ]
+}

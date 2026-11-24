@@ -1,0 +1,195 @@
+{
+  "id": "ep22",
+  "number": 22,
+  "title": "Clearing malfunctions",
+  "subtitle": "Tap, Rack, Assess, the stove-pipe jam and failure to go into battery",
+  "sources": ["Handgun manual, pp. 57–59, 65"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 65",
+      "lines": [
+        "In this episode, we practise clearing malfunctions on a semi-automatic pistol.",
+        "In your practical assessment, you will be required to identify and rectify malfunctions."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Malfunction drill",
+      "definition": "Also known as an immediate action drill. A drill designed to rectify several different problems that could have caused a malfunction.",
+      "source": "Handgun manual, p. 57",
+      "lines": [
+        "A malfunction drill is also known as an immediate action drill.",
+        "It is a drill designed to rectify several different problems that could have caused a malfunction.",
+        "You need to practise this drill often, with dummy ammunition, in your own firearm."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Failure to fire: Tap, Rack, Assess",
+      "numbered": true,
+      "source": "Handgun manual, p. 57",
+      "bullets": [
+        "Tap the magazine firmly at the bottom",
+        "Rack the slide: pull it back and let it go",
+        "Assess your target once again"
+      ],
+      "lines": [
+        "When you squeeze the trigger and experience a failure to fire, you do three things.",
+        { "text": "One: tap the magazine firmly at the bottom.", "show": 0 },
+        "This will ensure that the magazine is properly seated, and that the ammunition is being pushed up properly by the magazine spring and follower.",
+        { "text": "Two: rack the slide, which means pull back the slide and let it go.", "show": 1 },
+        "This will eject the faulty cartridge, and load a new cartridge into the chamber.",
+        { "text": "Three: assess your target once again, to see if the target requires another shot.", "show": 2 },
+        "This drill is simply known as Tap, Rack, Assess."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s065.jpg", "crop": [0.07, 0.37, 0.85, 0.205] },
+      "caption": "Immediate action drill for a misfire, photos 1 to 3",
+      "source": "Handgun manual, p. 57",
+      "lines": [
+        "Here is the immediate action drill for a misfire, in the book's photos.",
+        "In photo one, the shooter is in the normal firing position, and has experienced a malfunction.",
+        "Two: pull the firearm closer to your body, where you have more control over it.",
+        "Three: place your left hand under the magazine, ready to give a firm tap to the bottom of the magazine."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s065.jpg", "crop": [0.07, 0.59, 0.85, 0.155] },
+      "caption": "Photos 4 to 6: Tap, Rack, let the slide go",
+      "source": "Handgun manual, p. 57",
+      "lines": [
+        "Four: tap, making sure the magazine is seated in the magazine-well.",
+        "Five: rack, pulling back the slide to eject the faulty cartridge.",
+        "Six: let the slide go, and make sure that you maintain control over the muzzle of the firearm."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s065.jpg", "crop": [0.17, 0.75, 0.65, 0.175] },
+      "caption": "Photos 7 and 8: Assess, re-engage",
+      "source": "Handgun manual, p. 57",
+      "lines": [
+        "Seven: assess, checking that your firearm has been cleared.",
+        "Eight: re-engage your target."
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "If Tap, Rack, Assess does not fix it",
+      "source": "Handgun manual, p. 57",
+      "lines": [
+        { "text": "If for some reason the Tap, Rack, Assess drill does not fix your problem, remove the magazine.", "highlight": ["magazine"], "action": "magOut" },
+        { "text": "Work the slide to clear the malfunction.", "highlight": ["slide", "ejectionPort"], "action": "rack" },
+        { "text": "Re-insert the magazine.", "highlight": ["magazine"], "action": "magIn" },
+        { "text": "Cycle the slide once more to chamber a new cartridge.", "highlight": ["slide", "chamber"], "action": "rack" },
+        { "text": "The gun should now be ready for firing once again.", "highlight": [] }
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s066.jpg", "crop": [0.17, 0.17, 0.66, 0.235] },
+      "caption": "Stove-pipe jam: empty case lodged in the ejection port",
+      "source": "Handgun manual, p. 58",
+      "lines": [
+        "Now, the stove-pipe jam, caused when the empty case fails to eject completely from the firearm.",
+        "Here you can see the empty case protruding from the ejection port of the pistol."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s066.jpg", "crop": [0.17, 0.41, 0.66, 0.265] },
+      "caption": "Clearing a stove-pipe jam, photos 2 and 3",
+      "source": "Handgun manual, p. 58",
+      "lines": [
+        "Bring the firearm closer to your body, making sure your finger is off the trigger.",
+        "The left hand now gets ready to sweep the case out of the ejection port.",
+        "Sweep the hand back, controlling the muzzle of the firearm, and with your finger off the trigger.",
+        "The gun is now ready to be fired once again."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s067.jpg", "crop": [0.14, 0.18, 0.72, 0.21] },
+      "caption": "After firing, the slide has failed to go into battery",
+      "source": "Handgun manual, p. 59",
+      "lines": [
+        "Next, failure to go into battery.",
+        "This means the slide has not moved all the way forward, and has therefore not properly chambered the cartridge.",
+        "In the photograph, the slide is not properly forward on the firearm."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s067.jpg", "crop": [0.14, 0.42, 0.72, 0.225] },
+      "caption": "Safe direction, finger off the trigger, then Tap",
+      "source": "Handgun manual, p. 59",
+      "lines": [
+        "Keep the firearm in a safe direction, with your finger off the trigger.",
+        "Tap, making sure the magazine is seated in the magazine-well."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s067.jpg", "crop": [0.14, 0.70, 0.72, 0.23] },
+      "caption": "Rack with the ejection port facing downwards, then release",
+      "source": "Handgun manual, p. 59",
+      "lines": [
+        "Rack, pulling back the slide to eject the faulty cartridge.",
+        "Tilt the firearm so that the ejection port is facing downwards, and the force of gravity will expel the cartridge.",
+        "Release the slide.",
+        "The gun is now ready to be fired once again."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Your pistol fails to fire. What is the immediate action drill?",
+      "options": ["Rack, Tap, Assess", "Tap, Rack, Assess", "Assess, Tap, Rack"],
+      "answer": 1,
+      "source": "Handgun manual, p. 57",
+      "lines": [
+        "You squeeze the trigger, and experience a failure to fire.",
+        "What is the immediate action drill?"
+      ],
+      "reveal": [
+        "Tap, Rack, Assess.",
+        "Tap the magazine firmly at the bottom, rack the slide, and assess your target once again."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Clearing a failure to go into battery, which way should the ejection port face as you rack?",
+      "options": ["Upwards", "Downwards", "Towards you"],
+      "answer": 1,
+      "source": "Handgun manual, p. 59",
+      "lines": [
+        "When you rack to clear a failure to go into battery, which way should the ejection port face?"
+      ],
+      "reveal": [
+        "Downwards.",
+        "Tilt the firearm so the ejection port faces downwards, and the force of gravity will expel the cartridge."
+      ]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 57–59",
+      "points": [
+        "Failure to fire: Tap, Rack, Assess",
+        "Not fixed: magazine out, clear, re-insert, cycle",
+        "Stove-pipe: sweep the case out of the port",
+        "Out of battery: tap, rack with the port down",
+        "Finger off the trigger, control the muzzle"
+      ],
+      "lines": [
+        "So, for a failure to fire: Tap, Rack, Assess.",
+        "If that doesn't fix it, remove the magazine, clear the malfunction, re-insert the magazine, and cycle the slide.",
+        "For a stove-pipe jam, sweep the case out of the ejection port.",
+        "For a failure to go into battery, tap, then rack with the ejection port facing downwards.",
+        "And throughout, keep your finger off the trigger, and control the muzzle."
+      ]
+    }
+  ]
+}

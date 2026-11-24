@@ -1,0 +1,204 @@
+{
+  "id": "ep02",
+  "number": 2,
+  "title": "Self defence and private defence",
+  "subtitle": "Module 1: Law",
+  "sources": ["Handgun manual, pp. 8–9", "Handgun manual, p. 72"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, pp. 6, 72",
+      "lines": [
+        "In this episode, self defence and private defence.",
+        "You must be able to explain the requirements for using lethal force, and your formative exam asks for them."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Defending a life",
+      "source": "Handgun manual, p. 8",
+      "bullets": [
+        "Force, including lethal force, may be used in defence",
+        "A parent protecting their child",
+        "A spouse protecting their spouse",
+        "A person preventing an attack on another"
+      ],
+      "lines": [
+        { "text": "It is a well entrenched principle of our law that one can use force, including lethal force, in defence of oneself, or someone in whom you have a legal interest or obligation to protect.", "show": 0 },
+        { "text": "A legal interest could be, for example, the right of a parent to protect their child.", "show": 1 },
+        { "text": "Or a spouse to protect their spouse.", "show": 2 },
+        { "text": "Or a person preventing an attack on another.", "show": 3 }
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Legal interest",
+      "definition": "Someone you have an obligation to protect: a family member, or a third party being attacked by a criminal.",
+      "source": "Handgun manual, p. 8",
+      "lines": [
+        "The book defines a legal interest as someone that you have an obligation to protect.",
+        "Such as a family member.",
+        "Or a third party, such as a member of the public who is being attacked by a criminal, and you have no relationship to that third party."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Constitutional principles",
+      "source": "Handgun manual, p. 8",
+      "bullets": [
+        "10.1 Everybody has the right to life",
+        "10.2 Presumed innocent until found guilty",
+        "10.3 Right to human dignity, equality and freedom",
+        "10.4 Right to own property",
+        "10.5 The highest right is the right to life"
+      ],
+      "lines": [
+        "In exercising your rights of self defence or private defence, the requirements of constitutionality must always be borne in mind.",
+        { "text": "First, everybody has the right to life, including a criminal.", "show": 0 },
+        { "text": "Second, all persons are presumed innocent until found guilty by a competent court or tribunal.", "show": 1 },
+        { "text": "Third, everyone has the right to human dignity, equality and freedom.", "show": 2 },
+        { "text": "Fourth, everyone has the right to own property.", "show": 3 },
+        { "text": "Fifth, there is quite clearly a simple hierarchy in these rights, with the highest right being the right to life.", "show": 4 },
+        "This right applies to both victim and criminal."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "The test",
+      "definition": "\"Were the actions in doing so reasonable and justifiable in an open and democratic society based on principles of human dignity, equality and freedom?\"",
+      "source": "Handgun manual, p. 8",
+      "lines": [
+        "In determining whether a person acted correctly in self defence, in taking another human's life, this is the test.",
+        "Were the actions in doing so reasonable and justifiable in an open and democratic society, based on principles of human dignity, equality and freedom?",
+        "This may seem complicated, but in reality it is not."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Private defence and self defence",
+      "source": "Handgun manual, p. 8",
+      "bullets": [
+        "Private defence: someone you have a legal interest in",
+        "Self defence: purely protection of oneself",
+        "The law makes no legal distinction"
+      ],
+      "lines": [
+        "Private defence allows you to defend and protect someone in whom you have a legal interest, such as your child, your spouse, or a third party.",
+        "Self defence is purely protection of oneself.",
+        "The law makes no legal distinction between the two."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Requirements for use of lethal force",
+      "source": "Handgun manual, p. 8",
+      "bullets": [
+        "12.1 An attack against you or a third party, and it must be unlawful",
+        "12.2 Against a person, a threat to life, not property",
+        "12.3 About to start, or already begun"
+      ],
+      "lines": [
+        "These constitutional principles exist to prevent the unlawful taking of one human life by another, without legal justification.",
+        "You can injure or kill somebody in private defence or self defence if, bearing these principles in mind, the following legal requirements are present.",
+        { "text": "One. There must be an attack against you, or a third party whom you are trying to protect from such an attack, and such attack must be unlawful.", "show": 0 },
+        { "text": "Two. The attack must be against a person, that is, a threat to life, and not property.", "show": 1 },
+        { "text": "Three. The attack must be about to start, or must already have begun.", "show": 2 }
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "text": "The attack must be against a person, and not property." },
+      "source": "Handgun manual, p. 8",
+      "lines": [
+        "The book underlines the words, not property.",
+        "The attack must be a threat to life, and not to property."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Your defence must be absolutely necessary",
+      "source": "Handgun manual, p. 9",
+      "bullets": [
+        "13.1 No pre-emptive killing",
+        "13.2 No other means to avoid the attack",
+        "13.3 Objectively reasonable, directed at the attacker"
+      ],
+      "lines": [
+        "In acting to defend such a person's life, your defence must be absolutely necessary to prevent or stop the attack.",
+        { "text": "First, you cannot pre-emptively kill someone to stop an attack when that attack is not imminent or about to start.", "show": 0 },
+        "You cannot kill someone now to prevent an attack later.",
+        { "text": "Second, you could not use any other means to avoid the attack.", "show": 1 },
+        "In the book's words, flight is better than fight.",
+        { "text": "Third, the manner in which you defend yourself, or that other person, must be objectively reasonable under the circumstances.", "show": 2 },
+        "And your defence must be directed at the person making the attack, and not someone else.",
+        "For example, you cannot shoot an attacker's accomplice to prevent an attack.",
+        "You can only use force against the attacker."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "text": "If you can avoid the use of force, you have a legal obligation to do so." },
+      "source": "Handgun manual, p. 9",
+      "lines": [
+        "Remember, if you can avoid the use of force, you have a legal obligation to do so.",
+        "The law requires that if you can avoid a confrontation, you must take reasonable steps to do so, for example by leaving the scene, if escape is possible.",
+        "If you do not try to escape when it is possible, it may be argued that you contributed towards the confrontation.",
+        "And therefore, that your actions in using force were not legally justifiable."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Which is a requirement for using lethal force?",
+      "options": [
+        "The attack is against your property",
+        "The attack is unlawful, and about to start or already begun",
+        "You expect an attack some time later"
+      ],
+      "answer": 1,
+      "source": "Handgun manual, pp. 8–9, 72",
+      "lines": [
+        "Your formative exam asks you to explain the legal requirements for using lethal force.",
+        "So, which of these is a requirement?"
+      ],
+      "reveal": [
+        "The attack must be unlawful, and it must be about to start or must already have begun.",
+        "It must be against a person, not property, and you cannot kill someone now to prevent an attack later."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Does the law treat private defence differently from self defence?",
+      "options": ["Yes, private defence is stricter", "No, it makes no legal distinction", "Yes, self defence is stricter"],
+      "answer": 1,
+      "source": "Handgun manual, p. 8",
+      "lines": [
+        "One more.",
+        "Does the law treat private defence differently from self defence?"
+      ],
+      "reveal": [
+        "No. The law makes no legal distinction between the two.",
+        "Private defence protects someone you have a legal interest in, and self defence is purely protection of oneself."
+      ]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 8–9",
+      "points": [
+        "Legal interest: someone you must protect",
+        "The right to life is the highest right",
+        "No legal distinction: private and self defence",
+        "Unlawful attack, on a person, about to start or begun",
+        "Defence must be absolutely necessary",
+        "Avoid force if you can: flight is better than fight"
+      ],
+      "lines": [
+        "So, a legal interest is someone you have an obligation to protect.",
+        "The highest right is the right to life, for victim and criminal.",
+        "The law makes no legal distinction between private and self defence.",
+        "The attack must be unlawful, against a person, and about to start or already begun.",
+        "Your defence must be absolutely necessary, and directed at the attacker.",
+        "And if you can avoid the use of force, you have a legal obligation to do so."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "ep04",
+  "number": 4,
+  "title": "Reasonableness and proportionality",
+  "subtitle": "Module 1: Law",
+  "sources": ["Handgun manual, p. 11"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 11",
+      "lines": [
+        "In this episode, how the legal principles work in reality.",
+        "We look at how a court decides whether your use of force was reasonable, and proportional."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Not an \"armchair\" test",
+      "definition": "A court puts itself into the victim's set of circumstances. Every situation is judged on its own specific circumstances.",
+      "source": "Handgun manual, p. 11",
+      "lines": [
+        "Now that we have established the legal principles, how do they work in reality?",
+        "Firstly, the test is not an armchair test.",
+        "A court will not assess the circumstances of the use of force without putting itself into the victim's set of circumstances.",
+        "This provides flexibility in determining whether your actions were legally justifiable.",
+        "Our courts accept that one cannot be expected to exercise the same degree of rational reasoning in such a stressful situation.",
+        "Every situation must be judged on its own specific circumstances."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Your belief must be reasonable",
+      "source": "Handgun manual, p. 11",
+      "bullets": [
+        "Courts consider high crime and violence levels",
+        "Your belief must be reasonable",
+        "Subjective belief will not suffice",
+        "Actions are assessed objectively"
+      ],
+      "lines": [
+        "Bearing in mind the high crime and violence levels in this country, it is probable that a court will be more inclined to accept that the probability of physical injury or death existed in a confrontation with a criminal.",
+        "However, your belief that you face a life threatening, or potentially life threatening, confrontation must be reasonable.",
+        "Your own subjective belief will not suffice to make your actions legally justifiable.",
+        "Your actions must be assessed objectively, by taking into account the specific circumstances in which you found yourself."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Summary",
+      "source": "Handgun manual, p. 11",
+      "bullets": [
+        "Attacked, no time but to respond with appropriate force",
+        "In all probability legally justifiable",
+        "If you reasonably believe there's a prospect of serious harm"
+      ],
+      "lines": [
+        { "text": "Simply put, say you are attacked, and you do not have time to do anything but respond with the appropriate degree of force.", "show": 0 },
+        "In other words, you don't have time to think about what your alternatives are.",
+        { "text": "Your actions will then, in all probability, be legally justifiable.", "show": 1 },
+        { "text": "As long as you reasonably believe that there is a prospect of serious harm to yourself, or somebody that you have a legal interest to protect.", "show": 2 }
+      ]
+    },
+    {
+      "type": "term",
+      "term": "The reasonable person test",
+      "definition": "\"Would a reasonable person, who faced the same or a similar situation to your own, have acted in the same or a similar manner in the same circumstances?\"",
+      "source": "Handgun manual, p. 11",
+      "lines": [
+        "The test that the court applies is this.",
+        "Would a reasonable person, who faced the same or a similar situation to your own, have acted in the same or a similar manner in the same circumstances?",
+        "You should therefore only use your firearm for self or private defence if you are satisfied that your actions are reasonable."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "text": "Only with a reasonable prospect of serious physical injury or death to you or a third party." },
+      "source": "Handgun manual, p. 11",
+      "lines": [
+        "Furthermore, if you are going to use a firearm for self defence or private defence, you must be satisfied that there is a reasonable prospect of serious physical injury or death to you or a third party.",
+        "Only then will the law justify your killing somebody else in self defence or private defence."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "In conclusion",
+      "source": "Handgun manual, p. 11",
+      "bullets": [
+        "Use a firearm only after all other possibilities are exhausted",
+        "No time for other options: probably justifiable",
+        "Had other options, chose the firearm: may not be"
+      ],
+      "lines": [
+        { "text": "In conclusion, one should only use a firearm after all other possibilities have been exhausted.", "show": 0 },
+        { "text": "If you do not have time to consider any possibilities other than the use of force or your firearm, your actions will probably be reasonably justifiable.", "show": 1 },
+        "They will be in accordance with the constitutional principles in this law section.",
+        { "text": "Conversely, if you have other options, but you choose to use the firearm, then your actions may not be reasonably justifiable.", "show": 2 }
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Proportionality of Defence",
+      "definition": "Two considerations: the Excessive Use of Force, and the Intensity of the Force being used.",
+      "source": "Handgun manual, p. 11",
+      "lines": [
+        "There is one additional principle to consider when going into the mindset of self-defence.",
+        "This is the principle of Proportionality of Defence.",
+        "It covers two considerations: the excessive use of force, and the intensity of the force being used."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "The Excessive Use of Force",
+      "definition": "Did the person defending themselves stop once the threat was neutralised, or continue beyond what was necessary?",
+      "source": "Handgun manual, p. 11",
+      "lines": [
+        "First, the excessive use of force.",
+        "Did the person defending themselves stop their defensive action once the threat was neutralised?",
+        "Or did they continue beyond what was necessary to neutralise the threat?"
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "The Intensity of the Force",
+      "source": "Handgun manual, p. 11",
+      "bullets": [
+        "Must match the intensity of the threat",
+        "Example: an argument escalates to a punch",
+        "A punch does not justify drawing a firearm"
+      ],
+      "lines": [
+        "Second, the intensity of the force.",
+        { "text": "The intensity of the use of force must match the intensity of the threat that is being faced.", "show": 0 },
+        { "text": "For example, a verbal argument between two men escalates into one of the men throwing a punch at the other.", "show": 1 },
+        { "text": "That does not justify the second man drawing his firearm.", "show": 2 }
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "What test does the court apply to your use of force?",
+      "options": [
+        "An armchair test, judged after the fact",
+        "Your own subjective belief",
+        "Would a reasonable person have acted the same way?"
+      ],
+      "answer": 2,
+      "source": "Handgun manual, p. 11",
+      "lines": [
+        "Let's check what you've learned.",
+        "What test does the court apply to your use of force?"
+      ],
+      "reveal": [
+        "The reasonable person test.",
+        "Would a reasonable person, who faced the same or a similar situation, have acted in the same or a similar manner?",
+        "It is not an armchair test, and your own subjective belief will not suffice."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "An argument escalates and one man throws a punch. May the other draw his firearm?",
+      "options": ["Yes, he was attacked", "No, the force must match the threat", "Yes, if he fears injury"],
+      "answer": 1,
+      "source": "Handgun manual, p. 11",
+      "lines": [
+        "One more.",
+        "A verbal argument between two men escalates, and one of them throws a punch.",
+        "Does that justify the second man drawing his firearm?"
+      ],
+      "reveal": [
+        "No. The intensity of the use of force must match the intensity of the threat being faced.",
+        "The book says a punch in an escalating argument does not justify the second man drawing his firearm."
+      ]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, p. 11",
+      "points": [
+        "Not an armchair test",
+        "Belief must be reasonable, assessed objectively",
+        "The reasonable person test",
+        "Firearm only after other possibilities are exhausted",
+        "Stop once the threat is neutralised",
+        "Force must match the threat"
+      ],
+      "lines": [
+        "So, the test is not an armchair test.",
+        "Your belief must be reasonable, and your actions are assessed objectively.",
+        "The court asks whether a reasonable person would have acted in the same or a similar manner.",
+        "Use a firearm only after all other possibilities have been exhausted.",
+        "Stop your defensive action once the threat is neutralised.",
+        "And the intensity of your force must match the intensity of the threat."
+      ]
+    }
+  ]
+}

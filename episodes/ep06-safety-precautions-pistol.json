@@ -1,0 +1,160 @@
+{
+  "id": "ep06",
+  "number": 6,
+  "title": "Safety precautions: the pistol",
+  "subtitle": "When to make it safe, and the five steps",
+  "sources": ["Handgun manual, pp. 14–15"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 14",
+      "lines": [
+        "This episode covers safety precautions with the semi-automatic pistol.",
+        "Carrying out your safety precautions means you unload the firearm, or make it safe."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Never pass on a loaded firearm",
+      "bullets": ["Never accept a loaded firearm", "Never hand over a loaded firearm", "First carry out your safety precautions", "Unload it, or make it safe"],
+      "source": "Handgun manual, p. 14",
+      "lines": [
+        "One should never accept a loaded firearm from another person.",
+        "Nor should you hand over a loaded firearm to another person.",
+        "Before you hand your firearm over, you should first carry out your safety precautions.",
+        "This means that you are going to unload the firearm, or make the firearm safe."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s014.jpg", "crop": [0.11, 0.155, 0.745, 0.255] },
+      "caption": "Handing over a semi-automatic pistol",
+      "source": "Handgun manual, p. 14",
+      "lines": [
+        "When handing over a semi-automatic pistol, the magazine should be removed and the slide should be locked back.",
+        "The muzzle should not point at anybody during the exchange.",
+        "If you are handing over a revolver, the cylinder should be left open during the exchange."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "When to carry out safety precautions",
+      "numbered": true,
+      "bullets": ["When receiving a firearm", "Before handing over a firearm", "Before cleaning a firearm"],
+      "source": "Handgun manual, p. 14",
+      "lines": [
+        "There are three times when you carry out safety precautions.",
+        { "text": "One. When receiving a firearm.", "show": 0 },
+        { "text": "Two. Before handing over a firearm.", "show": 1 },
+        { "text": "Three. Before cleaning a firearm.", "show": 2 }
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s015.jpg", "crop": [0.18, 0.15, 0.655, 0.26] },
+      "caption": "Identify a safe direction, then point the firearm in it",
+      "source": "Handgun manual, pp. 14–15",
+      "lines": [
+        "Safety precautions should be carried out in the following manner.",
+        "Step one. Identify a safe direction.",
+        "Step two. Point the firearm in a safe direction.",
+        "Keep your finger off the trigger and alongside the frame."
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "Steps 3 and 4",
+      "showHammer": true,
+      "source": "Handgun manual, p. 14",
+      "lines": [
+        { "text": "Step three. Maintain a safe direction while performing the following steps.", "highlight": ["muzzle"] },
+        { "text": "For the semi-automatic pistol, remove the magazine.", "highlight": ["magazine"], "action": "magOut" },
+        { "text": "Step four. Pull back the slide.", "highlight": ["slide"], "action": "slideBack" },
+        { "text": "If there was a round in the chamber, it would have been ejected by pulling the slide to the rear.", "highlight": ["chamber"] },
+        { "text": "Now look into the chamber, and look down the magazine-well, the part that the magazine fits into.", "highlight": ["chamber"] },
+        { "text": "This makes sure there is no ammunition in the firearm.", "highlight": [] },
+        "You look to ensure that no round has been left in the firearm due to a faulty or broken extractor."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s015.jpg", "crop": [0.18, 0.672, 0.64, 0.22] },
+      "caption": "Checking the chamber and magazine-well",
+      "source": "Handgun manual, p. 15",
+      "lines": [
+        "Here is that check in the book's photo.",
+        "Keep the muzzle in a safe direction, with your finger off the trigger, while you check inside the chamber and down the magazine-well."
+      ]
+    },
+    {
+      "type": "diagram",
+      "heading": "Step 5",
+      "showHammer": true,
+      "source": "Handgun manual, p. 14",
+      "lines": [
+        { "text": "Back on our pistol, the magazine is out.", "highlight": ["magazine"], "action": "magOut" },
+        { "text": "And the slide is still to the rear.", "highlight": ["slide"], "action": "slideBack" },
+        { "text": "Step five. You now release the slide back under control to the forward position.", "highlight": ["slide"], "action": "slideForward" },
+        { "text": "You will notice that the hammer has been left in the rearward position.", "highlight": ["hammer"] },
+        { "text": "You need to lower the hammer under control.", "highlight": ["hammer"] }
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Don't dry fire",
+      "bullets": ["Don't squeeze the trigger and dry fire", "Over time, it can damage the firing pin", "It is a bad habit"],
+      "source": "Handgun manual, p. 14",
+      "lines": [
+        { "text": "Even though the firearm is now unloaded, it is still best not to squeeze the trigger and dry fire the handgun.", "show": 0 },
+        { "text": "Dry firing can, over time, damage the firing pin.", "show": 1 },
+        { "text": "It is also a bad habit.", "show": 2 },
+        "Sooner or later, you are bound to have an accidental discharge when you think the handgun is unloaded."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "The five steps: semi-automatic pistol",
+      "numbered": true,
+      "bullets": ["Identify a safe direction", "Point it there, finger off the trigger", "Keep a safe direction; remove the magazine", "Pull back slide; check chamber and magazine-well", "Release slide under control; lower the hammer"],
+      "source": "Handgun manual, p. 14",
+      "lines": [
+        "Let's put the five steps together.",
+        { "text": "One. Identify a safe direction.", "show": 0 },
+        { "text": "Two. Point the firearm in a safe direction, finger off the trigger and alongside the frame.", "show": 1 },
+        { "text": "Three. Maintain a safe direction, and remove the magazine.", "show": 2 },
+        { "text": "Four. Pull back the slide, and look into the chamber and down the magazine-well.", "show": 3 },
+        { "text": "Five. Release the slide under control, and lower the hammer under control.", "show": 4 }
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "When should safety precautions be carried out?",
+      "options": ["Only before cleaning a firearm", "When receiving, before handing over, before cleaning", "Only after shooting"],
+      "answer": 1,
+      "source": "Handgun manual, p. 14",
+      "lines": ["The exam asks this one.", "When should safety precautions be carried out?"],
+      "reveal": ["When receiving a firearm, before handing over a firearm, and before cleaning a firearm."]
+    },
+    {
+      "type": "quiz",
+      "question": "Why look into the chamber and down the magazine-well?",
+      "options": ["To check the sights", "A round may be left by a faulty or broken extractor", "To clean the barrel"],
+      "answer": 1,
+      "source": "Handgun manual, p. 14",
+      "lines": ["After pulling back the slide, why do you look into the chamber and down the magazine-well?"],
+      "reveal": ["To ensure that no round has been left in the firearm due to a faulty or broken extractor."]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, p. 14",
+      "points": ["Never accept or hand over a loaded firearm", "Receiving, handing over, cleaning", "Magazine out, slide back, check", "Slide forward under control, lower the hammer", "Don't dry fire"],
+      "lines": [
+        "So, never accept or hand over a loaded firearm.",
+        "Carry out safety precautions when receiving, before handing over, and before cleaning a firearm.",
+        "Remove the magazine, pull back the slide, and check the chamber and magazine-well.",
+        "Release the slide under control, and lower the hammer under control.",
+        "And don't dry fire the handgun."
+      ]
+    }
+  ]
+}
