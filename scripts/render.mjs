@@ -1,7 +1,7 @@
 // Renders episodes to out/<id>.mp4 (1920x1080, 30fps).
 // Usage: pnpm render              every episode
 //        pnpm render ep01 ep02    just those
-//        pnpm render --stills ep01  a PNG of every scene's midpoint instead, to check layouts quickly
+//        pnpm render --stills ep01  a PNG of every scene at the end of its last line (its fullest moment), to check layouts quickly
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { readFile, mkdir } from "node:fs/promises";
@@ -22,7 +22,7 @@ for (const id of ids) {
   if (stills) {
     const { layout } = await import("../src/timeline.ts").catch(() => ({ layout: null }));
     const frames = layout
-      ? layout(data.episodes.find((e) => e.id === id), composition.fps).scenes.map((s) => s.from + Math.floor(s.frames * 0.7))
+      ? layout(data.episodes.find((e) => e.id === id), composition.fps).scenes.map((s) => { const all = [...s.lines, ...s.reveal]; const last = all[all.length - 1]; return s.from + (last ? last.from + last.frames - 3 : Math.floor(s.frames * 0.7)); })
       : [0, Math.floor(composition.durationInFrames / 2)];
     for (const [i, frame] of frames.entries()) {
       const output = path.join(root, "out", `${id}-scene${String(i).padStart(2, "0")}.png`);

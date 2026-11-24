@@ -7,6 +7,7 @@ import { Revolver } from "./Revolver";
 import { Cartridge } from "./Cartridge";
 import { poseAt } from "./animation";
 import { theme } from "./theme";
+import { CONTENT_BOTTOM, fitList, fitText, wrappedLines } from "./fit";
 import { currentLine, FADE, layout, THINK_SECONDS, type PlacedLine, type PlacedScene } from "./timeline";
 import type { Episode as EpisodeData } from "./types";
 
@@ -52,7 +53,7 @@ const Captions: React.FC<{ lines: PlacedLine[] }> = ({ lines }) => {
   const words = line.text.split(" ");
   return (
     <div style={{ position: "absolute", left: 120, bottom: 46, width: 1180, opacity }}>
-      <div style={{ display: "inline-block", background: "rgba(10,12,16,0.82)", borderRadius: 18, padding: "18px 30px", fontFamily, fontSize: 40, fontWeight: 700, lineHeight: 1.3 }}>
+      <div style={{ display: "inline-block", background: "rgba(10,12,16,0.82)", borderRadius: 18, padding: "18px 30px", fontFamily, fontSize: fitText(line.text, 1120, 3 * 40 * 1.3, 40, 28, 1.3), fontWeight: 700, lineHeight: 1.3 }}>
         {words.map((w, i) => {
           const at = line.from + (line.words[i]?.start ?? (i / words.length) * line.duration) * fps - 2;
           const said = frame >= at;
@@ -159,47 +160,59 @@ const TitleScene: React.FC<{ placed: PlacedScene; episode: EpisodeData; series: 
   );
 };
 
-const TalkScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
+const ListItem: React.FC<{ text: string; index: number; current: boolean; numbered?: boolean; start: number; size: number; p: number; check?: boolean }> = ({ text, index, current, numbered, start, size, p, check }) => (
+  <div style={{ display: "flex", alignItems: "flex-start", gap: size * 0.5, fontFamily, fontSize: size, fontWeight: 700, lineHeight: 1.22, color: check || current ? theme.ink : theme.muted, ...rise(p, 40) }}>
+    {check ? (
+      <div style={{ width: size * 1.15, height: size * 1.15, borderRadius: size, background: theme.good, color: theme.bg, display: "flex", alignItems: "center", justifyContent: "center", fontSize: size * 0.7, fontWeight: 800, flexShrink: 0, transform: `scale(${p})` }}>✓</div>
+    ) : numbered ? (
+      <div style={{ width: size * 1.15, height: size * 1.15, borderRadius: size, background: current ? theme.accent : theme.line, color: current ? theme.bg : theme.ink, display: "flex", alignItems: "center", justifyContent: "center", fontSize: size * 0.66, fontWeight: 800, flexShrink: 0 }}>{start + index}</div>
+    ) : (
+      <div style={{ width: size * 0.45, height: size * 0.45, marginTop: size * 0.38, borderRadius: 6, background: current ? theme.accent : theme.line, flexShrink: 0 }} />
+    )}
+    <div>{text}</div>
+  </div>
+);
+
+/** Bullets, steps or recap points, sized to fit between the heading and the caption area. */
+const ListScene: React.FC<{ placed: PlacedScene; items: string[]; heading?: string; check?: boolean; seed: number }> = ({ placed, items, heading, check, seed }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const bullets = placed.scene.bullets ?? [];
-  const n = shownCount(placed, frame, bullets.length);
-  // Long procedures (more than 7 steps) go in two columns so they fit above the captions.
-  const twoCol = bullets.length > 7;
-  const size = twoCol ? 30 : bullets.length > 5 ? 38 : 48;
+  const n = shownCount(placed, frame, items.length);
   const start = placed.scene.startAt ?? 1;
+  const twoCol = items.length > 7;
+  const headingLines = heading ? wrappedLines(heading, 72, 1150) : 0;
+  const top = 140 + headingLines * 88 + 22 + 40;
+  const height = CONTENT_BOTTOM - top;
+  const colWidth = twoCol ? 590 : 1150;
+  const gap = (f: number) => f * 0.5;
+  const half = Math.ceil(items.length / 2);
+  const columns = twoCol ? [items.slice(0, half), items.slice(half)] : [items];
+  const size = Math.min(...columns.map((c) => fitList(c, colWidth - 80, height, gap)));
   return (
     <AbsoluteFill>
-      <div style={{ position: "absolute", left: 140, top: 140, width: twoCol ? 1240 : 1150 }}>
-        <Heading text={placed.scene.heading} />
-        <div
-          style={
-            twoCol
-              ? { marginTop: 40, display: "grid", gridTemplateColumns: "1fr 1fr", gridTemplateRows: `repeat(${Math.ceil(bullets.length / 2)}, auto)`, gridAutoFlow: "column", columnGap: 40, rowGap: 16 }
-              : { marginTop: 50, display: "flex", flexDirection: "column", gap: bullets.length > 5 ? 18 : 28 }
-          }
-        >
-          {bullets.slice(0, n).map((b, i) => {
-            const at = revealFrame(placed, i);
-            const p = spring({ frame: frame - at + 3, fps, config: { damping: 14, stiffness: 160 } });
-            const current = i === n - 1;
-            return (
-              <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: 26, fontFamily, fontSize: size, fontWeight: 700, lineHeight: 1.2, color: current ? theme.ink : theme.muted, ...rise(p, 40) }}>
-                {placed.scene.numbered ? (
-                  <div style={{ width: size + 8, height: size + 8, marginTop: 0, borderRadius: size, background: current ? theme.accent : theme.line, color: current ? theme.bg : theme.ink, display: "flex", alignItems: "center", justifyContent: "center", fontSize: size * 0.66, fontWeight: 800, flexShrink: 0 }}>{start + i}</div>
-                ) : (
-                  <div style={{ width: 22, height: 22, marginTop: 18, borderRadius: 6, background: current ? theme.accent : theme.line, flexShrink: 0 }} />
-                )}
-                <div>{b}</div>
-              </div>
-            );
-          })}
-        </div>
+      <div style={{ position: "absolute", left: 140, top: 140, width: 1150 }}>
+        <Heading text={heading} />
       </div>
-      <Presenter placed={placed} size={500} lookX={-0.5} seed={2} />
+      <div style={{ position: "absolute", left: 140, top, width: twoCol ? 1240 : 1150, display: "flex", gap: 50 }}>
+        {columns.map((col, c) => (
+          <div key={c} style={{ width: colWidth, display: "flex", flexDirection: "column", gap: gap(size) }}>
+            {col.map((text, j) => {
+              const i = c * half + j;
+              if (i >= n) return null;
+              const p = spring({ frame: frame - revealFrame(placed, i) + 3, fps, config: { damping: 13, stiffness: 165 } });
+              return <ListItem key={i} text={text} index={i} current={i === n - 1} numbered={placed.scene.numbered} start={start} size={size} p={p} check={check} />;
+            })}
+          </div>
+        ))}
+      </div>
+      <Presenter placed={placed} size={twoCol ? 420 : 500} lookX={-0.5} seed={seed} />
     </AbsoluteFill>
   );
 };
+
+const TalkScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => (
+  <ListScene placed={placed} items={placed.scene.bullets ?? []} heading={placed.scene.heading} seed={2} />
+);
 
 /** What the diagram is doing at `frame`, from the lines' highlight, action and stage cues. */
 function diagramAt(placed: PlacedScene, frame: number, fps: number) {
@@ -290,18 +303,18 @@ const DiagramScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
   const subject = s.subject ?? "pistol";
   const drawing =
     subject === "revolver" ? (
-      <Revolver state={{ ...d, loaded: s.loaded !== false }} width={940} fontFamily={fontFamily} names={names} />
+      <Revolver state={{ ...d, loaded: s.loaded !== false }} width={880} fontFamily={fontFamily} names={names} />
     ) : subject === "cartridge" ? (
-      <Cartridge state={{ ...d, inBarrel: !!s.inBarrel }} width={940} fontFamily={fontFamily} names={names} />
+      <Cartridge state={{ ...d, inBarrel: !!s.inBarrel }} width={880} fontFamily={fontFamily} names={names} />
     ) : (
-      <Handgun state={{ ...d, showSafety: s.showSafety, showHammer: s.showHammer, loaded: s.loaded, hammerBack: d.hammerBack }} width={940} fontFamily={fontFamily} names={names} />
+      <Handgun state={{ ...d, showSafety: s.showSafety, showHammer: s.showHammer, loaded: s.loaded, hammerBack: d.hammerBack }} width={880} fontFamily={fontFamily} names={names} />
     );
   return (
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 140, top: 110 }}>
         <Heading text={s.heading} size={60} />
       </div>
-      <div style={{ position: "absolute", left: 150, top: 170, transform: `translateX(${(1 - enter) * -300}px)`, opacity: enter }}>{drawing}</div>
+      <div style={{ position: "absolute", left: 170, top: 165, transform: `translateX(${(1 - enter) * -300}px)`, opacity: enter }}>{drawing}</div>
       <Presenter placed={placed} size={380} point lookX={-1} lookY={-0.2} right={40} seed={3} />
     </AbsoluteFill>
   );
@@ -319,14 +332,14 @@ const FigureScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
       <div style={{ position: "absolute", left: 140, top: 110 }}>
         <Heading text={s.heading} size={60} />
       </div>
-      <div style={{ position: "absolute", left: 140, top: 250, width: 1180, height: 640, display: "flex", alignItems: "center", justifyContent: "center", opacity: enter, transform: `scale(${0.94 + 0.06 * enter})` }}>
+      <div style={{ position: "absolute", left: 140, top: 225, width: 1180, height: 545, display: "flex", alignItems: "center", justifyContent: "center", opacity: enter, transform: `scale(${0.94 + 0.06 * enter})` }}>
         {s.figureFile && (
-          <div style={{ background: "#fff", padding: 14, borderRadius: 18, boxShadow: "0 30px 80px rgba(0,0,0,0.5)", maxWidth: 1180, maxHeight: 640, overflow: "hidden" }}>
-            <Img src={staticFile(s.figureFile)} style={{ maxWidth: 1152, maxHeight: 612, display: "block", transform: `scale(${zoom})` }} />
+          <div style={{ background: "#fff", padding: 14, borderRadius: 18, boxShadow: "0 30px 80px rgba(0,0,0,0.5)", maxWidth: 1180, maxHeight: 545, overflow: "hidden" }}>
+            <Img src={staticFile(s.figureFile)} style={{ maxWidth: 1152, maxHeight: 517, display: "block", transform: `scale(${zoom})` }} />
           </div>
         )}
       </div>
-      {s.caption && <div style={{ position: "absolute", left: 140, top: 900, width: 1180, textAlign: "center", fontFamily, fontSize: 30, fontWeight: 600, color: theme.muted }}>{s.caption}</div>}
+      {s.caption && <div style={{ position: "absolute", left: 140, top: 785, width: 1180, textAlign: "center", fontFamily, fontSize: 30, fontWeight: 600, color: theme.muted }}>{s.caption}</div>}
       <Presenter placed={placed} size={380} point lookX={-1} lookY={-0.1} right={40} seed={8} />
     </AbsoluteFill>
   );
@@ -346,9 +359,9 @@ const RuleScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
   const r = placed.scene.rule!;
   return (
     <AbsoluteFill>
-      <div style={{ position: "absolute", left: 140, top: 220, width: 1150 }}>
+      <div style={{ position: "absolute", left: 140, top: 190, width: 1150 }}>
         <Card label={r.label ?? (r.number ? `Rule ${r.number}` : "Rule")}>
-          <div style={{ fontSize: 66, fontWeight: 800, color: theme.ink, lineHeight: 1.15, letterSpacing: -1 }}>{r.text}</div>
+          <div style={{ fontSize: fitText(r.text, 1030, CONTENT_BOTTOM - 220 - 190, 66, 30, 1.15), fontWeight: 800, color: theme.ink, lineHeight: 1.15, letterSpacing: -1 }}>{r.text}</div>
         </Card>
       </div>
       <Presenter placed={placed} size={500} lookX={-0.6} seed={4} />
@@ -360,10 +373,10 @@ const TermScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
   const d = usePop(16);
   return (
     <AbsoluteFill>
-      <div style={{ position: "absolute", left: 140, top: 220, width: 1150 }}>
+      <div style={{ position: "absolute", left: 140, top: 190, width: 1150 }}>
         <Card label="Key term">
           <div style={{ fontSize: 96, fontWeight: 800, color: theme.accentSoft, letterSpacing: -2 }}>{placed.scene.term}</div>
-          <div style={{ fontSize: 46, fontWeight: 600, color: theme.ink, lineHeight: 1.3, marginTop: 24, ...rise(d) }}>{placed.scene.definition}</div>
+          <div style={{ fontSize: fitText(placed.scene.definition ?? "", 1030, CONTENT_BOTTOM - 220 - 190 - 140, 46, 26, 1.3), fontWeight: 600, color: theme.ink, lineHeight: 1.3, marginTop: 24, ...rise(d) }}>{placed.scene.definition}</div>
         </Card>
       </div>
       <Presenter placed={placed} size={500} lookX={-0.6} seed={5} />
@@ -433,32 +446,9 @@ const QuizScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
   );
 };
 
-const RecapScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const points = placed.scene.points ?? [];
-  const n = shownCount(placed, frame, points.length);
-  return (
-    <AbsoluteFill>
-      <div style={{ position: "absolute", left: 140, top: 140, width: 1150 }}>
-        <Heading text={placed.scene.heading ?? "Recap"} />
-        <div style={{ marginTop: 60, display: "flex", flexDirection: "column", gap: 30 }}>
-          {points.slice(0, n).map((pt, i) => {
-            const at = revealFrame(placed, i);
-            const p = spring({ frame: frame - at + 3, fps, config: { damping: 12, stiffness: 170 } });
-            return (
-              <div key={i} style={{ display: "flex", alignItems: "center", gap: 26, fontFamily, fontSize: 50, fontWeight: 700, color: theme.ink, ...rise(p, 40) }}>
-                <div style={{ width: 58, height: 58, borderRadius: 29, background: theme.good, color: theme.bg, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 36, fontWeight: 800, flexShrink: 0, transform: `scale(${p})` }}>✓</div>
-                {pt}
-              </div>
-            );
-          })}
-        </div>
-      </div>
-      <Presenter placed={placed} size={500} lookX={-0.4} seed={7} wave={false} />
-    </AbsoluteFill>
-  );
-};
+const RecapScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => (
+  <ListScene placed={placed} items={placed.scene.points ?? []} heading={placed.scene.heading ?? "Recap"} check seed={7} />
+);
 
 const SceneView: React.FC<{ placed: PlacedScene; episode: EpisodeData; series: string }> = ({ placed, episode, series }) => {
   const frame = useCurrentFrame();

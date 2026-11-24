@@ -17,8 +17,8 @@ export const PARTS = {
   magazine: { label: "Magazine", anchor: [250, 560], at: [560, 620] },
   magRelease: { label: "Magazine release", anchor: [405, 316], at: [470, 560] },
   slideStop: { label: "Slide stop", anchor: [475, 246], at: [430, 400] },
-  safety: { label: "Safety", anchor: [222, 268], at: [60, 300] },
-  hammer: { label: "Hammer", anchor: [160, 150], at: [60, 200] },
+  safety: { label: "Safety", anchor: [222, 268], at: [40, 350] },
+  hammer: { label: "Hammer", anchor: [160, 150], at: [40, 270] },
 } as const;
 
 export type Part = keyof typeof PARTS;
@@ -42,7 +42,7 @@ export interface GunState {
 }
 
 const SLIDE_TRAVEL = 120;
-const MAG_TRAVEL = 230;
+const MAG_TRAVEL = 180;
 const GRIP_ANGLE = 7.7;
 
 /**
