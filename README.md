@@ -4,6 +4,22 @@ An animated, narrated video series made from the two study books (handling and l
 this machine. Each episode teaches one topic, with an instructor character, an animated pistol, captions that
 light up word by word, and a quiz at the end.
 
+## The series
+
+25 episodes (about two hours) made from *Handle and Use a Handgun for Private Use* (Unit Standard 119649) — the
+plan is in [`docs/EPISODES.md`](docs/EPISODES.md): Law, Safety, Parts and Functions, Fundamentals of Shooting,
+Loading and Unloading, Ammunition, Malfunctions and Maintenance, and the Assessment.
+
+How the content was made and checked:
+
+1. The scanned manual (`source/handgun.pdf`) was split into single pages (`source/pages/sNNN.jpg`) and transcribed
+   verbatim (`source/text/handgun/sNNN.txt`; scan ↔ printed page in `INDEX.md`).
+2. Scripts were written from the transcriptions following [`docs/SCRIPT_GUIDE.md`](docs/SCRIPT_GUIDE.md): every
+   fact cites its printed page on screen; nothing from outside the book.
+3. Each script was then fact-checked by a separate reviewer against the page images; every change is recorded in
+   [`docs/verification/`](docs/verification/).
+4. `pnpm lint` checks structure; `pnpm check` (Whisper) listens back to every voiced line.
+
 ## Tools
 
 | Job | Tool | Licence |
@@ -26,6 +42,7 @@ You need Node with pnpm, [uv](https://docs.astral.sh/uv/), ffmpeg and poppler (`
 pnpm install
 pnpm setup                 # once: downloads the Kokoro model (~90 MB) into .cache/
 pnpm extract               # source/*.pdf → source/text/<book>/p001.txt … (to write scripts from)
+pnpm lint                  # checks episode scripts (parts, quizzes, sources, list reveals)
 pnpm prepare-assets        # voices every episode in episodes/ (only changed lines are re-voiced)
 pnpm check                 # Whisper listens back and flags lines that don't match the script
 pnpm render                # every episode → out/<id>.mp4 (1920×1080)
