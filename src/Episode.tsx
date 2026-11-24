@@ -330,7 +330,7 @@ const RuleScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
   return (
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 140, top: 220, width: 1150 }}>
-        <Card label={r.number ? `Rule ${r.number}` : "Rule"}>
+        <Card label={r.label ?? (r.number ? `Rule ${r.number}` : "Rule")}>
           <div style={{ fontSize: 66, fontWeight: 800, color: theme.ink, lineHeight: 1.15, letterSpacing: -1 }}>{r.text}</div>
         </Card>
       </div>

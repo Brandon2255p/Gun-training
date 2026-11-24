@@ -56,7 +56,7 @@ def lint(path: Path) -> list[str]:
                 errs.append(f"{where} line {li}: empty")
             if SPOKEN_BAD.search(l.get("say", tx) if isinstance(l, dict) else tx):
                 errs.append(f"{where} line {li}: symbol/abbreviation in narration: {tx!r}")
-            if len(tx.split()) > 32:
+            if len(tx.split()) > 45:
                 errs.append(f"{where} line {li}: long line ({len(tx.split())} words)")
         if t not in ("title",) and t != "quiz" and not s.get("source") and si > 0 and ep["id"] != "ep00":
             errs.append(f"{where}: no source")

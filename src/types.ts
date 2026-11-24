@@ -40,7 +40,7 @@ export interface Scene {
   heading?: string;
   bullets?: string[];
   points?: string[];
-  rule?: { number?: number; text: string };
+  rule?: { number?: number; text: string; /** Card label instead of "Rule N", e.g. "Principle" */ label?: string };
   term?: string;
   definition?: string;
   question?: string;
