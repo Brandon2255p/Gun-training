@@ -187,7 +187,7 @@ const ListScene: React.FC<{ placed: PlacedScene; items: string[]; heading?: stri
   const gap = (f: number) => f * 0.5;
   const half = Math.ceil(items.length / 2);
   const columns = twoCol ? [items.slice(0, half), items.slice(half)] : [items];
-  const size = Math.min(...columns.map((c) => fitList(c, colWidth - 80, height, gap)));
+  const size = Math.min(...columns.map((c) => fitList(c, colWidth - 60, height, gap, twoCol ? 40 : 48)));
   return (
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 140, top: 140, width: 1150 }}>

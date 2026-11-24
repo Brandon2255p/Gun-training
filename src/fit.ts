@@ -3,7 +3,7 @@ export const CONTENT_BOTTOM = 830;
 
 /** Roughly how many lines `text` wraps to at `font` px in a box `width` px wide (Inter, bold). */
 export function wrappedLines(text: string, font: number, width: number): number {
-  const perLine = Math.max(8, Math.floor(width / (font * 0.53)));
+  const perLine = Math.max(8, Math.floor(width / (font * 0.5)));
   let lines = 1;
   let used = 0;
   for (const word of text.split(" ")) {
