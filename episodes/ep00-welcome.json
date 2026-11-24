@@ -28,14 +28,38 @@
       ],
       "lines": [
         "The course prepares you for handling a handgun, using a handgun, and basic inspection and maintenance for safe use.",
-        { "text": "We follow the manual's eight modules, starting with the law.", "show": 0 },
-        { "text": "Then safety.", "show": 1 },
-        { "text": "The parts of a handgun, and their functions.", "show": 2 },
-        { "text": "The fundamentals of shooting.", "show": 3 },
-        { "text": "Loading and unloading.", "show": 4 },
-        { "text": "Ammunition.", "show": 5 },
-        { "text": "Malfunctions and maintenance.", "show": 6 },
-        { "text": "And finally, your assessment.", "show": 7 }
+        {
+          "text": "We follow the manual's eight modules, starting with the law.",
+          "show": 0
+        },
+        {
+          "text": "Then safety.",
+          "show": 1
+        },
+        {
+          "text": "The parts of a handgun, and their functions.",
+          "show": 2
+        },
+        {
+          "text": "The fundamentals of shooting.",
+          "show": 3
+        },
+        {
+          "text": "Loading and unloading.",
+          "show": 4
+        },
+        {
+          "text": "Then ammunition.",
+          "show": 5
+        },
+        {
+          "text": "Malfunctions and maintenance.",
+          "show": 6
+        },
+        {
+          "text": "And finally, your assessment.",
+          "show": 7
+        }
       ]
     },
     {
@@ -43,29 +67,66 @@
       "heading": "Meet the pistol",
       "source": "Handgun manual, pp. 24–25",
       "lines": [
-        { "text": "This is the pistol we'll use in the animations.", "highlight": [] },
-        { "text": "On top is the slide.", "highlight": ["slide"] },
-        { "text": "Below it is the frame, with the grip you hold.", "highlight": ["frame", "grip"] },
-        { "text": "And the magazine slides into the grip.", "highlight": ["magazine"], "action": "magOut" },
-        { "text": "We'll go through every part properly in episode ten.", "highlight": [] }
+        {
+          "text": "This is the pistol we'll use in the animations.",
+          "highlight": []
+        },
+        {
+          "text": "On top is the slide.",
+          "highlight": [
+            "slide"
+          ]
+        },
+        {
+          "text": "Below it is the frame, with the grip you hold.",
+          "highlight": [
+            "frame",
+            "grip"
+          ]
+        },
+        {
+          "text": "And the magazine slides into the grip.",
+          "highlight": [
+            "magazine"
+          ],
+          "action": "magOut"
+        },
+        {
+          "text": "We'll go through every part properly in episode ten.",
+          "highlight": []
+        }
       ]
     },
     {
       "type": "quiz",
       "question": "Where do the facts in this series come from?",
-      "options": ["The internet", "Your study manual", "Memory"],
+      "options": [
+        "The internet",
+        "Your study manual",
+        "Memory"
+      ],
       "answer": 1,
       "lines": [
         "Each episode ends with a question like this one.",
         "Where do the facts in this series come from?",
         "Pause the video if you need a moment."
       ],
-      "reveal": ["Your study manual. Every fact on screen shows the page it came from."]
+      "reveal": [
+        "Your study manual. Every fact on screen shows the page it came from."
+      ]
     },
     {
       "type": "recap",
-      "points": ["One topic per episode", "Facts come from your manual", "A question at the end of each episode"],
-      "lines": ["So, one topic per episode.", "Facts from your manual, with page numbers.", "And a question to finish. See you in episode one."]
+      "points": [
+        "One topic per episode",
+        "Facts come from your manual",
+        "A question at the end of each episode"
+      ],
+      "lines": [
+        "So, one topic per episode.",
+        "Facts from your manual, with page numbers.",
+        "And a question to finish. See you in episode one."
+      ]
     }
   ]
 }
