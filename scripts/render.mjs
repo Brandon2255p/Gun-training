@@ -1,10 +1,11 @@
 // Renders episodes to out/<id>.mp4 (1920x1080, 30fps).
 // Usage: pnpm render              every episode
 //        pnpm render ep01 ep02    just those
+//        pnpm render --resume     skip episodes already rendered since the last prepare
 //        pnpm render --stills ep01  a PNG of every scene at the end of its last line (its fullest moment), to check layouts quickly
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { readFile, mkdir } from "node:fs/promises";
+import { readFile, mkdir, rename, stat } from "node:fs/promises";
 import { bundle } from "@remotion/bundler";
 import { renderMedia, renderStill, selectComposition } from "@remotion/renderer";
 
@@ -32,13 +33,24 @@ for (const id of ids) {
     continue;
   }
   const outputLocation = path.join(root, "out", `${id}.mp4`);
+  // Finished files are only ever complete (renders go to a .part file first), so a newer one can be skipped.
+  if (args.includes("--resume")) {
+    const done = await stat(outputLocation).catch(() => null);
+    const script = await stat(path.join(root, "src/generated/episodes.json"));
+    if (done && done.mtimeMs > script.mtimeMs) {
+      console.log(`${id}: already rendered, skipping`);
+      continue;
+    }
+  }
+  const partial = outputLocation.replace(/\.mp4$/, ".part.mp4");
   await renderMedia({
     composition,
     serveUrl,
     codec: "h264",
-    outputLocation,
+    outputLocation: partial,
     concurrency: Number(process.env.RENDER_CONCURRENCY) || (await import("node:os")).availableParallelism(),
     onProgress: ({ progress }) => process.stdout.write(`\r${id}: ${Math.round(progress * 100)}%`),
   });
+  await rename(partial, outputLocation);
   console.log(`\n${outputLocation} (${(composition.durationInFrames / composition.fps / 60).toFixed(1)} min)`);
 }
