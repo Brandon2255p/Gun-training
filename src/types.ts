@@ -48,6 +48,8 @@ export interface Scene {
   answer?: number;
   /** Talk: number the bullets as steps */
   numbered?: boolean;
+  /** Talk: the first step number when a procedure continues from a previous scene (default 1) */
+  startAt?: number;
   /** Diagram: what to draw (default pistol) */
   subject?: "pistol" | "revolver" | "cartridge";
   /** Diagram: label text per part, to match the book's wording */

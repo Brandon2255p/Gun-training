@@ -39,7 +39,8 @@ Episodes are JSON files in `episodes/` (see `episodes/ep00-welcome.json` for a w
   put `"show": n` (0-based bullet index) on the lines that reveal a bullet; once any line in a scene has `show`,
   lines without it reveal nothing new.
 - `rule` cards are labelled "Rule N"; set `rule.label` (e.g. "Principle", "Remember") when the book doesn't call it a rule.
-- `numbered: true` on a `talk` scene shows the bullets as numbered steps (use for procedures).
+- `numbered: true` on a `talk` scene shows the bullets as numbered steps (use for procedures). `startAt: 5` makes
+  the first bullet step 5, so a long procedure can continue across scenes. Over 7 steps switch to two columns.
 
 ## Visuals
 

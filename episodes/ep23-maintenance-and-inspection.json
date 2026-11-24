@@ -1,0 +1,249 @@
+{
+  "id": "ep23",
+  "number": 23,
+  "title": "Maintenance and safety inspection",
+  "subtitle": "Cleaning your firearm and checking it is safe to fire",
+  "sources": ["Handgun manual, pp. 60–64"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 60",
+      "lines": [
+        "In this episode: cleaning your firearm, and carrying out a safety inspection.",
+        "The book says the condition of your firearm can mean the difference between life and death."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "text": "Always unload your firearm before cleaning." },
+      "source": "Handgun manual, p. 60",
+      "lines": [
+        "First: always unload your firearm before cleaning.",
+        "The firearm is a mechanical device with moving parts, just like any other piece of machinery.",
+        "Therefore, if you want it to work reliably, you must keep it clean."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "When to clean the firearm",
+      "numbered": true,
+      "source": "Handgun manual, p. 60",
+      "bullets": [
+        "It has been used",
+        "It has been exposed to the elements",
+        "It has been stored for an extended period"
+      ],
+      "lines": [
+        "The firearm should be thoroughly cleaned every time after three things.",
+        { "text": "One: it has been used.", "show": 0 },
+        { "text": "Two: it has been exposed to the elements, such as sand, mud, rain, sweat or heat.", "show": 1 },
+        { "text": "Three: it has been stored for an extended period.", "show": 2 }
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s068.jpg", "crop": [0.17, 0.58, 0.64, 0.235] },
+      "caption": "Cleaning kit",
+      "source": "Handgun manual, p. 60",
+      "lines": [
+        "Your cleaning kit should include a cleaning rod, a phosphor bronze brush, and a jag.",
+        "And flannel patches, nitro solvent, and gun oil."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Cleaning the barrel",
+      "numbered": true,
+      "source": "Handgun manual, p. 60",
+      "bullets": [
+        "Brush saturated with nitro solvent, ten to twenty times",
+        "Solvent-soaked flannel patch on the jag, ten to twenty times",
+        "Repeat with a dry patch"
+      ],
+      "lines": [
+        "When cleaning the barrel, if possible, push the brush down the barrel in the same direction that the bullet will travel.",
+        "This prevents unnecessary wear on the barrel.",
+        { "text": "One: saturate the phosphor bronze brush with nitro solvent, and push it through the barrel several times, ten to twenty times.", "show": 0 },
+        { "text": "Two: place a flannel patch around the jag, soak it with nitro solvent, and push the patch through the barrel ten to twenty times.", "show": 1 },
+        { "text": "Three: repeat this last step with a dry patch, to remove the excess solvent from the barrel.", "show": 2 }
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "After cleaning",
+      "source": "Handgun manual, p. 60",
+      "bullets": [
+        "Wipe the rest down with gun oil",
+        "No oil or solvent left in the barrel",
+        "No excessive oil in the magazine or cylinder",
+        "A thin coat on slide rails and moving parts"
+      ],
+      "lines": [
+        { "text": "The rest of the firearm can be wiped down with gun oil.", "show": 0 },
+        { "text": "After you have cleaned your firearm, make sure there is no oil or solvent left in the barrel.", "show": 1 },
+        "If there is oil in the barrel and you fire a shot, you can damage the firearm.",
+        { "text": "Also, make sure there is not excessive oil left in the magazine of the pistol, or in the cylinder of the revolver.", "show": 2 },
+        "This may contaminate the powder and primer of your ammunition.",
+        "Excessive oil on the firearm will also attract dirt.",
+        { "text": "It is, however, a good idea to leave a thin coat of oil on the slide rails and moving parts of the firearm.", "show": 3 }
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "text": "Store the ammunition away from oil and solvent when cleaning your firearm." },
+      "source": "Handgun manual, p. 60",
+      "lines": [
+        "If you are going to store your firearm for a long time, leave a coating of oil on the firearm and in the barrel to avoid rust.",
+        "However, do not forget to remove the oil from the barrel before firing.",
+        "And remember: always store the ammunition away from oil and solvent when cleaning your firearm.",
+        "The oil and solvent will attack the primer and contaminate the powder, rendering the ammunition useless, or cause a squib load."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Safety inspection",
+      "definition": "A quick inspection before firing a gun that has not been used in a long time, to ensure the firearm is safe for firing.",
+      "source": "Handgun manual, p. 61",
+      "lines": [
+        "Before firing a gun that has not been used in a long time, one should always carry out a quick safety inspection.",
+        "This is to ensure that the firearm is safe for firing.",
+        "Never look down the muzzle of an assembled firearm.",
+        "To look down the muzzle, you should first strip the firearm.",
+        "The book shows you how to carry out a safety inspection without stripping the firearm."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Pistol safety inspection: steps 1 to 5",
+      "source": "Handgun manual, p. 61",
+      "bullets": [
+        "Step 1: Identify a safe direction",
+        "Step 2: Safe direction, finger off the trigger",
+        "Step 3: Remove the magazine",
+        "Step 4: Pull back the slide, pointing safely",
+        "Step 5: Check the chamber and the magazine-well"
+      ],
+      "lines": [
+        "Step one: identify a safe direction.",
+        "Step two: point the firearm in a safe direction, with your finger off the trigger.",
+        "Step three: remove the magazine.",
+        "Step four: pull back the slide, keeping the firearm pointing in a safe direction.",
+        "Step five: check inside the chamber and down the magazine-well."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Pistol safety inspection: steps 6 to 9",
+      "source": "Handgun manual, p. 61",
+      "bullets": [
+        "Step 6: Lock the slide to the rear",
+        "Step 7: Insert the cleaning rod into the muzzle",
+        "Step 8: Rod comes out of the chamber end",
+        "Step 9: Attach a patch to remove any oil"
+      ],
+      "lines": [
+        { "text": "Step six: lock the slide to the rear, using the slide lock.", "show": 0 },
+        { "text": "Step seven: with the slide locked open, insert the cleaning rod into the muzzle of the firearm.", "show": 1 },
+        { "text": "Step eight: you will see the end of the cleaning rod come out of the chamber end of the barrel.", "show": 2 },
+        "This will show you that the barrel is free of obstruction or ammunition.",
+        { "text": "Step nine: you can now attach a cleaning patch to remove any oil from the barrel.", "show": 3 }
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s070.jpg", "crop": [0.37, 0.65, 0.25, 0.215] },
+      "caption": "The cleaning rod at the chamber end of the barrel",
+      "source": "Handgun manual, p. 62",
+      "lines": [
+        "In the book's photo, the end of the cleaning rod is circled, where it comes out of the chamber end of the barrel."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Revolver safety inspection",
+      "numbered": true,
+      "source": "Handgun manual, pp. 63–64",
+      "bullets": [
+        "Identify a safe direction",
+        "Point it safely, finger off the trigger",
+        "Open the cylinder",
+        "Take control with the non-gun hand",
+        "Take the cleaning rod from your kit",
+        "Insert the cleaning rod into the muzzle",
+        "Push until it comes out of the chamber end",
+        "Brush or flannel patch to remove excessive oil"
+      ],
+      "lines": [
+        { "text": "For a revolver, first identify a safe direction.", "show": 0 },
+        { "text": "Point the firearm in a safe direction, with your finger off the trigger.", "show": 1 },
+        { "text": "Open the cylinder.", "show": 2 },
+        { "text": "Take control of the firearm with the non-gun hand.", "show": 3 },
+        { "text": "Take the cleaning rod from your revolver cleaning kit.", "show": 4 },
+        { "text": "Insert the cleaning rod into the muzzle of the revolver.", "show": 5 },
+        { "text": "Push the cleaning rod up the barrel until you can see it come out of the chamber end of the barrel.", "show": 6 },
+        { "text": "You can now attach the cleaning brush or flannel patch to remove any excessive oil from the barrel.", "show": 7 },
+        "And make sure there is no ammunition contained in the cylinder during the safety inspection."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s072.jpg", "crop": [0.50, 0.455, 0.37, 0.18] },
+      "caption": "Taurus PT 51: the barrel in the flip-up position",
+      "source": "Handgun manual, p. 64",
+      "lines": [
+        { "text": "Firearms come in many sizes and designs, like this Taurus PT 51, a 6.35 millimetre pistol with a flip-up barrel.", "say": "Firearms come in many sizes and designs, like this Taurus P T fifty-one, a six point three five millimetre pistol with a flip-up barrel." },
+        "It is recommended that you never pull back the slide by hand on this particular firearm.",
+        "For a safety inspection, you simply look into the barrel through the chamber, to ensure there is no ammunition or obstruction in the barrel."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "In which part of the firearm is it dangerous to have oil when firing a shot?",
+      "options": ["The barrel", "The slide rails", "The grip"],
+      "answer": 0,
+      "source": "Handgun manual, p. 60",
+      "lines": [
+        "In which part of the firearm is it dangerous to have oil when firing a shot?",
+        "Pause the video if you need a moment."
+      ],
+      "reveal": [
+        "The barrel.",
+        "If there is oil in the barrel and you fire a shot, you can damage the firearm."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "What is the purpose of doing a safety inspection on a firearm?",
+      "options": ["To make it more accurate", "To ensure it is safe for firing", "To load it quickly"],
+      "answer": 1,
+      "source": "Handgun manual, p. 61",
+      "lines": [
+        "What is the purpose of doing a safety inspection on a firearm?"
+      ],
+      "reveal": [
+        "To ensure that the firearm is safe for firing.",
+        "Do one before firing a gun that has not been used in a long time."
+      ]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 60–64",
+      "points": [
+        "Unload before cleaning",
+        "Clean after use, exposure, or long storage",
+        "Kit: rod, brush, jag, patches, solvent, oil",
+        "No oil or solvent left in the barrel",
+        "Ammunition away from oil and solvent",
+        "Inspection: cleaning rod from muzzle to chamber"
+      ],
+      "lines": [
+        "So, always unload before cleaning.",
+        "Clean after use, after exposure to the elements, and after long storage.",
+        "Your kit: cleaning rod, phosphor bronze brush, jag, flannel patches, nitro solvent and gun oil.",
+        "Leave no oil or solvent in the barrel.",
+        "Keep your ammunition away from oil and solvent.",
+        "And in a safety inspection, the cleaning rod goes in at the muzzle and comes out at the chamber end."
+      ]
+    }
+  ]
+}

@@ -43,7 +43,7 @@
     {
       "type": "figure",
       "heading": "Correct trigger placement",
-      "figure": { "page": "s041.jpg", "crop": [0.1, 0.32, 0.44, 0.58] },
+      "figure": { "page": "s041.jpg", "crop": [0.1, 0.32, 0.45, 0.58] },
       "caption": "Correct trigger placement, from the side and from behind",
       "source": "Handgun manual, p. 37",
       "lines": [
@@ -54,7 +54,7 @@
     {
       "type": "figure",
       "heading": "Incorrect trigger placement",
-      "figure": { "page": "s041.jpg", "crop": [0.53, 0.31, 0.45, 0.34] },
+      "figure": { "page": "s041.jpg", "crop": [0.545, 0.31, 0.43, 0.34] },
       "caption": "Incorrect: too much finger through the trigger guard",
       "source": "Handgun manual, p. 37",
       "lines": [
@@ -136,7 +136,8 @@
       "lines": [
         "Do not hold your breath for too long before squeezing the trigger.",
         "This will cause you to start shaking, as you begin to run out of oxygen.",
-        "If you find you have to breathe in after firing the shot, you are holding your breath for too long, or taking too long to squeeze the trigger."
+        "You may find that after you have fired the shot, you have to breathe in.",
+        "If so, you are holding your breath for too long, or taking too long to squeeze the trigger."
       ]
     },
     {

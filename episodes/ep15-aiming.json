@@ -130,7 +130,7 @@
       "lines": [
         { "text": "Bear in mind that the sights are at different distances from the eye.", "show": 0 },
         { "text": "And your eye can only focus on one sight at a time.", "show": 1 },
-        "If you look through a window at an object outside, you are aware of the window frame, even though you are not focusing on it.",
+        "Look through a window at an object outside, and you are aware of the window frame, though not focusing on it.",
         "The same is applicable with the sights on a firearm.",
         { "text": "You will look through the rear sight.", "show": 2 },
         { "text": "And focus on the front sight.", "show": 3 }
@@ -172,7 +172,7 @@
     {
       "type": "figure",
       "heading": "Where to focus",
-      "figure": { "page": "s047.jpg", "crop": [0.09, 0.08, 0.82, 0.21] },
+      "figure": { "page": "s047.jpg", "crop": [0.09, 0.08, 0.82, 0.22] },
       "caption": "Sight picture, rear view: sharp focus on the front sight",
       "source": "Handgun manual, p. 41",
       "lines": [
@@ -200,7 +200,8 @@
       "source": "Handgun manual, p. 41",
       "lines": [
         "In the centre of this chart is the perfect shot, with the sights correctly aligned.",
-        "Around it, the sights are out of alignment, and the dot shows where each shot would strike, from high left to low right."
+        "Around it, the sights are out of alignment.",
+        "The dot shows where each shot would strike, from high left to low right."
       ]
     },
     {

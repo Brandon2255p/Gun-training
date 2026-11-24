@@ -15,12 +15,27 @@
     {
       "type": "talk",
       "heading": "What we'll cover",
-      "bullets": ["The parts of a handgun", "Handling it safely", "Loading, unloading and clearing", "The law that applies to you"],
+      "source": "Handgun manual, p. 1 and contents",
+      "bullets": [
+        "Law",
+        "Safety",
+        "Parts and Functions",
+        "Fundamentals of Shooting",
+        "Loading and Unloading",
+        "Ammunition",
+        "Malfunctions and Maintenance",
+        "Assessment"
+      ],
       "lines": [
-        "First, we'll learn the parts of a handgun, and what each one does.",
-        "Then, how to handle it safely, every single time.",
-        "After that, loading, unloading, and clearing.",
-        "And finally, the legal side, from the legal book."
+        "The course prepares you for handling a handgun, using a handgun, and basic inspection and maintenance for safe use.",
+        { "text": "We follow the manual's eight modules, starting with the law.", "show": 0 },
+        { "text": "Then safety.", "show": 1 },
+        { "text": "The parts of a handgun, and their functions.", "show": 2 },
+        { "text": "The fundamentals of shooting.", "show": 3 },
+        { "text": "Loading and unloading.", "show": 4 },
+        { "text": "Ammunition.", "show": 5 },
+        { "text": "Malfunctions and maintenance.", "show": 6 },
+        { "text": "And finally, your assessment.", "show": 7 }
       ]
     },
     {

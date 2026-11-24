@@ -164,19 +164,29 @@ const TalkScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
   const { fps } = useVideoConfig();
   const bullets = placed.scene.bullets ?? [];
   const n = shownCount(placed, frame, bullets.length);
+  // Long procedures (more than 7 steps) go in two columns so they fit above the captions.
+  const twoCol = bullets.length > 7;
+  const size = twoCol ? 30 : bullets.length > 5 ? 38 : 48;
+  const start = placed.scene.startAt ?? 1;
   return (
     <AbsoluteFill>
-      <div style={{ position: "absolute", left: 140, top: 140, width: 1150 }}>
+      <div style={{ position: "absolute", left: 140, top: 140, width: twoCol ? 1240 : 1150 }}>
         <Heading text={placed.scene.heading} />
-        <div style={{ marginTop: 50, display: "flex", flexDirection: "column", gap: bullets.length > 5 ? 18 : 28 }}>
+        <div
+          style={
+            twoCol
+              ? { marginTop: 40, display: "grid", gridTemplateColumns: "1fr 1fr", gridTemplateRows: `repeat(${Math.ceil(bullets.length / 2)}, auto)`, gridAutoFlow: "column", columnGap: 40, rowGap: 16 }
+              : { marginTop: 50, display: "flex", flexDirection: "column", gap: bullets.length > 5 ? 18 : 28 }
+          }
+        >
           {bullets.slice(0, n).map((b, i) => {
             const at = revealFrame(placed, i);
             const p = spring({ frame: frame - at + 3, fps, config: { damping: 14, stiffness: 160 } });
             const current = i === n - 1;
             return (
-              <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: 26, fontFamily, fontSize: bullets.length > 5 ? 38 : 48, fontWeight: 700, lineHeight: 1.2, color: current ? theme.ink : theme.muted, ...rise(p, 40) }}>
+              <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: 26, fontFamily, fontSize: size, fontWeight: 700, lineHeight: 1.2, color: current ? theme.ink : theme.muted, ...rise(p, 40) }}>
                 {placed.scene.numbered ? (
-                  <div style={{ width: 56, height: 56, marginTop: 2, borderRadius: 28, background: current ? theme.accent : theme.line, color: current ? theme.bg : theme.ink, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 32, fontWeight: 800, flexShrink: 0 }}>{i + 1}</div>
+                  <div style={{ width: size + 8, height: size + 8, marginTop: 0, borderRadius: size, background: current ? theme.accent : theme.line, color: current ? theme.bg : theme.ink, display: "flex", alignItems: "center", justifyContent: "center", fontSize: size * 0.66, fontWeight: 800, flexShrink: 0 }}>{start + i}</div>
                 ) : (
                   <div style={{ width: 22, height: 22, marginTop: 18, borderRadius: 6, background: current ? theme.accent : theme.line, flexShrink: 0 }} />
                 )}

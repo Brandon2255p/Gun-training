@@ -1,0 +1,227 @@
+{
+  "id": "ep24",
+  "number": 24,
+  "title": "Your assessment and qualification shoot",
+  "subtitle": "What is assessed, and how",
+  "sources": ["Handgun manual, pp. 1–4, 65–69"],
+  "scenes": [
+    {
+      "type": "title",
+      "source": "Handgun manual, p. 4",
+      "lines": [
+        "In this final episode: how you will be assessed, and the Qualification Shoot.",
+        "You need to be assessed against the outcomes of this Unit Standard in order to be declared competent."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "What you must be capable of",
+      "source": "Handgun manual, p. 1",
+      "bullets": [
+        "Handling a handgun",
+        "Using a handgun",
+        "Basic inspection and maintenance for safe use"
+      ],
+      "lines": [
+        { "text": "People credited with this unit standard are capable of handling a handgun.", "show": 0 },
+        { "text": "Using a handgun.", "show": 1 },
+        { "text": "And carrying out basic inspection and maintenance of a handgun for safe use.", "show": 2 },
+        "You may be assessed on either a revolver or a pistol, or both."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Two theory exams",
+      "source": "Handgun manual, pp. 4, 65",
+      "bullets": [
+        "Exam 1: Formative Assessment, open book",
+        "Exam 2: Summative Assessment, closed book"
+      ],
+      "lines": [
+        { "text": "Exam one is the Formative Assessment, an open book exam at the back of the manual.", "show": 0 },
+        "It may be completed at home, with no time limit, and you may ask for assistance.",
+        "It must already be completed when you attend your booked sessions.",
+        { "text": "Exam two is the Summative Assessment, a closed book exam with a one hour time limit.", "show": 1 },
+        "It is completed in the classroom, under the supervision of an accredited PFTC registered Assessor, and no assistance may be given.",
+        "Both are completed in black ink, and no correction fluid is allowed."
+      ]
+    },
+    {
+      "type": "term",
+      "term": "Observation Checklist",
+      "definition": "Where your Assessor records the practical skills and tasks you perform. The last task is the Qualification Shoot.",
+      "source": "Handgun manual, p. 4",
+      "lines": [
+        "After your practical training, you will perform various practical skills and tasks.",
+        "Your Assessor records these on an Observation Checklist.",
+        "The last one you will perform is the Qualification Shoot."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Observation Checklist: items 1 to 7",
+      "source": "Handgun manual, p. 66",
+      "bullets": [
+        "1. Identify and designate a safe direction",
+        "2. Identify an alternative safe direction",
+        "3. Load, safe direction, finger off the trigger",
+        "4. Demonstrate the operation of the safety catch",
+        "5. Unload, safe direction, finger off the trigger",
+        "6. Make the firearm safe from an unknown condition",
+        "7. Load to a safe carry condition"
+      ],
+      "lines": [
+        { "text": "One: identify and designate a safe direction, so you and the Assessor agree on what is safe or unsafe.", "show": 0 },
+        { "text": "Two: identify an alternative safe direction.", "show": 1 },
+        { "text": "Three: load the relevant firearm while maintaining a safe direction, with the finger off the trigger.", "show": 2 },
+        { "text": "Four: demonstrate how the safety catch works on the firearm that you are using.", "show": 3 },
+        { "text": "Five: unload the relevant firearm while maintaining a safe direction, with the finger off the trigger.", "show": 4 },
+        { "text": "Six: the Assessor loads the firearm to a condition unknown to you, and you make it safe.", "show": 5 },
+        { "text": "Seven: load the firearm to a safe carry condition.", "show": 6 }
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s062.jpg", "crop": [0.08, 0.05, 0.83, 0.25] },
+      "caption": "Items 8 and 9: identify ammunition by calibre",
+      "source": "Handgun manual, pp. 54, 66",
+      "lines": [
+        "Eight: an ammunition identification task.",
+        "The Assessor gives you at least two different types of ammunition, which you identify by calibre.",
+        "Nine: identify the correct ammunition for the relevant firearm.",
+        "The Assessor provides at least three types of ammunition, and one must be the correct ammunition for the firearm."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "Observation Checklist: items 10 to 13",
+      "source": "Handgun manual, pp. 66–67",
+      "bullets": [
+        "10. Identify and rectify malfunctions",
+        "11. Carry out a safety inspection",
+        "12. Explain the dangers of oil in the barrel",
+        "13. Demonstrate the fundamentals of shooting"
+      ],
+      "lines": [
+        { "text": "Ten: identify and rectify malfunctions, which the Assessor simulates with your firearm, using dummy ammunition, empty cases, or both.", "show": 0 },
+        { "text": "Eleven: carry out a safety inspection with the relevant firearm.", "show": 1 },
+        { "text": "Twelve: explain the dangers of oil or any other obstructions in the barrel.", "show": 2 },
+        "While doing so, explain or demonstrate the correct method of cleaning and maintaining the relevant firearm.",
+        { "text": "Thirteen: demonstrate the fundamentals of shooting.", "show": 3 },
+        "That's stance, grip, trigger squeeze, breathing, sight alignment, sight picture and follow through."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "number": 14, "text": "The trigger finger was kept off the trigger at all relevant times when handling the firearm." },
+      "source": "Handgun manual, p. 67",
+      "lines": [
+        "Fourteen: your Assessor checks that your trigger finger was kept off the trigger at all relevant times, during all the exercises."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "15. The Qualification Shoot",
+      "source": "Handgun manual, p. 68",
+      "bullets": [
+        "Distance: 7 metres",
+        "Position: standing",
+        "10 shots, no time limit",
+        "Target size: A3",
+        "Pass mark: 10 out of 10"
+      ],
+      "lines": [
+        "Fifteen: successfully complete the Qualification Shoot.",
+        { "text": "You shoot from a distance of 7 metres.", "show": 0 },
+        { "text": "In the standing position.", "show": 1 },
+        { "text": "You load and fire 10 shots at your own target, in your own time, with no time limit.", "show": 2 },
+        { "text": "The target is A3 size.", "say": "The target is A three size.", "show": 3 },
+        { "text": "And the pass mark is 10 out of 10, which is 100 percent.", "show": 4 }
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s076.jpg", "crop": [0.12, 0.465, 0.76, 0.145] },
+      "caption": "Dead-resting, which is not allowed, and the two-handed standing position",
+      "source": "Handgun manual, p. 68",
+      "lines": [
+        "You may not dead-rest the firearm during the Qualification Shoot, as the shooter on the left is doing.",
+        "On the right is a two-handed standing position, the position you will be required to use.",
+        "You must complete the entire Qualification Shoot unassisted.",
+        { "text": "That includes, but is not limited to, loading and unloading, use of PPE, range rules, range commands and safety procedures.", "say": "That includes, but is not limited to, loading and unloading, use of P P E, range rules, range commands and safety procedures." },
+        "The book says to expect to shoot at least 40 rounds of ammunition in total during your course."
+      ]
+    },
+    {
+      "type": "rule",
+      "rule": { "number": 16, "text": "A safe muzzle direction was maintained at all times during the above exercises." },
+      "source": "Handgun manual, p. 67",
+      "lines": [
+        "And sixteen: a safe muzzle direction was maintained at all times, during the practical exercises and the Qualification Shoot."
+      ]
+    },
+    {
+      "type": "talk",
+      "heading": "After your assessment",
+      "source": "Handgun manual, p. 4",
+      "bullets": [
+        "Portfolio of Evidence: kept for six years",
+        "A second assessment, free of charge",
+        "You are entitled to appeal"
+      ],
+      "lines": [
+        { "text": "Your Assessor compiles a Portfolio of Evidence, kept on file at the Training Centre for six years.", "show": 0 },
+        "Make sure the copy of your ID is certified, because an uncertified copy cannot be accepted.",
+        { "text": "If you are unsuccessful, you will be given a second assessment free of charge, paying only for consumables.", "show": 1 },
+        { "text": "And if you are unsatisfied with your assessment, you are entitled to appeal.", "show": 2 }
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "In the Qualification Shoot, how many of your 10 shots must hit the A3 target?",
+      "options": ["Seven", "Eight", "All ten"],
+      "answer": 2,
+      "source": "Handgun manual, p. 68",
+      "lines": [
+        "In the Qualification Shoot, how many of your 10 shots must hit the target?",
+        "Pause the video if you need a moment."
+      ],
+      "reveal": [
+        "All ten.",
+        "The pass mark is 10 out of 10, from 7 metres, on an A3 target, with no time limit."
+      ]
+    },
+    {
+      "type": "quiz",
+      "question": "Which exam is closed book, with a one hour time limit?",
+      "options": ["The Formative exam", "The Summative exam", "The Qualification Shoot"],
+      "answer": 1,
+      "source": "Handgun manual, p. 4",
+      "lines": [
+        "Which exam is closed book, with a one hour time limit?"
+      ],
+      "reveal": [
+        "The Summative exam.",
+        "It is completed in the classroom, under the supervision of an accredited PFTC registered Assessor."
+      ]
+    },
+    {
+      "type": "recap",
+      "source": "Handgun manual, pp. 4, 65–68",
+      "points": [
+        "Formative: open book. Summative: closed book",
+        "Observation Checklist: 16 items",
+        "Qualification Shoot: 7 m, A3, 10 out of 10",
+        "No dead-resting; finger off; safe muzzle",
+        "Good luck with your assessment"
+      ],
+      "lines": [
+        "So, two theory exams: the open book Formative, and the closed book Summative.",
+        "Your Assessor works through the 16 items of the Observation Checklist.",
+        "The Qualification Shoot is 10 shots from 7 metres on an A3 target, and you need all 10.",
+        "No dead-resting, finger off the trigger, and a safe muzzle direction at all times.",
+        "Good luck with your assessment."
+      ]
+    }
+  ]
+}
