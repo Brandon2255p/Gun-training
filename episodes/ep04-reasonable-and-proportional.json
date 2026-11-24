@@ -23,7 +23,7 @@
         "Firstly, the test is not an armchair test.",
         "A court will not assess the circumstances of the use of force without putting itself into the victim's set of circumstances.",
         "This provides flexibility in determining whether your actions were legally justifiable.",
-        "Our courts accept that one cannot be expected to exercise the same degree of rational reasoning in such a stressful situation.",
+        "Our courts acknowledge and accept that, in such a stressful situation, one cannot be expected to exercise the same degree of rational reasoning as one would had one not been in it.",
         "Every situation must be judged on its own specific circumstances."
       ]
     },
@@ -32,7 +32,7 @@
       "heading": "Your belief must be reasonable",
       "source": "Handgun manual, p. 11",
       "bullets": [
-        "Courts consider high crime and violence levels",
+        "High crime: court more inclined to accept injury or death was probable",
         "Your belief must be reasonable",
         "Subjective belief will not suffice",
         "Actions are assessed objectively"
@@ -73,7 +73,7 @@
     },
     {
       "type": "rule",
-      "rule": { "text": "Only with a reasonable prospect of serious physical injury or death to you or a third party." },
+      "rule": { "label": "Remember", "text": "Before using a firearm, be satisfied there is a reasonable prospect of serious physical injury or death to you or a third party." },
       "source": "Handgun manual, p. 11",
       "lines": [
         "Furthermore, if you are going to use a firearm for self defence or private defence, you must be satisfied that there is a reasonable prospect of serious physical injury or death to you or a third party.",
@@ -138,7 +138,7 @@
       "type": "quiz",
       "question": "What test does the court apply to your use of force?",
       "options": [
-        "An armchair test, judged after the fact",
+        "An armchair test",
         "Your own subjective belief",
         "Would a reasonable person have acted the same way?"
       ],
@@ -150,7 +150,7 @@
       ],
       "reveal": [
         "The reasonable person test.",
-        "Would a reasonable person, who faced the same or a similar situation, have acted in the same or a similar manner?",
+        "Would a reasonable person, who faced the same or a similar situation to your own, have acted in the same or a similar manner in the same circumstances?",
         "It is not an armchair test, and your own subjective belief will not suffice."
       ]
     },

@@ -107,10 +107,10 @@
     },
     {
       "type": "rule",
-      "rule": { "text": "The attack must be against a person, and not property." },
+      "rule": { "label": "Requirement 12.2", "text": "The attack must be against a person, a threat to life, and not property." },
       "source": "Handgun manual, p. 8",
       "lines": [
-        "The book underlines the words, not property.",
+        "The book underlines the word, not.",
         "The attack must be a threat to life, and not to property."
       ]
     },
@@ -128,6 +128,7 @@
         { "text": "First, you cannot pre-emptively kill someone to stop an attack when that attack is not imminent or about to start.", "show": 0 },
         "You cannot kill someone now to prevent an attack later.",
         { "text": "Second, you could not use any other means to avoid the attack.", "show": 1 },
+        "In other words, there was no other means you could have used to avoid it.",
         "In the book's words, flight is better than fight.",
         { "text": "Third, the manner in which you defend yourself, or that other person, must be objectively reasonable under the circumstances.", "show": 2 },
         "And your defence must be directed at the person making the attack, and not someone else.",
@@ -137,7 +138,7 @@
     },
     {
       "type": "rule",
-      "rule": { "text": "If you can avoid the use of force, you have a legal obligation to do so." },
+      "rule": { "label": "Remember", "text": "If you can avoid the use of force, you have a legal obligation to do so." },
       "source": "Handgun manual, p. 9",
       "lines": [
         "Remember, if you can avoid the use of force, you have a legal obligation to do so.",
@@ -162,7 +163,8 @@
       ],
       "reveal": [
         "The attack must be unlawful, and it must be about to start or must already have begun.",
-        "It must be against a person, not property, and you cannot kill someone now to prevent an attack later."
+        "It must be against you, or a third party you are trying to protect, and against a person, not property.",
+        "And you cannot kill someone now to prevent an attack later."
       ]
     },
     {
@@ -187,7 +189,7 @@
         "Legal interest: someone you must protect",
         "The right to life is the highest right",
         "No legal distinction: private and self defence",
-        "Unlawful attack, on a person, about to start or begun",
+        "Unlawful attack on a person, not property; about to start or begun",
         "Defence must be absolutely necessary",
         "Avoid force if you can: flight is better than fight"
       ],
@@ -195,8 +197,8 @@
         "So, a legal interest is someone you have an obligation to protect.",
         "The highest right is the right to life, for victim and criminal.",
         "The law makes no legal distinction between private and self defence.",
-        "The attack must be unlawful, against a person, and about to start or already begun.",
-        "Your defence must be absolutely necessary, and directed at the attacker.",
+        "The attack must be unlawful, against a person and not property, and about to start or already begun.",
+        "Your defence must be absolutely necessary, objectively reasonable, and directed at the attacker.",
         "And if you can avoid the use of force, you have a legal obligation to do so."
       ]
     }

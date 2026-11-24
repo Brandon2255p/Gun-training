@@ -80,7 +80,7 @@
         "Civilians have very limited powers to arrest",
         "Exercise them cautiously",
         "Arresting criminals is the police's responsibility",
-        "Arrest only after an attack is prevented, or detain until police arrive"
+        "Suggested: arrest only after an attack is prevented, or detain until police arrive"
       ],
       "lines": [
         { "text": "Section 49, the use of force in effecting an arrest, is designed primarily to assist law enforcement officers.", "show": 0 },
@@ -148,7 +148,7 @@
     },
     {
       "type": "rule",
-      "rule": { "text": "\"An innocent person has nothing to hide.\"" },
+      "rule": { "label": "Principle", "text": "\"An innocent person has nothing to hide.\"" },
       "source": "Handgun manual, p. 8",
       "lines": [
         "When dealing with search and seizure, remember the simple principle that an innocent person has nothing to hide.",
@@ -192,7 +192,7 @@
       "source": "Handgun manual, pp. 7–8",
       "points": [
         "Use: pointing, firing, and handling",
-        "Section 39(2): promote the Bill of Rights",
+        "Section 39(2): promote the spirit of the Bill of Rights",
         "Section 49 mainly assists law enforcement",
         "Civilians: very limited powers to arrest",
         "Roadblock: you cannot refuse inspection",
@@ -200,11 +200,11 @@
       ],
       "lines": [
         "So, using a firearm means pointing, firing, and handling it.",
-        "When interpreting legislation, every court, tribunal or forum must promote the spirit of the Bill of Rights.",
+        "When interpreting legislation, every court, tribunal or forum must promote the spirit, purport and object of the Bill of Rights.",
         "Section 49 is designed primarily for law enforcement officers.",
         "Civilians have very limited powers to arrest.",
-        "At a roadblock, you cannot refuse to produce your firearm.",
-        "But an officer abusing his powers for personal gain may be refused entry."
+        "At a roadblock, you cannot refuse to produce your firearm for inspection.",
+        "But an officer who is not conducting an official duty, and is abusing his powers for personal gain or benefit, may be refused entry."
       ]
     }
   ]

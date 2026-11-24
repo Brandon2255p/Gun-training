@@ -118,7 +118,7 @@
     },
     {
       "type": "rule",
-      "rule": { "text": "You can only use force to protect your life or that of another person, and not to protect property." },
+      "rule": { "label": "Principle", "text": "You can only use force to protect your life or that of another person, and not to protect property." },
       "source": "Handgun manual, p. 10",
       "lines": [
         "So the principle is this.",
@@ -179,8 +179,8 @@
         "You can use any means at your disposal"
       ],
       "lines": [
-        "It is important to note that the right to self defence is not limited to the use of a firearm.",
-        "You can use any means at your disposal to defend yourself.",
+        { "text": "It is important to note that the right to self defence is not limited to the use of a firearm.", "show": 0 },
+        { "text": "You can use any means at your disposal to defend yourself.", "show": 1 },
         "The book illustrates this with one more example."
       ]
     },
