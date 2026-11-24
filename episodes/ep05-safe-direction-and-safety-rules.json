@@ -16,7 +16,7 @@
     {
       "type": "talk",
       "heading": "Rules only work when applied",
-      "bullets": ["Rules alone can never prevent an accident", "Accidents are prevented when rules are applied", "Every safety rule begins with ALWAYS", "Apply them and they become automatic"],
+      "bullets": ["Rules alone can never prevent an accident", "Accidents are prevented when rules are applied", "Every safety rule begins with ALWAYS", "Apply them consistently: they become automatic"],
       "source": "Handgun manual, p. 13",
       "lines": [
         { "text": "Safety rules in themselves can never prevent an accident.", "show": 0 },
@@ -89,8 +89,8 @@
       "heading": "Finger off the trigger",
       "source": "Handgun manual, p. 13",
       "lines": [
-        { "text": "You must make a conscious effort to keep your finger off the trigger.", "highlight": ["trigger"] },
-        { "text": "Keep it outside the trigger guard.", "highlight": ["triggerGuard"] },
+        { "text": "Here is the trigger, where your finger will instinctively go.", "highlight": ["trigger"] },
+        { "text": "You must make a conscious effort to keep your finger outside the trigger guard.", "highlight": ["triggerGuard"] },
         { "text": "And keep it alongside the frame.", "highlight": ["frame"] }
       ]
     },

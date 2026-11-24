@@ -3,7 +3,10 @@
   "number": 14,
   "title": "Trigger squeeze and breathing",
   "subtitle": "Placing the finger, avoiding the flinch, controlling your breath",
-  "sources": ["Handgun manual, pp. 37–38", "Handgun manual, p. 77 (formative exam)"],
+  "sources": [
+    "Handgun manual, pp. 37–38",
+    "Handgun manual, p. 77 (formative exam)"
+  ],
   "scenes": [
     {
       "type": "title",
@@ -18,8 +21,19 @@
       "heading": "The trigger",
       "source": "Handgun manual, p. 37",
       "lines": [
-        { "text": "Here's the trigger, inside the trigger guard.", "highlight": ["trigger", "triggerGuard"] },
-        { "text": "The trigger finger must not be too far through the trigger guard.", "highlight": ["triggerGuard"] }
+        {
+          "text": "Here's the trigger, inside the trigger guard.",
+          "highlight": [
+            "trigger",
+            "triggerGuard"
+          ]
+        },
+        {
+          "text": "The trigger finger must not be too far through the trigger guard.",
+          "highlight": [
+            "triggerGuard"
+          ]
+        }
       ]
     },
     {
@@ -33,29 +47,57 @@
         "Find your most comfortable position"
       ],
       "lines": [
-        { "text": "The first digit of the trigger finger must be used to squeeze the trigger.", "show": 0 },
-        { "text": "You can use any part of the first digit of the finger.", "show": 1 },
-        { "text": "That's between the part of the finger you would use to push a button, and up to the first joint.", "show": 2 },
-        { "text": "Find your most comfortable position.", "show": 3 },
+        {
+          "text": "The first digit of the trigger finger must be used to squeeze the trigger.",
+          "show": 0
+        },
+        {
+          "text": "You can use any part of the first digit of the finger.",
+          "show": 1
+        },
+        {
+          "text": "That's between the part of the finger you would use to push a button, and up to the first joint.",
+          "show": 2
+        },
+        {
+          "text": "Find your most comfortable position.",
+          "show": 3
+        },
         "The book says this is probably the single most important fundamental of shooting."
       ]
     },
     {
       "type": "figure",
       "heading": "Correct trigger placement",
-      "figure": { "page": "s041.jpg", "crop": [0.1, 0.32, 0.45, 0.58] },
-      "caption": "Correct trigger placement, from the side and from behind",
+      "figure": {
+        "page": "s041.jpg",
+        "crop": [
+          0.1,
+          0.32,
+          0.45,
+          0.58
+        ]
+      },
+      "caption": "Correct trigger placement",
       "source": "Handgun manual, p. 37",
       "lines": [
         "Here you can see the correct placement of the trigger finger.",
-        "The book shows it from the side, and from behind."
+        "Both of these photos are marked with a tick, as the correct placement."
       ]
     },
     {
       "type": "figure",
       "heading": "Incorrect trigger placement",
-      "figure": { "page": "s041.jpg", "crop": [0.545, 0.31, 0.43, 0.34] },
-      "caption": "Incorrect: too much finger through the trigger guard",
+      "figure": {
+        "page": "s041.jpg",
+        "crop": [
+          0.545,
+          0.31,
+          0.43,
+          0.34
+        ]
+      },
+      "caption": "Incorrect trigger placement: too much finger through the trigger guard",
       "source": "Handgun manual, p. 37",
       "lines": [
         "Here the shooter is extending too much of the trigger finger through the trigger guard.",
@@ -87,7 +129,10 @@
     },
     {
       "type": "rule",
-      "rule": { "text": "You should not know the precise time when the gun will fire. It should take you by surprise." },
+      "rule": {
+        "text": "You should not know the precise time when the gun will fire. It should take you by surprise.",
+        "label": "Remember"
+      },
       "source": "Handgun manual, p. 37",
       "lines": [
         "You should not know the precise time when the gun will fire.",
@@ -99,7 +144,11 @@
       "type": "talk",
       "heading": "Practising trigger squeeze",
       "source": "Handgun manual, p. 37",
-      "bullets": ["A drill round, or dummy round, in the firearm", "Protects the firing pin", "Dry fire while looking at the sights"],
+      "bullets": [
+        "A drill round, or dummy round, in the firearm",
+        "Protects the firing pin",
+        "Dry fire while looking at the sights"
+      ],
       "lines": [
         "A good method for practising is to use a drill round, also called a dummy round, in the firearm.",
         "This protects the firing pin.",
@@ -122,16 +171,34 @@
         "To shoot accurately, you must control your breathing whilst squeezing the trigger.",
         "This is done in order to eliminate muscle tremors.",
         "The book gives the recommended way to do this in five steps.",
-        { "text": "One: take up the slack on the trigger.", "show": 0 },
-        { "text": "Two: take a normal breath in.", "show": 1 },
-        { "text": "Three: breathe halfway out.", "show": 2 },
-        { "text": "Four: complete the trigger squeeze.", "show": 3 },
-        { "text": "Five: breathe completely out.", "show": 4 }
+        {
+          "text": "One: take up the slack on the trigger.",
+          "show": 0
+        },
+        {
+          "text": "Two: take a normal breath in.",
+          "show": 1
+        },
+        {
+          "text": "Three: breathe halfway out.",
+          "show": 2
+        },
+        {
+          "text": "Four: complete the trigger squeeze.",
+          "show": 3
+        },
+        {
+          "text": "Five: breathe completely out.",
+          "show": 4
+        }
       ]
     },
     {
       "type": "rule",
-      "rule": { "text": "Do not hold your breath for too long before squeezing the trigger." },
+      "rule": {
+        "text": "Do not hold your breath for too long before squeezing the trigger.",
+        "label": "Breathing"
+      },
       "source": "Handgun manual, p. 38",
       "lines": [
         "Do not hold your breath for too long before squeezing the trigger.",
@@ -143,7 +210,11 @@
     {
       "type": "quiz",
       "question": "If a person is flinching, what are they doing?",
-      "options": ["Jerking the trigger, so the shot goes low", "Squeezing with even pressure", "Holding the gun too loosely"],
+      "options": [
+        "Jerking the trigger, so the shot goes low",
+        "Squeezing with even pressure",
+        "Holding the gun too loosely"
+      ],
       "answer": 0,
       "source": "Handgun manual, p. 37",
       "lines": [
@@ -158,7 +229,11 @@
     {
       "type": "quiz",
       "question": "When do you complete the trigger squeeze?",
-      "options": ["After a normal breath in", "After breathing halfway out", "After breathing completely out"],
+      "options": [
+        "After a normal breath in",
+        "After breathing halfway out",
+        "After breathing completely out"
+      ],
       "answer": 1,
       "source": "Handgun manual, p. 38",
       "lines": [

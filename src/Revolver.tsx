@@ -47,7 +47,9 @@ export const Revolver: React.FC<{ state: RevolverState; width: number; fontFamil
     .filter((h) => h in REVOLVER_PARTS)
     .map((h) => {
       const part = REVOLVER_PARTS[h];
-      return { label: names[h] ?? part.label, ax: part.anchor[0], ay: part.anchor[1], lx: part.at[0], ly: part.at[1] };
+      // Once the cylinder swings out, the ejector rod is at its centre (seen end-on).
+      const [ax, ay] = h === "ejectorRod" && open > 0.5 ? [cyl.cx, cyl.cy] : part.anchor;
+      return { label: names[h] ?? part.label, ax, ay, lx: part.at[0], ly: part.at[1] };
     });
   return (
     <svg viewBox="0 0 1000 680" width={width} height={(width * 680) / 1000} style={{ overflow: "visible" }}>

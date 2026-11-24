@@ -3,7 +3,7 @@
   "number": 9,
   "title": "Protective equipment and safe carry conditions",
   "subtitle": "Eye and ear protection, and how to carry your handgun",
-  "sources": ["Handgun manual, pp. 19–21"],
+  "sources": ["Handgun manual, pp. 18–21, 74"],
   "scenes": [
     {
       "type": "title",
@@ -70,16 +70,17 @@
       "source": "Handgun manual, p. 20",
       "lines": [
         { "text": "Now, carry conditions for the semi-automatic pistol.", "highlight": [] },
-        { "text": "Each condition tells you about the magazine.", "highlight": ["magazine"] },
-        { "text": "It tells you whether there is a round in the chamber.", "highlight": ["chamber"] },
-        { "text": "It tells you whether the hammer is back or forward.", "highlight": ["hammer"] },
+        { "text": "Conditions one to three each describe the magazine.", "highlight": ["magazine"] },
+        { "text": "They say whether there is a round in the chamber.", "highlight": ["chamber"] },
+        { "text": "They say whether the hammer is back or forward.", "highlight": ["hammer"] },
         { "text": "And whether the safety catch is on or off.", "highlight": ["safety"] }
       ]
     },
     {
       "type": "talk",
       "heading": "Carry conditions: semi-automatic pistol",
-      "bullets": ["1: loaded mag, round in chamber, hammer back, safety on", "2: loaded mag, round in chamber, hammer forward, safety off", "3: loaded mag, empty chamber, hammer forward, safety off", "4: no live ammunition in the firearm at all"],
+      "numbered": true,
+      "bullets": ["Loaded magazine, round in chamber, hammer back, safety catch on", "Loaded magazine, round in chamber, hammer forward, safety catch off", "Loaded magazine, empty chamber, hammer forward, safety catch off", "No live ammunition in the firearm at all"],
       "source": "Handgun manual, p. 20",
       "lines": [
         "There are four basic carry conditions for a semi-automatic pistol.",
@@ -156,7 +157,7 @@
     },
     {
       "type": "rule",
-      "rule": { "text": "When you are carrying a firearm in public it is a legal requirement that it must be concealed." },
+      "rule": { "label": "Remember", "text": "When you are carrying a firearm in public it is a legal requirement that it must be concealed." },
       "source": "Handgun manual, p. 20",
       "lines": [
         "And remember!",
@@ -166,7 +167,7 @@
     {
       "type": "quiz",
       "question": "What is carry condition three?",
-      "options": ["Loaded mag, round in chamber, hammer back, safety on", "Loaded mag, empty chamber, hammer forward, safety off", "No live ammunition in the firearm at all"],
+      "options": ["Loaded magazine, round in chamber, hammer back, safety catch on", "Loaded magazine, empty chamber, hammer forward, safety catch off", "No live ammunition in the firearm at all"],
       "answer": 1,
       "source": "Handgun manual, p. 20",
       "lines": ["The exam asks about conditions one and three.", "So, what is carry condition three?"],
@@ -184,13 +185,13 @@
     {
       "type": "recap",
       "source": "Handgun manual, pp. 19–21",
-      "points": ["PPE: eye and ear protection on a range", "Indoors: earmuffs, not only earplugs", "Four pistol carry conditions", "Condition One: most ready, most dangerous", "Revolver: fully loaded, hammer forward, holstered", "In public: it must be concealed"],
+      "points": ["PPE: eye and ear protection on a range", "Indoors: earmuffs, not only earplugs", "Four pistol carry conditions", "Condition One: most ready, most dangerous", "Revolver: fully loaded, hammer forward, in a holster", "In public: it must be concealed"],
       "lines": [
         "So, always use both eye and ear protection on a shooting range.",
         "On an indoor range, use earmuffs, not only earplugs.",
         "Know the four carry conditions for the semi-automatic pistol.",
         "Condition One is the most ready, and the most dangerous.",
-        "Carry a revolver fully loaded, hammer forward, in a secure holster.",
+        "Carry a revolver with a fully loaded cylinder, the hammer forward, in a holster securely attached to your person.",
         "And in public, it is a legal requirement that your firearm must be concealed."
       ]
     }

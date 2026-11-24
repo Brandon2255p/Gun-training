@@ -91,7 +91,7 @@
     },
     {
       "type": "figure",
-      "figure": { "page": "s066.jpg", "crop": [0.17, 0.17, 0.66, 0.235] },
+      "figure": { "page": "s066.jpg", "crop": [0.17, 0.155, 0.68, 0.25] },
       "caption": "Stove-pipe jam: empty case lodged in the ejection port",
       "source": "Handgun manual, p. 58",
       "lines": [
@@ -101,14 +101,22 @@
     },
     {
       "type": "figure",
-      "figure": { "page": "s066.jpg", "crop": [0.17, 0.41, 0.66, 0.265] },
+      "figure": { "page": "s066.jpg", "crop": [0.17, 0.405, 0.68, 0.27] },
       "caption": "Clearing a stove-pipe jam, photos 2 and 3",
       "source": "Handgun manual, p. 58",
       "lines": [
         "Bring the firearm closer to your body, making sure your finger is off the trigger.",
         "The left hand now gets ready to sweep the case out of the ejection port.",
-        "Sweep the hand back, controlling the muzzle of the firearm, and with your finger off the trigger.",
-        "The gun is now ready to be fired once again."
+        "Sweep the hand back, controlling the muzzle of the firearm, and with your finger off the trigger."
+      ]
+    },
+    {
+      "type": "figure",
+      "figure": { "page": "s066.jpg", "crop": [0.30, 0.685, 0.49, 0.24] },
+      "caption": "Stove-pipe jam, photo 4: ready to fire again",
+      "source": "Handgun manual, p. 58",
+      "lines": [
+        "Four: the gun is now ready to be fired once again."
       ]
     },
     {
@@ -134,7 +142,7 @@
     },
     {
       "type": "figure",
-      "figure": { "page": "s067.jpg", "crop": [0.14, 0.70, 0.72, 0.23] },
+      "figure": { "page": "s067.jpg", "crop": [0.14, 0.69, 0.72, 0.24] },
       "caption": "Rack with the ejection port facing downwards, then release",
       "source": "Handgun manual, p. 59",
       "lines": [

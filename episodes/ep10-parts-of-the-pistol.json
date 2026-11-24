@@ -93,12 +93,12 @@
       "names": { "slideStop": "Slide lock", "safety": "Safety catch" },
       "lines": [
         { "text": "Page twenty four labels the parts of the semi-automatic pistol.", "highlight": [] },
-        { "text": "At the front are the muzzle and the front sight.", "highlight": ["muzzle", "frontSight"] },
-        { "text": "On top, the slide, the slide lock, and the rear sight.", "highlight": ["slide", "slideStop", "rearSight"] },
-        { "text": "Inside, the barrel and the chamber.", "highlight": ["barrel", "chamber"] },
-        { "text": "At the back, the hammer and the safety catch.", "highlight": ["hammer", "safety"] },
-        { "text": "Below, the frame, the trigger guard and the trigger.", "highlight": ["frame", "triggerGuard", "trigger"] },
+        { "text": "The muzzle and the front sight.", "highlight": ["muzzle", "frontSight"] },
+        { "text": "The slide, the slide lock, and the rear sight.", "highlight": ["slide", "slideStop", "rearSight"] },
+        { "text": "The hammer and the safety catch.", "highlight": ["hammer", "safety"] },
+        { "text": "The frame, the trigger guard and the trigger.", "highlight": ["frame", "triggerGuard", "trigger"] },
         { "text": "Then the grip, and the magazine release.", "highlight": ["grip", "magRelease"] },
+        { "text": "The photo of the pistol taken apart also labels the barrel and the chamber.", "highlight": ["barrel", "chamber"] },
         { "text": "And the magazine.", "highlight": ["magazine"], "action": "magOut" }
       ]
     },
@@ -112,8 +112,9 @@
         "Here is the book's photo, with fourteen labels.",
         "Two of these parts aren't on our drawing.",
         "The hammer spur, on the hammer.",
-        "And the tang, above the grip.",
-        "Learn all fourteen names: the formative exam asks you to label the diagram, for fourteen marks."
+        "And the tang.",
+        "Learn all fourteen names.",
+        "The formative exam asks you to label the diagram of either a semi-automatic pistol or a revolver, for fourteen marks."
       ]
     },
     {
@@ -128,6 +129,7 @@
         "Below it, the barrel, with the chamber at one end and the muzzle at the other.",
         "Then the recoil guide and spring.",
         "The frame, with the slide lock shown on its own.",
+        "On the frame, the hammer spur, hammer, tang, trigger, trigger guard, grip and magazine release are labelled again.",
         "And the magazine, and the magazine well."
       ]
     },
@@ -168,9 +170,9 @@
       "lines": [
         "The frame is the body, and all the other parts are attached to it.",
         "The barrel's rifling makes the bullet spin, which stabilises it in flight.",
-        "The slide is pushed to the rear, ejecting the fired case, and on its way forward it pushes a new cartridge into the chamber.",
+        "The slide is pushed to the rear, ejecting the fired case and cocking the hammer, and on its way forward it pushes a new cartridge into the chamber.",
         "The action is the moving parts: trigger, hammer and slide.",
-        "And learn the labels on page twenty four. Next, the revolver."
+        "And learn the labels on page twenty four."
       ]
     }
   ]

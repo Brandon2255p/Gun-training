@@ -96,7 +96,7 @@
         { "text": "And the slide is still to the rear.", "highlight": ["slide"], "action": "slideBack" },
         { "text": "Step five. You now release the slide back under control to the forward position.", "highlight": ["slide"], "action": "slideForward" },
         { "text": "You will notice that the hammer has been left in the rearward position.", "highlight": ["hammer"] },
-        { "text": "You need to lower the hammer under control.", "highlight": ["hammer"] }
+        { "text": "You need to lower the hammer under control.", "highlight": ["hammer"], "action": "decock" }
       ]
     },
     {
@@ -147,11 +147,12 @@
     {
       "type": "recap",
       "source": "Handgun manual, p. 14",
-      "points": ["Never accept or hand over a loaded firearm", "Receiving, handing over, cleaning", "Magazine out, slide back, check", "Slide forward under control, lower the hammer", "Don't dry fire"],
+      "points": ["Never accept or hand over a loaded firearm", "Receiving, handing over, cleaning", "Safe direction, finger off the trigger", "Magazine out, slide back, check", "Slide forward under control, lower the hammer", "Don't dry fire"],
       "lines": [
         "So, never accept or hand over a loaded firearm.",
         "Carry out safety precautions when receiving, before handing over, and before cleaning a firearm.",
-        "Remove the magazine, pull back the slide, and check the chamber and magazine-well.",
+        "Identify a safe direction, and point the firearm there with your finger off the trigger.",
+        "Keeping a safe direction, remove the magazine, pull back the slide, and check the chamber and magazine-well.",
         "Release the slide under control, and lower the hammer under control.",
         "And don't dry fire the handgun."
       ]

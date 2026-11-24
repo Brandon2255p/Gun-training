@@ -3,7 +3,7 @@
   "number": 21,
   "title": "Malfunctions",
   "subtitle": "Misfire, hang fire, squib load, stove-pipe jam, failure to go into battery",
-  "sources": ["Handgun manual, pp. 55–56"],
+  "sources": ["Handgun manual, pp. 55–56, 58"],
   "scenes": [
     {
       "type": "title",
@@ -65,7 +65,7 @@
     },
     {
       "type": "rule",
-      "rule": { "text": "Hang fire: wait five seconds before reloading." },
+      "rule": { "label": "Corrective action", "text": "Hang fire: wait five seconds before reloading." },
       "source": "Handgun manual, p. 56",
       "lines": [
         "The corrective action is to wait five seconds before reloading.",
@@ -97,7 +97,7 @@
     },
     {
       "type": "rule",
-      "rule": { "text": "Squib load: take your firearm to a gunsmith." },
+      "rule": { "label": "Corrective action", "text": "Squib load: take your firearm to a gunsmith." },
       "source": "Handgun manual, p. 56",
       "lines": [
         "The corrective action: take your firearm to a gunsmith.",
@@ -121,7 +121,7 @@
       "heading": "Failure to go into battery",
       "source": "Handgun manual, p. 56",
       "lines": [
-        { "text": "When the slide fails to go into battery, the slide has not moved all the way forward.", "highlight": ["slide"] },
+        { "text": "When the slide fails to go into battery, the slide has not moved all the way forward.", "highlight": ["slide"], "action": "outOfBattery" },
         { "text": "It has therefore not properly chambered the cartridge.", "highlight": ["chamber"] },
         { "text": "The corrective action is Tap, Rack, Assess.", "highlight": [] }
       ]

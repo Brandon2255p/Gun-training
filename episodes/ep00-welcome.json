@@ -41,12 +41,13 @@
     {
       "type": "diagram",
       "heading": "Meet the pistol",
+      "source": "Handgun manual, pp. 24–25",
       "lines": [
         { "text": "This is the pistol we'll use in the animations.", "highlight": [] },
         { "text": "On top is the slide.", "highlight": ["slide"] },
         { "text": "Below it is the frame, with the grip you hold.", "highlight": ["frame", "grip"] },
         { "text": "And the magazine slides into the grip.", "highlight": ["magazine"], "action": "magOut" },
-        { "text": "We'll go through every part properly in the next episode.", "highlight": [] }
+        { "text": "We'll go through every part properly in episode ten.", "highlight": [] }
       ]
     },
     {

@@ -61,7 +61,7 @@
         { "text": "On the drawing, release the catch.", "highlight": ["cylinderRelease"], "action": "eject" },
         { "text": "The cylinder swings out on the crane, and you keep it controlled.", "highlight": ["cylinder", "crane"], "action": "open" },
         { "text": "Load the ammunition into the chambers.", "highlight": ["chambers"], "action": "load" },
-        { "text": "Then make sure the cylinder is locked in place.", "highlight": ["cylinder"], "action": "close" }
+        { "text": "After replacing the grip with the gun hand, make sure the cylinder is locked in place.", "highlight": ["cylinder"], "action": "close" }
       ]
     },
     {
@@ -210,10 +210,10 @@
     {
       "type": "recap",
       "source": "Handgun manual, pp. 46–50",
-      "points": ["Start in a safe direction", "Load the chambers, rotate with the thumb", "Make sure the cylinder is locked in place", "Unload: depress the ejector rod", "Left handed: right hand opens, closes, ejects"],
+      "points": ["Start in a safe direction", "Load chambers; thumb can rotate the cylinder", "Make sure the cylinder is locked in place", "Unload: depress the ejector rod", "Left handed: right hand opens, closes, ejects"],
       "lines": [
-        "Every procedure starts with the firearm pointed in a safe direction.",
-        "Load the chambers, rotating the cylinder with your thumb.",
+        "Every procedure starts with a safe direction.",
+        "Load the ammunition into the chambers; the cylinder can be rotated with the thumb while loading.",
         "Make sure the cylinder is locked in place.",
         "To unload, open the cylinder and depress the ejector rod.",
         "And left-handed, the right hand pushes the cylinder out, closes it, and pushes the ejector rod."

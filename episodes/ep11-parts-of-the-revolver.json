@@ -10,7 +10,7 @@
       "source": "Handgun manual, p. 22",
       "lines": [
         "In this episode, we learn the main parts of the revolver, and what each one does.",
-        "Just as with the pistol, you must be able to label the revolver's diagram and explain its main parts."
+        "You must be able to label the diagram of either a semi-automatic pistol or a revolver, and explain the main parts."
       ]
     },
     {
@@ -55,7 +55,7 @@
       "heading": "The action",
       "source": "Handgun manual, p. 23",
       "lines": [
-        { "text": "The action refers to the moving parts of the firearm.", "highlight": [], "action": "close" },
+        { "text": "The action refers to the moving parts of the firearm.", "highlight": [] },
         { "text": "For example, the trigger.", "highlight": ["trigger"] },
         { "text": "The hammer.", "highlight": ["trigger", "hammer"] },
         { "text": "And the parts that rotate the cylinder.", "highlight": ["trigger", "hammer", "cylinder"] },
@@ -71,8 +71,9 @@
         { "text": "Page twenty five labels the parts of the revolver.", "highlight": [] },
         { "text": "At the front, the muzzle, the front sight and the barrel.", "highlight": ["muzzle", "frontSight", "barrel"] },
         { "text": "Under the barrel, the ejector rod.", "highlight": ["ejectorRod"] },
-        { "text": "Then the cylinder, and the crane.", "highlight": ["cylinder", "crane"] },
-        { "text": "At the back, the hammer and the cylinder release.", "highlight": ["hammer", "cylinderRelease"] },
+        { "text": "Then the cylinder.", "highlight": ["cylinder"] },
+        { "text": "And the crane, which the cylinder swings out on.", "highlight": ["crane"], "action": "open" },
+        { "text": "At the back, the hammer and the cylinder release.", "highlight": ["hammer", "cylinderRelease"], "action": "close" },
         { "text": "Below, the frame, the trigger guard and the trigger.", "highlight": ["frame", "triggerGuard", "trigger"] },
         { "text": "And the grip.", "highlight": ["grip"] }
       ]
@@ -88,7 +89,8 @@
         "Two of them aren't on our drawing.",
         "The top strap, above the cylinder.",
         "And the hammer spur, on the hammer.",
-        "Learn all fourteen names: the formative exam's revolver diagram is worth fourteen marks."
+        "Learn all fourteen names.",
+        "In the formative exam you label the diagram of either the pistol or the revolver, for fourteen marks."
       ]
     },
     {

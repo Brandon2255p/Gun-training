@@ -35,6 +35,8 @@ export interface GunState {
   showSafety?: boolean;
   /** Draw an external hammer */
   showHammer?: boolean;
+  /** 1 cocked (back), 0 down (forward) */
+  hammerBack?: number;
   /** Show cartridges in the magazine */
   loaded?: boolean;
 }
@@ -149,7 +151,7 @@ export const Handgun: React.FC<{ state: GunState; width: number; labels?: boolea
       )}
 
       {state.showHammer && (
-        <g filter={on("hammer") ? "url(#glow)" : undefined}>
+        <g filter={on("hammer") ? "url(#glow)" : undefined} transform={`rotate(${38 * (1 - (state.hammerBack ?? 1))} 184 238)`}>
           <path d="M 176 236 L 150 150 Q 146 136 160 134 L 172 140 L 192 236 Z" fill={hl("hammer", theme.steelDark)} stroke={stroke("hammer")} strokeWidth={sw("hammer")} strokeLinejoin="round" />
         </g>
       )}

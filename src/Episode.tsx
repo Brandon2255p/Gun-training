@@ -203,13 +203,15 @@ const TalkScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
 
 /** What the diagram is doing at `frame`, from the lines' highlight, action and stage cues. */
 function diagramAt(placed: PlacedScene, frame: number, fps: number) {
+  const st = placed.scene.start ?? {};
   let highlight: string[] = [];
   let hlFrom = 0;
-  let slideBack = 0;
-  let magOut = 0;
-  let open = 0;
-  let eject = 0;
-  let hammerBack = 0;
+  let slideBack = st.slideBack ?? 0;
+  let magOut = st.magOut ?? 0;
+  let open = st.open ?? 0;
+  let eject = st.eject ?? 0;
+  // A pistol's hammer is drawn cocked unless the scene says otherwise; a revolver's starts down.
+  let hammerBack = st.hammerBack ?? ((placed.scene.subject ?? "pistol") === "pistol" ? 1 : 0);
   let stage = 0;
   let prevStage = 0;
   let stageFrom = -1;
@@ -228,12 +230,17 @@ function diagramAt(placed: PlacedScene, frame: number, fps: number) {
       stage = l.stage;
       stageFrom = l.from;
     }
-    switch (l.action) {
+    for (const action of ([] as string[]).concat(l.action ?? [])) switch (action) {
       case "rack":
         slideBack = k < 9 ? ease(k, 9) : k < 18 ? 1 : 1 - ease(k - 18, 7);
+        hammerBack = toward(hammerBack, 1, k, 6);
+        break;
+      case "outOfBattery":
+        slideBack = toward(slideBack, 0.18, k, 10);
         break;
       case "slideBack":
         slideBack = toward(slideBack, 1, k, 10);
+        hammerBack = toward(hammerBack, 1, k, 6);
         break;
       case "slideForward":
         slideBack = toward(slideBack, 0, k, 8);
@@ -287,7 +294,7 @@ const DiagramScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
     ) : subject === "cartridge" ? (
       <Cartridge state={{ ...d, inBarrel: !!s.inBarrel }} width={940} fontFamily={fontFamily} names={names} />
     ) : (
-      <Handgun state={{ ...d, showSafety: s.showSafety, showHammer: s.showHammer, loaded: s.loaded }} width={940} fontFamily={fontFamily} names={names} />
+      <Handgun state={{ ...d, showSafety: s.showSafety, showHammer: s.showHammer, loaded: s.loaded, hammerBack: d.hammerBack }} width={940} fontFamily={fontFamily} names={names} />
     );
   return (
     <AbsoluteFill>

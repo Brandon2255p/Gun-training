@@ -14,7 +14,7 @@ export interface WordTiming {
   end: number;
 }
 
-export type GunAction = "rack" | "slideBack" | "slideForward" | "magOut" | "magIn" | "open" | "close" | "eject" | "load" | "cock" | "decock";
+export type GunAction = "rack" | "slideBack" | "slideForward" | "outOfBattery" | "magOut" | "magIn" | "open" | "close" | "eject" | "load" | "cock" | "decock";
 
 /** A voiced line. Optional fields cue the visuals when the line starts. */
 export interface Line {
@@ -26,7 +26,7 @@ export interface Line {
   /** Diagram: parts to highlight from this line on ([] clears) */
   highlight?: string[];
   /** Diagram: something the pistol does as this line starts */
-  action?: GunAction;
+  action?: GunAction | GunAction[];
   /** Cartridge diagram: firing-sequence stage 0–4 from this line on */
   stage?: number;
   /** Talk/recap: which bullet appears with this line (default: the line's index) */
@@ -54,6 +54,8 @@ export interface Scene {
   subject?: "pistol" | "revolver" | "cartridge";
   /** Diagram: label text per part, to match the book's wording */
   names?: Record<string, string>;
+  /** Diagram: how the drawing starts, before any line's action (e.g. { "magOut": 1 }) */
+  start?: { slideBack?: number; magOut?: number; open?: number; eject?: number; hammerBack?: number };
   showSafety?: boolean;
   showHammer?: boolean;
   loaded?: boolean;

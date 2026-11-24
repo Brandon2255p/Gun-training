@@ -3,7 +3,10 @@
   "number": 16,
   "title": "Follow through and target identification",
   "subtitle": "Finishing the shot, and knowing where the bullet stops",
-  "sources": ["Handgun manual, pp. 26, 42", "Handgun manual, pp. 76, 78 (formative exam)"],
+  "sources": [
+    "Handgun manual, pp. 26, 42",
+    "Handgun manual, pp. 76, 78 (formative exam)"
+  ],
   "scenes": [
     {
       "type": "title",
@@ -27,12 +30,46 @@
       "type": "talk",
       "heading": "Master all the fundamentals",
       "source": "Handgun manual, pp. 26, 42",
-      "bullets": ["Stance", "Grip", "Trigger Squeeze", "Breathing", "Sight Alignment", "Sight Picture", "Follow Through"],
+      "bullets": [
+        "Stance",
+        "Grip",
+        "Trigger Squeeze",
+        "Breathing",
+        "Sight Alignment",
+        "Sight Picture",
+        "Follow Through"
+      ],
       "lines": [
         "To be classified as a competent shooter, you must be consistent.",
         "And in order to be consistent, you must master all the fundamentals of shooting.",
-        { "text": "As a reminder, they are stance, grip, trigger squeeze and breathing.", "show": 3 },
-        { "text": "Then sight alignment, sight picture, and follow through.", "show": 6 }
+        {
+          "text": "As a reminder, the first fundamental is stance.",
+          "show": 0
+        },
+        {
+          "text": "Then grip.",
+          "show": 1
+        },
+        {
+          "text": "Trigger squeeze.",
+          "show": 2
+        },
+        {
+          "text": "Breathing.",
+          "show": 3
+        },
+        {
+          "text": "Sight alignment.",
+          "show": 4
+        },
+        {
+          "text": "Sight picture.",
+          "show": 5
+        },
+        {
+          "text": "And follow through.",
+          "show": 6
+        }
       ]
     },
     {
@@ -48,17 +85,32 @@
       ],
       "lines": [
         "The book lists four important points to remember.",
-        { "text": "One: do not insert your trigger finger too far through the trigger guard.", "show": 0 },
+        {
+          "text": "One: do not insert your trigger finger too far through the trigger guard.",
+          "show": 0
+        },
         "This will cause you to pull the firearm off to one side.",
-        { "text": "Two: do not jerk the trigger.", "show": 1 },
+        {
+          "text": "Two: do not jerk the trigger.",
+          "show": 1
+        },
         "Squeeze the trigger with an even amount of pressure from beginning to end.",
-        { "text": "Three: maintain the same grip and trigger position for every shot.", "show": 2 },
-        { "text": "Four: squeeze the trigger smoothly, but positively.", "show": 3 }
+        {
+          "text": "Three: maintain the same grip and trigger position for every shot.",
+          "show": 2
+        },
+        {
+          "text": "Four: squeeze the trigger smoothly, but positively.",
+          "show": 3
+        }
       ]
     },
     {
       "type": "rule",
-      "rule": { "text": "Before firing the gun the target should always be identified." },
+      "rule": {
+        "text": "Before firing the gun the target should always be identified.",
+        "label": "Target identification"
+      },
       "source": "Handgun manual, p. 42",
       "lines": [
         "Now, target identification.",
@@ -68,7 +120,10 @@
     },
     {
       "type": "rule",
-      "rule": { "text": "Remember that you are liable for where that bullet stops." },
+      "rule": {
+        "text": "Remember that you are liable for where that bullet stops.",
+        "label": "Remember"
+      },
       "source": "Handgun manual, p. 42",
       "lines": [
         "In a life threatening situation, you may need to fire your gun in a built-up area or public place.",
@@ -78,8 +133,16 @@
     {
       "type": "figure",
       "heading": "Unsafe angle",
-      "figure": { "page": "s048.jpg", "crop": [0.07, 0.39, 0.42, 0.32] },
-      "caption": "Unsafe angle: open space behind the attacker",
+      "figure": {
+        "page": "s048.jpg",
+        "crop": [
+          0.07,
+          0.39,
+          0.42,
+          0.32
+        ]
+      },
+      "caption": "Unsafe angle: bystanders behind the attacker are endangered",
       "source": "Handgun manual, p. 42",
       "lines": [
         "Here we see an unsafe angle.",
@@ -89,7 +152,15 @@
     {
       "type": "figure",
       "heading": "Correct angle",
-      "figure": { "page": "s048.jpg", "crop": [0.5, 0.39, 0.41, 0.32] },
+      "figure": {
+        "page": "s048.jpg",
+        "crop": [
+          0.5,
+          0.39,
+          0.41,
+          0.32
+        ]
+      },
       "caption": "Correct angle: a safe backstop behind the attacker",
       "source": "Handgun manual, p. 42",
       "lines": [
@@ -110,10 +181,22 @@
         "It can endanger bystanders behind your attacker"
       ],
       "lines": [
-        { "text": "Don't only take into account whether or not you are able to hit the target.", "show": 0 },
-        { "text": "Also consider where the bullet will come to rest.", "show": 1 },
-        { "text": "Bear in mind that the human body is seldom capable of stopping a bullet.", "show": 2 },
-        { "text": "So it is highly likely the bullet will pass through your attacker, and can endanger innocent bystanders behind your attacker.", "show": 3 }
+        {
+          "text": "Don't only take into account whether or not you are able to hit the target.",
+          "show": 0
+        },
+        {
+          "text": "Also consider where the bullet will come to rest.",
+          "show": 1
+        },
+        {
+          "text": "Bear in mind that the human body is seldom capable of stopping a bullet.",
+          "show": 2
+        },
+        {
+          "text": "So it is highly likely the bullet will pass through your attacker, and can endanger innocent bystanders behind your attacker.",
+          "show": 3
+        }
       ]
     },
     {
@@ -126,15 +209,27 @@
         "Positively identify the target, in any situation"
       ],
       "lines": [
-        { "text": "When faced with low light or darkness, never fire at a target that cannot be properly identified.", "show": 0 },
-        { "text": "In other words, do not shoot at shadows.", "show": 1 },
-        { "text": "In any situation, a target must be positively identified, in order for you to align your sights correctly.", "show": 2 },
+        {
+          "text": "When faced with low light or darkness, never fire at a target that cannot be properly identified.",
+          "show": 0
+        },
+        {
+          "text": "In other words, do not shoot at shadows.",
+          "show": 1
+        },
+        {
+          "text": "In any situation, a target must be positively identified, in order for you to align your sights correctly.",
+          "show": 2
+        },
         "That means, be sure about what you are shooting at."
       ]
     },
     {
       "type": "rule",
-      "rule": { "text": "Random shooting in the general direction of your intended target is not permitted by Law." },
+      "rule": {
+        "text": "Random shooting in the general direction of your intended target is not permitted by Law.",
+        "label": "The law"
+      },
       "source": "Handgun manual, p. 42",
       "lines": [
         "Random shooting in the general direction of your intended target is not permitted by Law.",
@@ -144,7 +239,11 @@
     {
       "type": "quiz",
       "question": "What does follow through mean?",
-      "options": ["Relax as soon as the shot is fired", "Keep doing everything for two or three seconds", "Look up to check the hit"],
+      "options": [
+        "Relax as soon as the shot is fired",
+        "Keep doing everything for two or three seconds",
+        "Look up to check the hit"
+      ],
       "answer": 1,
       "source": "Handgun manual, p. 42",
       "lines": [
@@ -159,7 +258,11 @@
     {
       "type": "quiz",
       "question": "Why is target identification important?",
-      "options": ["You are liable for where the bullet stops", "It makes the gun fire faster", "Only the first strike matters"],
+      "options": [
+        "You are liable for where the bullet stops",
+        "It makes the gun fire faster",
+        "Only the first strike matters"
+      ],
       "answer": 0,
       "source": "Handgun manual, p. 42",
       "lines": [
@@ -167,8 +270,8 @@
         "Why is target identification important?"
       ],
       "reveal": [
-        "Because you are liable for where that bullet stops.",
-        "Consider where the bullet will initially strike, and where it will ultimately come to rest.",
+        "You are liable for where that bullet stops.",
+        "So consider not only where the bullet will initially strike, but also where it will ultimately come to rest.",
         "Positive target identification will also increase your accuracy."
       ]
     },
@@ -186,7 +289,7 @@
         "So, follow through: keep doing everything you did before the gun fired, for two or three seconds.",
         "Remember the four points: finger placement, no jerking, the same grip and trigger position every shot, and a smooth but positive squeeze.",
         "Always identify the target before firing.",
-        "You are liable for where that bullet stops.",
+        "If you must fire in a built-up area or public place, you are liable for where that bullet stops.",
         "And never fire at a target that cannot be properly identified."
       ]
     }

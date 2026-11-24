@@ -3,7 +3,7 @@
   "number": 20,
   "title": "Headstamps, calibres and bullet types",
   "subtitle": "Identifying the right ammunition",
-  "sources": ["Handgun manual, pp. 51, 54"],
+  "sources": ["Handgun manual, pp. 51, 54, 66"],
   "scenes": [
     {
       "type": "title",
@@ -26,7 +26,7 @@
     },
     {
       "type": "figure",
-      "figure": { "page": "s062.jpg", "crop": [0.08, 0.05, 0.83, 0.25] },
+      "figure": { "page": "s062.jpg", "crop": [0.08, 0.05, 0.83, 0.26] },
       "caption": "Cartridge identification: two headstamps",
       "source": "Handgun manual, p. 54",
       "lines": [

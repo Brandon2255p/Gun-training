@@ -3,7 +3,10 @@
   "number": 17,
   "title": "Loading the pistol",
   "subtitle": "Loading and unloading the semi-automatic pistol",
-  "sources": ["Handgun manual, pp. 43–45", "Handgun manual, formative exam, p. 78"],
+  "sources": [
+    "Handgun manual, pp. 43–45",
+    "Handgun manual, formative exam, p. 78"
+  ],
   "scenes": [
     {
       "type": "title",
@@ -16,7 +19,15 @@
     {
       "type": "figure",
       "heading": "Loading the semi-automatic pistol",
-      "figure": { "page": "s050.jpg", "crop": [0.07, 0.16, 0.85, 0.235] },
+      "figure": {
+        "page": "s050.jpg",
+        "crop": [
+          0.07,
+          0.15,
+          0.85,
+          0.245
+        ]
+      },
       "caption": "Loading, steps 1 to 3, p. 44",
       "source": "Handgun manual, p. 44",
       "lines": [
@@ -30,21 +41,81 @@
       "heading": "Loading: steps 3 to 7",
       "source": "Handgun manual, p. 44",
       "lines": [
-        { "text": "Now watch steps three to seven on the pistol.", "highlight": [], "action": "magOut" },
-        { "text": "Step three: insert a loaded magazine.", "highlight": ["magazine"], "action": "magIn" },
-        { "text": "Step four: make sure the magazine is firmly in place.", "highlight": ["magazine"] },
-        { "text": "Step five: grip the slide at the rear between the thumb and index fingers.", "highlight": ["slide"] },
-        { "text": "Do not cover the ejection port.", "highlight": ["ejectionPort"] },
-        { "text": "Step six: pull the slide all the way to the rear, keeping your finger off the trigger and keeping the muzzle in a safe direction.", "highlight": ["slide"], "action": "slideBack" },
-        { "text": "Step seven: let the slide go.", "highlight": ["slide"], "action": "slideForward" },
-        { "text": "The slide should move forward under its own steam.", "highlight": ["slide"] },
-        { "text": "Do not assist the slide.", "highlight": ["slide"] }
-      ]
+        {
+          "text": "Now watch steps three to seven on the drawing, starting with the magazine out.",
+          "highlight": []
+        },
+        {
+          "text": "Step three: insert a loaded magazine.",
+          "highlight": [
+            "magazine"
+          ],
+          "action": "magIn"
+        },
+        {
+          "text": "Step four: make sure the magazine is firmly in place.",
+          "highlight": [
+            "magazine"
+          ]
+        },
+        {
+          "text": "Step five: grip the slide at the rear between the thumb and index fingers.",
+          "highlight": [
+            "slide"
+          ]
+        },
+        {
+          "text": "Do not cover the ejection port.",
+          "highlight": [
+            "ejectionPort"
+          ]
+        },
+        {
+          "text": "Step six: pull the slide all the way to the rear, keeping your finger off the trigger and keeping the muzzle in a safe direction.",
+          "highlight": [
+            "slide"
+          ],
+          "action": "slideBack"
+        },
+        {
+          "text": "Step seven: let the slide go.",
+          "highlight": [
+            "slide"
+          ],
+          "action": [
+            "slideForward",
+            "decock"
+          ]
+        },
+        {
+          "text": "The slide should move forward under its own steam.",
+          "highlight": [
+            "slide"
+          ]
+        },
+        {
+          "text": "Do not assist the slide.",
+          "highlight": [
+            "slide"
+          ]
+        }
+      ],
+      "start": {
+        "magOut": 1
+      }
     },
     {
       "type": "figure",
       "heading": "Loading: steps 7 to 9",
-      "figure": { "page": "s050.jpg", "crop": [0.07, 0.655, 0.85, 0.245] },
+      "figure": {
+        "page": "s050.jpg",
+        "crop": [
+          0.07,
+          0.64,
+          0.85,
+          0.26
+        ]
+      },
       "caption": "Loading, steps 7 to 9, p. 44",
       "source": "Handgun manual, p. 44",
       "lines": [
@@ -63,28 +134,63 @@
         "Insert a loaded magazine",
         "Make sure the magazine is firmly in place",
         "Grip slide at rear, don't cover ejection port",
-        "Pull the slide all the way to the rear",
+        "Pull slide to the rear, finger off, safe direction",
         "Let the slide go, don't assist it",
         "Complete the two-handed grip",
         "The firearm can now be aimed at the target"
       ],
       "lines": [
         "The formative exam asks you to list the nine correct steps for loading, so here they are together.",
-        { "text": "One, identify a safe direction.", "show": 0 },
-        { "text": "Two, point the firearm in a safe direction, finger off the trigger.", "show": 1 },
-        { "text": "Three, insert a loaded magazine.", "show": 2 },
-        { "text": "Four, make sure the magazine is firmly in place.", "show": 3 },
-        { "text": "Five, grip the slide at the rear, without covering the ejection port.", "show": 4 },
-        { "text": "Six, pull the slide all the way to the rear.", "show": 5 },
-        { "text": "Seven, let the slide go, without assisting it.", "show": 6 },
-        { "text": "Eight, complete the two-handed grip.", "show": 7 },
-        { "text": "Nine, the firearm can now be aimed at the target.", "show": 8 }
+        {
+          "text": "One, identify a safe direction.",
+          "show": 0
+        },
+        {
+          "text": "Two, point the firearm in a safe direction, finger off the trigger.",
+          "show": 1
+        },
+        {
+          "text": "Three, insert a loaded magazine.",
+          "show": 2
+        },
+        {
+          "text": "Four, make sure the magazine is firmly in place.",
+          "show": 3
+        },
+        {
+          "text": "Five, grip the slide at the rear between the thumb and index fingers, without covering the ejection port.",
+          "show": 4
+        },
+        {
+          "text": "Six, pull the slide all the way to the rear, keeping your finger off the trigger and the muzzle in a safe direction.",
+          "show": 5
+        },
+        {
+          "text": "Seven, let the slide go, without assisting it.",
+          "show": 6
+        },
+        {
+          "text": "Eight, complete the two-handed grip.",
+          "show": 7
+        },
+        {
+          "text": "Nine, the firearm can now be aimed at the target.",
+          "show": 8
+        }
       ]
     },
     {
       "type": "figure",
       "heading": "Unloading the semi-automatic pistol",
-      "figure": { "page": "s051.jpg", "crop": [0.08, 0.185, 0.84, 0.23] },
+      "figure": {
+        "page": "s051.jpg",
+        "crop": [
+          0.08,
+          0.16,
+          0.84,
+          0.25
+        ]
+      },
       "caption": "Unloading, steps 1 to 3, p. 45",
       "source": "Handgun manual, p. 45",
       "lines": [
@@ -98,25 +204,76 @@
       "heading": "Unloading: steps 3 to 7",
       "source": "Handgun manual, p. 45",
       "showHammer": true,
-      "names": { "slideStop": "Slide lock" },
+      "names": {
+        "slideStop": "Slide lock"
+      },
       "lines": [
-        { "text": "Step three: remove the magazine.", "highlight": ["magazine"], "action": "magOut" },
-        { "text": "Step four: grip the slide at the rear between the thumb and index fingers.", "highlight": ["slide"] },
-        { "text": "Step five: pull the slide all the way to the rear and, using the slide lock, lock the slide back.", "highlight": ["slide", "slideStop"], "action": "slideBack" },
-        { "text": "The action of pulling the slide to the rear will eject the live round from the chamber.", "highlight": ["chamber"] },
-        { "text": "Step six: check inside the chamber and down the magazine well.", "highlight": ["chamber"] },
-        { "text": "Maintain a safe direction.", "highlight": ["chamber"] },
-        { "text": "Step seven: let the slide forward and then lower the hammer under control.", "highlight": ["slide", "hammer"], "action": "slideForward" }
+        {
+          "text": "Step three: remove the magazine.",
+          "highlight": [
+            "magazine"
+          ],
+          "action": "magOut"
+        },
+        {
+          "text": "Step four: grip the slide at the rear between the thumb and index fingers.",
+          "highlight": [
+            "slide"
+          ]
+        },
+        {
+          "text": "Step five: pull the slide all the way to the rear and, using the slide lock, lock the slide back.",
+          "highlight": [
+            "slide",
+            "slideStop"
+          ],
+          "action": "slideBack"
+        },
+        {
+          "text": "The action of pulling the slide to the rear will eject the live round from the chamber.",
+          "highlight": [
+            "chamber"
+          ]
+        },
+        {
+          "text": "Step six: check inside the chamber and down the magazine well.",
+          "highlight": [
+            "chamber"
+          ]
+        },
+        {
+          "text": "Maintain a safe direction.",
+          "highlight": [
+            "chamber"
+          ]
+        },
+        {
+          "text": "Step seven: let the slide forward and then lower the hammer under control.",
+          "highlight": [
+            "slide",
+            "hammer"
+          ],
+          "action": "slideForward"
+        }
       ]
     },
     {
       "type": "figure",
       "heading": "Unloading: steps 6 and 7",
-      "figure": { "page": "s051.jpg", "crop": [0.08, 0.69, 0.84, 0.215] },
+      "figure": {
+        "page": "s051.jpg",
+        "crop": [
+          0.08,
+          0.69,
+          0.84,
+          0.215
+        ]
+      },
       "caption": "Unloading, steps 6 and 7, p. 45",
       "source": "Handgun manual, p. 45",
       "lines": [
-        "These photos show step six, checking the chamber and magazine well, and step seven, lowering the hammer under control."
+        "These photos show step six, checking inside the chamber and down the magazine well.",
+        "And step seven, letting the slide forward and then lowering the hammer under control."
       ]
     },
     {
@@ -134,37 +291,83 @@
         "Slide forward, lower hammer under control"
       ],
       "lines": [
-        { "text": "One, when you've completed firing, make sure your finger is off the trigger.", "show": 0 },
-        { "text": "Two, bring the firearm closer to your body, in a safe direction.", "show": 1 },
-        { "text": "Three, remove the magazine.", "show": 2 },
-        { "text": "Four, grip the slide at the rear.", "show": 3 },
-        { "text": "Five, pull the slide all the way back and lock it with the slide lock.", "show": 4 },
-        { "text": "Six, check inside the chamber and down the magazine well.", "show": 5 },
-        { "text": "Seven, let the slide forward, then lower the hammer under control.", "show": 6 }
+        {
+          "text": "One, when you've completed firing, make sure your finger is off the trigger.",
+          "show": 0
+        },
+        {
+          "text": "Two, bring the firearm closer to your body, in a safe direction.",
+          "show": 1
+        },
+        {
+          "text": "Three, remove the magazine.",
+          "show": 2
+        },
+        {
+          "text": "Four, grip the slide at the rear between the thumb and index fingers.",
+          "show": 3
+        },
+        {
+          "text": "Five, pull the slide all the way back and lock it with the slide lock.",
+          "show": 4
+        },
+        {
+          "text": "Six, check inside the chamber and down the magazine well.",
+          "show": 5
+        },
+        {
+          "text": "Seven, let the slide forward, then lower the hammer under control.",
+          "show": 6
+        }
       ]
     },
     {
       "type": "quiz",
       "source": "Handgun manual, p. 44",
       "question": "Loading: you've pulled the slide all the way back. What next?",
-      "options": ["Push the slide forward by hand", "Let the slide go, without assisting it", "Lock the slide back"],
+      "options": [
+        "Push the slide forward by hand",
+        "Let the slide go, without assisting it",
+        "Lock the slide back"
+      ],
       "answer": 1,
-      "lines": ["In loading, you've just pulled the slide all the way to the rear.", "What do you do next?"],
-      "reveal": ["Let the slide go.", "The slide should move forward under its own steam. Do not assist the slide."]
+      "lines": [
+        "In loading, you've just pulled the slide all the way to the rear.",
+        "What do you do next?"
+      ],
+      "reveal": [
+        "Let the slide go.",
+        "The slide should move forward under its own steam. Do not assist the slide."
+      ]
     },
     {
       "type": "quiz",
       "source": "Handgun manual, p. 45",
       "question": "Unloading: the slide is locked back. What do you check?",
-      "options": ["The sights", "Inside the chamber and down the magazine-well", "The trigger"],
+      "options": [
+        "The sights",
+        "Inside the chamber and down the magazine-well",
+        "The trigger"
+      ],
       "answer": 1,
-      "lines": ["In unloading, the slide is locked back.", "What do you check?"],
-      "reveal": ["Check inside the chamber and down the magazine well, and maintain a safe direction."]
+      "lines": [
+        "In unloading, the slide is locked back.",
+        "What do you check?"
+      ],
+      "reveal": [
+        "Check inside the chamber and down the magazine well, and maintain a safe direction."
+      ]
     },
     {
       "type": "recap",
       "source": "Handgun manual, pp. 44–45",
-      "points": ["Safe direction, finger off the trigger", "Loading: magazine in, slide back, let it go", "Unloading: magazine out, then the slide", "Lock slide back, check chamber and mag-well", "Slide forward, lower hammer under control"],
+      "points": [
+        "Safe direction, finger off the trigger",
+        "Loading: magazine in, slide back, let it go",
+        "Unloading: magazine out, then the slide",
+        "Lock slide back, check chamber and mag-well",
+        "Slide forward, lower hammer under control"
+      ],
       "lines": [
         "Both procedures keep a safe direction and your finger off the trigger.",
         "To load, insert the magazine, pull the slide all the way back, and let it go.",

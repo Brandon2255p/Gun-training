@@ -3,14 +3,14 @@
   "number": 24,
   "title": "Your assessment and qualification shoot",
   "subtitle": "What is assessed, and how",
-  "sources": ["Handgun manual, pp. 1–4, 65–69"],
+  "sources": ["Handgun manual, pp. 1, 3–4, 54, 65–68"],
   "scenes": [
     {
       "type": "title",
       "source": "Handgun manual, p. 4",
       "lines": [
         "In this final episode: how you will be assessed, and the Qualification Shoot.",
-        "You need to be assessed against the outcomes of this Unit Standard in order to be declared competent."
+        "You need to be assessed against the Specific Outcomes and Assessment Criteria of this Unit Standard in order to be declared competent."
       ]
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "type": "figure",
-      "figure": { "page": "s062.jpg", "crop": [0.08, 0.05, 0.83, 0.25] },
+      "figure": { "page": "s062.jpg", "crop": [0.08, 0.05, 0.83, 0.26] },
       "caption": "Items 8 and 9: identify ammunition by calibre",
       "source": "Handgun manual, pp. 54, 66",
       "lines": [
@@ -108,12 +108,12 @@
         { "text": "Twelve: explain the dangers of oil or any other obstructions in the barrel.", "show": 2 },
         "While doing so, explain or demonstrate the correct method of cleaning and maintaining the relevant firearm.",
         { "text": "Thirteen: demonstrate the fundamentals of shooting.", "show": 3 },
-        "That's stance, grip, trigger squeeze, breathing, sight alignment, sight picture and follow through."
+        "The explanation of the checklist lists stance, grip, trigger squeeze, breathing, sight alignment, sight picture and follow through."
       ]
     },
     {
       "type": "rule",
-      "rule": { "number": 14, "text": "The trigger finger was kept off the trigger at all relevant times when handling the firearm." },
+      "rule": { "label": "Checklist item 14", "text": "The trigger finger was kept off the trigger at all relevant times when handling the firearm." },
       "source": "Handgun manual, p. 67",
       "lines": [
         "Fourteen: your Assessor checks that your trigger finger was kept off the trigger at all relevant times, during all the exercises."
@@ -141,7 +141,7 @@
     },
     {
       "type": "figure",
-      "figure": { "page": "s076.jpg", "crop": [0.12, 0.465, 0.76, 0.145] },
+      "figure": { "page": "s076.jpg", "crop": [0.12, 0.465, 0.76, 0.15] },
       "caption": "Dead-resting, which is not allowed, and the two-handed standing position",
       "source": "Handgun manual, p. 68",
       "lines": [
@@ -154,7 +154,7 @@
     },
     {
       "type": "rule",
-      "rule": { "number": 16, "text": "A safe muzzle direction was maintained at all times during the above exercises." },
+      "rule": { "label": "Checklist item 16", "text": "A safe muzzle direction was maintained at all times during the above exercises." },
       "source": "Handgun manual, p. 67",
       "lines": [
         "And sixteen: a safe muzzle direction was maintained at all times, during the practical exercises and the Qualification Shoot."
@@ -181,7 +181,7 @@
       "question": "In the Qualification Shoot, how many of your 10 shots must hit the A3 target?",
       "options": ["Seven", "Eight", "All ten"],
       "answer": 2,
-      "source": "Handgun manual, p. 68",
+      "source": "Handgun manual, pp. 3, 68",
       "lines": [
         "In the Qualification Shoot, how many of your 10 shots must hit the target?",
         "Pause the video if you need a moment."

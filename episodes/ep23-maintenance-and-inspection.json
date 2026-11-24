@@ -15,7 +15,7 @@
     },
     {
       "type": "rule",
-      "rule": { "text": "Always unload your firearm before cleaning." },
+      "rule": { "label": "Care and maintenance", "text": "Always unload your firearm before cleaning." },
       "source": "Handgun manual, p. 60",
       "lines": [
         "First: always unload your firearm before cleaning.",
@@ -90,7 +90,7 @@
     },
     {
       "type": "rule",
-      "rule": { "text": "Store the ammunition away from oil and solvent when cleaning your firearm." },
+      "rule": { "label": "Remember", "text": "Store the ammunition away from oil and solvent when cleaning your firearm." },
       "source": "Handgun manual, p. 60",
       "lines": [
         "If you are going to store your firearm for a long time, leave a coating of oil on the firearm and in the barrel to avoid rust.",
@@ -151,7 +151,7 @@
     },
     {
       "type": "figure",
-      "figure": { "page": "s070.jpg", "crop": [0.37, 0.65, 0.25, 0.215] },
+      "figure": { "page": "s070.jpg", "crop": [0.37, 0.65, 0.25, 0.225] },
       "caption": "The cleaning rod at the chamber end of the barrel",
       "source": "Handgun manual, p. 62",
       "lines": [
@@ -187,7 +187,7 @@
     },
     {
       "type": "figure",
-      "figure": { "page": "s072.jpg", "crop": [0.50, 0.455, 0.37, 0.18] },
+      "figure": { "page": "s072.jpg", "crop": [0.50, 0.435, 0.37, 0.20] },
       "caption": "Taurus PT 51: the barrel in the flip-up position",
       "source": "Handgun manual, p. 64",
       "lines": [

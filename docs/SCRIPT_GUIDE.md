@@ -48,13 +48,16 @@ Episodes are JSON files in `episodes/` (see `episodes/ep00-welcome.json` for a w
   (list of part ids; sticky until the next line that sets it; `[]` clears) and `action` / `stage`.
   - Pistol parts: slide, frame, barrel, muzzle, chamber, ejectionPort, frontSight, rearSight, trigger, triggerGuard,
     grip, magazine, magRelease, slideStop, safety (needs `"showSafety": true`), hammer (needs `"showHammer": true`).
-    Actions: rack, slideBack, slideForward, magOut, magIn. `"loaded": false` shows an empty magazine.
+    Actions: rack, slideBack, slideForward, outOfBattery (slide stopped short), magOut, magIn, cock, decock
+    (hammer, with `showHammer`; rack and slideBack cock it). `"loaded": false` shows an empty magazine.
   - Revolver parts: barrel, muzzle, frontSight, rearSight, frame, cylinder, chambers, cylinderRelease, ejectorRod,
     hammer, trigger, triggerGuard, grip, crane. Actions: open, close (cylinder), eject, load, cock, decock.
     `"loaded": false` shows empty chambers.
   - Cartridge parts: bullet, case, powder, primer, primerPocket, flashHole, rim, firingPin, barrel. Lines set
     `"stage"`: 0 assembled, 1 firing pin strikes primer, 2 primer flash through flash hole, 3 powder burns / gas,
     4 bullet leaves the case down the barrel. `"inBarrel": true` draws the chamber and barrel.
+  - A line's `action` can be a list to do several at once, e.g. `["slideForward", "decock"]`. A scene's `start`
+    sets the drawing's state before any line, e.g. `"start": {"magOut": 1}`.
   - `names` overrides a label to match the book, e.g. `{"magRelease": "Magazine catch"}`. Use the book's part names.
   - Only label a part with a name the book uses for it. If the book's diagram names a part the drawing doesn't have,
     use a `figure` scene instead.

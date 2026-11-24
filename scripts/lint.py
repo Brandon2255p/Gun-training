@@ -18,7 +18,7 @@ PARTS = {
     "cartridge": "bullet case powder primer primerPocket flashHole rim firingPin barrel",
 }
 ACTIONS = {
-    "pistol": "rack slideBack slideForward magOut magIn",
+    "pistol": "rack slideBack slideForward outOfBattery magOut magIn cock decock",
     "revolver": "open close eject load cock decock",
     "cartridge": "",
 }
@@ -114,8 +114,9 @@ def lint(path: Path) -> list[str]:
                         errs.append(f"{where} line {li}: safety highlighted without showSafety")
                     if subj == "pistol" and p == "hammer" and not s.get("showHammer"):
                         errs.append(f"{where} line {li}: hammer highlighted without showHammer")
-                if "action" in l and l["action"] not in ACTIONS[subj].split():
-                    errs.append(f"{where} line {li}: action {l['action']} not valid for {subj}")
+                for a in ([l["action"]] if isinstance(l.get("action"), str) else l.get("action", [])):
+                    if a not in ACTIONS[subj].split():
+                        errs.append(f"{where} line {li}: action {a} not valid for {subj}")
                 if "stage" in l and (subj != "cartridge" or not 0 <= l["stage"] <= 4):
                     errs.append(f"{where} line {li}: bad stage")
     if types and types[0] != "title":

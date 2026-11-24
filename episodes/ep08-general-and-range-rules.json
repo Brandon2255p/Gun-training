@@ -3,7 +3,7 @@
   "number": 8,
   "title": "General safety rules and range rules",
   "subtitle": "Twenty general rules and ten range rules",
-  "sources": ["Handgun manual, p. 18"],
+  "sources": ["Handgun manual, pp. 17–18, 73"],
   "scenes": [
     {
       "type": "title",
@@ -16,7 +16,8 @@
     {
       "type": "talk",
       "heading": "General safety: rules 1 to 5",
-      "bullets": ["1. Be muzzle conscious", "2. Firearm properly secured in the holster", "3. No climbing fences or walls, loaded gun in hand", "4. Unloaded in storage or when not in use", "5. Don't handle the firearm unnecessarily"],
+      "numbered": true,
+      "bullets": ["Be muzzle conscious", "Firearm properly secured in the holster", "Never climb fences or walls, loaded firearm in hand", "Unloaded in storage or when not in use", "Don't handle the firearm unnecessarily"],
       "source": "Handgun manual, p. 18",
       "lines": [
         { "text": "Rule one. Be muzzle conscious.", "show": 0 },
@@ -31,7 +32,9 @@
     {
       "type": "talk",
       "heading": "General safety: rules 6 to 8",
-      "bullets": ["6. Never modify your firearm", "7. Be sure before you shoot", "8. Alcohol and gunpowder do not mix"],
+      "numbered": true,
+      "startAt": 6,
+      "bullets": ["Never attempt to modify your firearm", "Be sure before you shoot", "Alcohol and gunpowder do not mix"],
       "source": "Handgun manual, p. 18",
       "lines": [
         { "text": "Six. Never attempt to modify your firearm in any way.", "show": 0 },
@@ -57,7 +60,9 @@
     {
       "type": "talk",
       "heading": "General safety: rules 10 to 14",
-      "bullets": ["10. Locked in a safe when not carrying it", "11. Never fire into the air", "12. Warning shot: know where the bullet stops", "13. Use only the correct ammunition", "14. Barrel free of obstruction or excess oil"],
+      "numbered": true,
+      "startAt": 10,
+      "bullets": ["Locked up in a safe when not carrying it", "Never fire into the air", "Warning shot: know where the bullet will stop", "Use only the correct ammunition", "Long unused: barrel free of obstruction or excessive oil"],
       "source": "Handgun manual, p. 18",
       "lines": [
         { "text": "Ten. Always remember to keep your firearm locked up in a safe when you are not carrying it.", "show": 0 },
@@ -72,7 +77,7 @@
     },
     {
       "type": "rule",
-      "rule": { "number": 15, "text": "Always use eye protection and ear protection on a shooting range." },
+      "rule": { "number": 15, "label": "General safety rule 15", "text": "Always use eye protection and ear protection on a shooting range." },
       "source": "Handgun manual, p. 18",
       "lines": [
         "Fifteen. Always use eye protection and ear protection on a shooting range.",
@@ -84,7 +89,9 @@
     {
       "type": "talk",
       "heading": "General safety: rules 16 to 18",
-      "bullets": ["16. Keep your firearm clean", "17. Out of the reach of children at all times", "18. Whenever possible, issue a verbal warning"],
+      "numbered": true,
+      "startAt": 16,
+      "bullets": ["Keep your firearm clean", "Out of the reach of children at all times", "Whenever possible, issue a verbal warning"],
       "source": "Handgun manual, p. 18",
       "lines": [
         { "text": "Sixteen. Keep your firearm clean.", "show": 0 },
@@ -100,12 +107,12 @@
       "source": "Handgun manual, pp. 17–18",
       "lines": [
         { "text": "Nineteen. When unloading a semi-automatic pistol, always remember the round in the chamber.", "highlight": ["chamber"] },
-        { "text": "Removing the magazine does not remove the round from the chamber.", "highlight": ["magazine", "chamber"], "action": "magOut" }
+        { "text": "Someone may remove the magazine, and forget to remove the round from the chamber.", "highlight": ["magazine", "chamber"], "action": "magOut" }
       ]
     },
     {
       "type": "rule",
-      "rule": { "number": 20, "text": "Make sure that the firearm you are carrying is always in good working order." },
+      "rule": { "number": 20, "label": "General safety rule 20", "text": "Make sure that the firearm you are carrying is always in good working order as your life may depend on it." },
       "source": "Handgun manual, p. 18",
       "lines": [
         "Twenty. Make sure that the firearm you are carrying is always in good working order, as your life may depend on it."
@@ -114,7 +121,8 @@
     {
       "type": "talk",
       "heading": "Range rules 1 to 5",
-      "bullets": ["1. Arrive with it in a bag, box or holster", "2. Don't handle it behind anybody else", "3. Never load it behind anybody else", "4. Point downrange at the backstop wall", "5. Fire only from the designated firing line"],
+      "numbered": true,
+      "bullets": ["Arrive with it in a bag, box or holster", "Don't handle it behind anybody else", "Never load it behind anybody else", "Point downrange at the backstop wall", "Fire only from the designated firing line"],
       "source": "Handgun manual, p. 18",
       "lines": [
         "Now the ten range rules.",
@@ -132,7 +140,9 @@
     {
       "type": "talk",
       "heading": "Range rules 6 to 10",
-      "bullets": ["6. Never fire if someone is in front of you", "7. Fire only on the Range Officer's command", "8. Never turn around on the firing line", "9. Dropped something? Make safe, holster first", "10. Jam you can't fix: raise your non gun hand"],
+      "numbered": true,
+      "startAt": 6,
+      "bullets": ["Never fire if anyone on the line is in front of you", "Begin to fire only on the Range Officer's command", "Never turn around on the firing line", "Dropped something? Firearm safe and holstered first", "Jam you can't fix: raise your non gun hand"],
       "source": "Handgun manual, p. 18",
       "lines": [
         { "text": "Six. Under no circumstances may you fire if one of the other people on the firing line is in front of you.", "show": 0 },
