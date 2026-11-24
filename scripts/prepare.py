@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.11,<3.13"
-# dependencies = ["kokoro-onnx>=0.6.1", "soundfile>=0.12", "numpy>=1.26", "faster-whisper>=1.1"]
+# dependencies = ["kokoro-onnx>=0.6.1", "soundfile>=0.12", "numpy>=1.26", "faster-whisper>=1.1", "pillow>=10"]
 # ///
 """Voices every episode in episodes/*.json and writes what the videos need.
 
@@ -309,6 +309,24 @@ def as_line(x) -> dict:
     return {"text": x} if isinstance(x, str) else dict(x)
 
 
+def crop_figure(ep_id: str, si: int, fig: dict) -> str:
+    """Crops a figure out of a scanned page (source/pages/<page>) into public/generated/figures/."""
+    from PIL import Image
+
+    src = ROOT / "source" / "pages" / fig["page"]
+    dest = OUT / "figures" / f"{ep_id}-s{si:02d}.jpg"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    img = Image.open(src).convert("RGB")
+    if fig.get("rotate"):
+        img = img.rotate(-fig["rotate"], expand=True)
+    if fig.get("crop"):
+        x, y, w, h = fig["crop"]
+        W, H = img.size
+        img = img.crop((int(x * W), int(y * H), int((x + w) * W), int((y + h) * H)))
+    img.save(dest, quality=92)
+    return f"generated/figures/{dest.name}"
+
+
 def synth_music(path: Path, seconds: float = 64.0, rate: int = 44100) -> None:
     """A calm, slow pad loop (Am - F - C - G) with a soft pulse. Sits well under narration."""
     n = int(seconds * rate)
@@ -366,6 +384,8 @@ def main() -> None:
             continue
         print(f"{ep['id']}: {ep['title']}")
         for si, scene in enumerate(ep["scenes"]):
+            if scene.get("figure"):
+                scene["figureFile"] = crop_figure(ep["id"], si, scene["figure"])
             for key in ("lines", "reveal"):
                 scene[key] = [
                     voice(backend, lexicon, f"{ep['id']}-s{si:02d}-{key[0]}{li:02d}", as_line(x))

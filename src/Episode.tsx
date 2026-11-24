@@ -1,8 +1,10 @@
 import React from "react";
-import { AbsoluteFill, Audio, interpolate, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig, Easing } from "remotion";
+import { AbsoluteFill, Audio, Img, interpolate, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig, Easing } from "remotion";
 import { loadFont } from "@remotion/fonts";
 import { Instructor } from "./Instructor";
-import { Handgun, type GunState } from "./Handgun";
+import { Handgun } from "./Handgun";
+import { Revolver } from "./Revolver";
+import { Cartridge } from "./Cartridge";
 import { poseAt } from "./animation";
 import { theme } from "./theme";
 import { currentLine, FADE, layout, THINK_SECONDS, type PlacedLine, type PlacedScene } from "./timeline";
@@ -112,11 +114,21 @@ const Presenter: React.FC<{ placed: PlacedScene; size?: number; wave?: boolean; 
 
 /** Which item (bullet/point) should be visible: each line shows `show`, or its own index. */
 function shownCount(placed: PlacedScene, frame: number, total: number): number {
+  // If any line says which item it shows, only those lines reveal items; otherwise line i shows item i.
+  const explicit = placed.lines.some((l) => l.show !== undefined);
   let n = 0;
   placed.lines.forEach((l, i) => {
-    if (frame >= l.from - 3) n = Math.max(n, (l.show ?? i) + 1);
+    const item = explicit ? l.show : i;
+    if (item !== undefined && frame >= l.from - 3) n = Math.max(n, item + 1);
   });
   return Math.min(total, n);
+}
+
+/** The frame at which item i first appears. */
+function revealFrame(placed: PlacedScene, i: number): number {
+  const explicit = placed.lines.some((l) => l.show !== undefined);
+  const line = placed.lines.find((l, j) => (explicit ? (l.show ?? -1) >= i : j >= i));
+  return line?.from ?? 0;
 }
 
 const Heading: React.FC<{ text?: string; size?: number }> = ({ text, size = 72 }) => {
@@ -156,14 +168,18 @@ const TalkScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 140, top: 140, width: 1150 }}>
         <Heading text={placed.scene.heading} />
-        <div style={{ marginTop: 60, display: "flex", flexDirection: "column", gap: 30 }}>
+        <div style={{ marginTop: 50, display: "flex", flexDirection: "column", gap: bullets.length > 5 ? 18 : 28 }}>
           {bullets.slice(0, n).map((b, i) => {
-            const at = placed.lines.find((l, j) => (l.show ?? j) === i)?.from ?? 0;
+            const at = revealFrame(placed, i);
             const p = spring({ frame: frame - at + 3, fps, config: { damping: 14, stiffness: 160 } });
             const current = i === n - 1;
             return (
-              <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: 26, fontFamily, fontSize: 50, fontWeight: 700, color: current ? theme.ink : theme.muted, ...rise(p, 40) }}>
-                <div style={{ width: 22, height: 22, marginTop: 18, borderRadius: 6, background: current ? theme.accent : theme.line, flexShrink: 0 }} />
+              <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: 26, fontFamily, fontSize: bullets.length > 5 ? 38 : 48, fontWeight: 700, lineHeight: 1.2, color: current ? theme.ink : theme.muted, ...rise(p, 40) }}>
+                {placed.scene.numbered ? (
+                  <div style={{ width: 56, height: 56, marginTop: 2, borderRadius: 28, background: current ? theme.accent : theme.line, color: current ? theme.bg : theme.ink, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 32, fontWeight: 800, flexShrink: 0 }}>{i + 1}</div>
+                ) : (
+                  <div style={{ width: 22, height: 22, marginTop: 18, borderRadius: 6, background: current ? theme.accent : theme.line, flexShrink: 0 }} />
+                )}
                 <div>{b}</div>
               </div>
             );
@@ -175,13 +191,20 @@ const TalkScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
   );
 };
 
-/** What the pistol is doing at `frame`, from the lines' highlight and action cues. */
-function gunAt(placed: PlacedScene, frame: number, fps: number): GunState {
+/** What the diagram is doing at `frame`, from the lines' highlight, action and stage cues. */
+function diagramAt(placed: PlacedScene, frame: number, fps: number) {
   let highlight: string[] = [];
   let hlFrom = 0;
   let slideBack = 0;
   let magOut = 0;
+  let open = 0;
+  let eject = 0;
+  let hammerBack = 0;
+  let stage = 0;
+  let prevStage = 0;
+  let stageFrom = -1;
   const ease = (k: number, len: number) => Easing.inOut(Easing.cubic)(Math.min(1, Math.max(0, k / len)));
+  const toward = (v: number, target: number, k: number, len: number) => v + (target - v) * ease(k, len);
   for (const l of placed.lines) {
     if (frame < l.from - 6) break;
     if (l.highlight) {
@@ -190,42 +213,104 @@ function gunAt(placed: PlacedScene, frame: number, fps: number): GunState {
     }
     const k = frame - l.from;
     if (k < 0) continue;
+    if (l.stage !== undefined) {
+      prevStage = stage;
+      stage = l.stage;
+      stageFrom = l.from;
+    }
     switch (l.action) {
       case "rack":
         slideBack = k < 9 ? ease(k, 9) : k < 18 ? 1 : 1 - ease(k - 18, 7);
         break;
       case "slideBack":
-        slideBack = slideBack + (1 - slideBack) * ease(k, 10);
+        slideBack = toward(slideBack, 1, k, 10);
         break;
       case "slideForward":
-        slideBack = slideBack * (1 - ease(k, 8));
+        slideBack = toward(slideBack, 0, k, 8);
         break;
       case "magOut":
-        magOut = magOut + (1 - magOut) * ease(k, 20);
+        magOut = toward(magOut, 1, k, 20);
         break;
       case "magIn":
-        magOut = magOut * (1 - ease(k, 16));
+        magOut = toward(magOut, 0, k, 16);
+        break;
+      case "open":
+        open = toward(open, 1, k, 18);
+        break;
+      case "close":
+        open = toward(open, 0, k, 14);
+        break;
+      case "eject":
+        eject = toward(eject, 1, k, 14);
+        break;
+      case "load":
+        eject = toward(eject, 0, k, 24);
+        break;
+      case "cock":
+        hammerBack = toward(hammerBack, 1, k, 10);
+        break;
+      case "decock":
+        hammerBack = toward(hammerBack, 0, k, 14);
         break;
     }
   }
+  // Stages play out over about a second each, so a jump from 0 to 4 runs the whole sequence.
+  if (stageFrom >= 0) {
+    const steps = Math.abs(stage - prevStage);
+    stage = prevStage + (stage - prevStage) * ease(frame - stageFrom, Math.max(12, steps * 22));
+  }
   const glow = spring({ frame: frame - hlFrom, fps, config: { damping: 20 } });
-  return { highlight, glow, slideBack, magOut };
+  return { highlight, glow, slideBack, magOut, open, eject, hammerBack, stage };
 }
 
 const DiagramScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const enter = spring({ frame: frame - 4, fps, config: { damping: 15, stiffness: 90 } });
-  const state = gunAt(placed, frame, fps);
+  const d = diagramAt(placed, frame, fps);
+  const s = placed.scene;
+  const names = s.names ?? {};
+  const subject = s.subject ?? "pistol";
+  const drawing =
+    subject === "revolver" ? (
+      <Revolver state={{ ...d, loaded: s.loaded !== false }} width={940} fontFamily={fontFamily} names={names} />
+    ) : subject === "cartridge" ? (
+      <Cartridge state={{ ...d, inBarrel: !!s.inBarrel }} width={940} fontFamily={fontFamily} names={names} />
+    ) : (
+      <Handgun state={{ ...d, showSafety: s.showSafety, showHammer: s.showHammer, loaded: s.loaded }} width={940} fontFamily={fontFamily} names={names} />
+    );
   return (
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 140, top: 110 }}>
-        <Heading text={placed.scene.heading} size={60} />
+        <Heading text={s.heading} size={60} />
       </div>
-      <div style={{ position: "absolute", left: 150, top: 170, transform: `translateX(${(1 - enter) * -300}px)`, opacity: enter }}>
-        <Handgun state={state} width={940} fontFamily={fontFamily} />
-      </div>
+      <div style={{ position: "absolute", left: 150, top: 170, transform: `translateX(${(1 - enter) * -300}px)`, opacity: enter }}>{drawing}</div>
       <Presenter placed={placed} size={380} point lookX={-1} lookY={-0.2} right={40} seed={3} />
+    </AbsoluteFill>
+  );
+};
+
+/** A photo or drawing from the book, cropped by prepare.py, with an optional caption. */
+const FigureScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const s = placed.scene;
+  const enter = spring({ frame: frame - 4, fps, config: { damping: 15, stiffness: 100 } });
+  const zoom = interpolate(frame, [0, placed.frames], [1, 1.05]);
+  return (
+    <AbsoluteFill>
+      <div style={{ position: "absolute", left: 140, top: 110 }}>
+        <Heading text={s.heading} size={60} />
+      </div>
+      <div style={{ position: "absolute", left: 140, top: 250, width: 1180, height: 640, display: "flex", alignItems: "center", justifyContent: "center", opacity: enter, transform: `scale(${0.94 + 0.06 * enter})` }}>
+        {s.figureFile && (
+          <div style={{ background: "#fff", padding: 14, borderRadius: 18, boxShadow: "0 30px 80px rgba(0,0,0,0.5)", maxWidth: 1180, maxHeight: 640, overflow: "hidden" }}>
+            <Img src={staticFile(s.figureFile)} style={{ maxWidth: 1152, maxHeight: 612, display: "block", transform: `scale(${zoom})` }} />
+          </div>
+        )}
+      </div>
+      {s.caption && <div style={{ position: "absolute", left: 140, top: 900, width: 1180, textAlign: "center", fontFamily, fontSize: 30, fontWeight: 600, color: theme.muted }}>{s.caption}</div>}
+      <Presenter placed={placed} size={380} point lookX={-1} lookY={-0.1} right={40} seed={8} />
     </AbsoluteFill>
   );
 };
@@ -342,7 +427,7 @@ const RecapScene: React.FC<{ placed: PlacedScene }> = ({ placed }) => {
         <Heading text={placed.scene.heading ?? "Recap"} />
         <div style={{ marginTop: 60, display: "flex", flexDirection: "column", gap: 30 }}>
           {points.slice(0, n).map((pt, i) => {
-            const at = placed.lines.find((l, j) => (l.show ?? j) === i)?.from ?? 0;
+            const at = revealFrame(placed, i);
             const p = spring({ frame: frame - at + 3, fps, config: { damping: 12, stiffness: 170 } });
             return (
               <div key={i} style={{ display: "flex", alignItems: "center", gap: 26, fontFamily, fontSize: 50, fontWeight: 700, color: theme.ink, ...rise(p, 40) }}>
@@ -370,6 +455,8 @@ const SceneView: React.FC<{ placed: PlacedScene; episode: EpisodeData; series: s
         return <TalkScene placed={placed} />;
       case "diagram":
         return <DiagramScene placed={placed} />;
+      case "figure":
+        return <FigureScene placed={placed} />;
       case "rule":
         return <RuleScene placed={placed} />;
       case "term":

@@ -18,6 +18,7 @@ export const PARTS = {
   magRelease: { label: "Magazine release", anchor: [405, 316], at: [470, 560] },
   slideStop: { label: "Slide stop", anchor: [475, 246], at: [430, 400] },
   safety: { label: "Safety", anchor: [222, 268], at: [60, 300] },
+  hammer: { label: "Hammer", anchor: [160, 150], at: [60, 200] },
 } as const;
 
 export type Part = keyof typeof PARTS;
@@ -32,6 +33,8 @@ export interface GunState {
   glow: number;
   /** Draw a manual safety lever */
   showSafety?: boolean;
+  /** Draw an external hammer */
+  showHammer?: boolean;
   /** Show cartridges in the magazine */
   loaded?: boolean;
 }
@@ -44,9 +47,10 @@ const GRIP_ANGLE = 7.7;
  * A generic, unbranded semi-automatic pistol, side view, muzzle to the right.
  * Each part is its own shape so it can be highlighted, and the slide and magazine move.
  */
-export const Handgun: React.FC<{ state: GunState; width: number; labels?: boolean; fontFamily?: string }> = ({
+export const Handgun: React.FC<{ state: GunState; width: number; labels?: boolean; fontFamily?: string; names?: Record<string, string> }> = ({
   state,
   width,
+  names = {},
   labels = true,
   fontFamily,
 }) => {
@@ -144,6 +148,12 @@ export const Handgun: React.FC<{ state: GunState; width: number; labels?: boolea
         </g>
       )}
 
+      {state.showHammer && (
+        <g filter={on("hammer") ? "url(#glow)" : undefined}>
+          <path d="M 176 236 L 150 150 Q 146 136 160 134 L 172 140 L 192 236 Z" fill={hl("hammer", theme.steelDark)} stroke={stroke("hammer")} strokeWidth={sw("hammer")} strokeLinejoin="round" />
+        </g>
+      )}
+
       {/* slide */}
       <g transform={`translate(${sx} 0)`}>
         <g mask="url(#port)" filter={on("slide") ? "url(#glow)" : undefined}>
@@ -185,14 +195,15 @@ export const Handgun: React.FC<{ state: GunState; width: number; labels?: boolea
             const ay = p === "magazine" ? part.anchor[1] + MAG_TRAVEL * magOut * 0.99 : part.anchor[1];
             const axm = p === "magazine" ? ax - MAG_TRAVEL * magOut * 0.134 : ax;
             const [lx, ly] = part.at;
-            const w = part.label.length * 17 + 36;
+            const label = names[p] ?? part.label;
+            const w = label.length * 17 + 36;
             return (
               <g key={p} opacity={glow}>
                 <line x1={axm} y1={ay} x2={lx} y2={ly} stroke={theme.accent} strokeWidth={3} />
                 <circle cx={axm} cy={ay} r={8} fill={theme.accent} stroke={theme.bg} strokeWidth={3} />
                 <rect x={lx - w / 2} y={ly - 24} width={w} height={48} rx={24} fill={theme.accent} />
                 <text x={lx} y={ly + 10} textAnchor="middle" fontSize={28} fontWeight={800} fill={theme.bg} fontFamily={fontFamily}>
-                  {part.label}
+                  {label}
                 </text>
               </g>
             );
