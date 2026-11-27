@@ -34,7 +34,7 @@ In this episode:
 • Facts come from your manual
 • A question at the end of each episode
 
-Source: Handgun manual, pp. 1–25.
+Source: Handgun manual, pp. 1, 24–25.
 Each episode ends with a quiz question and a recap.
 
 This series is a study aid. Always follow your accredited training provider and the law.
@@ -58,7 +58,7 @@ In this episode:
 • Roadblock: you cannot refuse inspection
 • Abuse of powers: you may refuse entry
 
-Source: Handgun manual, pp. 6–71.
+Source: Handgun manual, pp. 6–8, 71.
 Each episode ends with a quiz question and a recap.
 
 This series is a study aid. Always follow your accredited training provider and the law.
@@ -82,7 +82,7 @@ In this episode:
 • Defence must be absolutely necessary
 • Avoid force if you can: flight is better than fight
 
-Source: Handgun manual, pp. 6–72.
+Source: Handgun manual, pp. 6, 8–9, 72.
 Each episode ends with a quiz question and a recap.
 
 This series is a study aid. Always follow your accredited training provider and the law.
@@ -106,7 +106,7 @@ In this episode:
 • Armed and advancing: proportional, even lethal, force
 • Any means of defence, not only a firearm
 
-Source: Handgun manual, pp. 6–72.
+Source: Handgun manual, pp. 6, 9–11, 71–72.
 Each episode ends with a quiz question and a recap.
 
 This series is a study aid. Always follow your accredited training provider and the law.
@@ -202,7 +202,7 @@ In this episode:
 • Magazine safety: no firing with magazine out
 • Be muzzle conscious
 
-Source: Handgun manual, pp. 14–17.
+Source: Handgun manual, pp. 14, 16–17.
 Each episode ends with a quiz question and a recap.
 
 This series is a study aid. Always follow your accredited training provider and the law.
@@ -224,7 +224,7 @@ In this episode:
 • Remember the round in the chamber
 • Ten range rules: follow the Range Officer
 
-Source: Handgun manual, pp. 17–73.
+Source: Handgun manual, pp. 17–18, 73.
 Each episode ends with a quiz question and a recap.
 
 This series is a study aid. Always follow your accredited training provider and the law.
@@ -271,7 +271,7 @@ In this episode:
 • Action: the moving parts
 • Learn the labels on page 24
 
-Source: Handgun manual, pp. 22–74.
+Source: Handgun manual, pp. 22–25, 74.
 Each episode ends with a quiz question and a recap.
 
 This series is a study aid. Always follow your accredited training provider and the law.
@@ -294,7 +294,7 @@ In this episode:
 • Cylinder swings out on the crane
 • Action: trigger, hammer, cylinder parts
 
-Source: Handgun manual, pp. 22–75.
+Source: Handgun manual, pp. 22–23, 25, 75.
 Each episode ends with a quiz question and a recap.
 
 This series is a study aid. Always follow your accredited training provider and the law.
@@ -409,7 +409,7 @@ In this episode:
 • You're liable for where the bullet stops
 • Never shoot at shadows
 
-Source: Handgun manual, pp. 26–42.
+Source: Handgun manual, pp. 26, 42.
 Each episode ends with a quiz question and a recap.
 
 This series is a study aid. Always follow your accredited training provider and the law.
@@ -455,7 +455,7 @@ In this episode:
 • Unload: depress the ejector rod
 • Left handed: right hand opens, closes, ejects
 
-Source: Handgun manual, pp. 23–50.
+Source: Handgun manual, pp. 23, 43, 46–50.
 Each episode ends with a quiz question and a recap.
 
 This series is a study aid. Always follow your accredited training provider and the law.
@@ -501,7 +501,7 @@ In this episode:
 • Match it to your license and the firearm
 • Hollow points expand on impact
 
-Source: Handgun manual, pp. 51–66.
+Source: Handgun manual, pp. 51, 54, 66.
 Each episode ends with a quiz question and a recap.
 
 This series is a study aid. Always follow your accredited training provider and the law.
@@ -524,7 +524,7 @@ In this episode:
 • Stove-pipe: sweep the case out of the port
 • Failure to go into battery: Tap, Rack, Assess
 
-Source: Handgun manual, pp. 55–58.
+Source: Handgun manual, pp. 55–56, 58.
 Each episode ends with a quiz question and a recap.
 
 This series is a study aid. Always follow your accredited training provider and the law.
@@ -547,7 +547,7 @@ In this episode:
 • Out of battery: tap, rack with the port down
 • Finger off the trigger, control the muzzle
 
-Source: Handgun manual, pp. 57–65.
+Source: Handgun manual, pp. 57–59, 65.
 Each episode ends with a quiz question and a recap.
 
 This series is a study aid. Always follow your accredited training provider and the law.
@@ -594,7 +594,7 @@ In this episode:
 • No dead-resting; finger off; safe muzzle
 • Good luck with your assessment
 
-Source: Handgun manual, pp. 1–68.
+Source: Handgun manual, pp. 1, 3–4, 54, 65–68.
 Each episode ends with a quiz question and a recap.
 
 This series is a study aid. Always follow your accredited training provider and the law.
